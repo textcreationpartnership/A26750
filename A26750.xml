@@ -1,0 +1,2536 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bibliotheca Bassetiana, or, A catalogue of Greek, Latin and English books in most faculties being the library of the Reverend Mr. William Bassett ... which will be sold at auction on Thursday the fourth of February, 1697 ... / by Edward Millington.</title>
+            <author>Millington, Edward, d. 1703.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1697</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 148 KB of XML-encoded text transcribed from 39 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A26750</idno>
+            <idno type="STC">Wing B1050</idno>
+            <idno type="STC">ESTC R27891</idno>
+            <idno type="EEBO-CITATION">10261384</idno>
+            <idno type="OCLC">ocm 10261384</idno>
+            <idno type="VID">44735</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A26750)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 44735)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1376:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Bibliotheca Bassetiana, or, A catalogue of Greek, Latin and English books in most faculties being the library of the Reverend Mr. William Bassett ... which will be sold at auction on Thursday the fourth of February, 1697 ... / by Edward Millington.</title>
+                  <author>Millington, Edward, d. 1703.</author>
+                  <author>Basset, William, 1644-1695.</author>
+               </titleStmt>
+               <extent>37 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1697]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catalogs, Booksellers'</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-08</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2010-08</date>
+            <label>Simon Charles</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:44735:1"/>
+            <pb facs="tcp:44735:1" rendition="simple:additions"/>
+            <p>
+               <hi rend="blackletterType">Bibliotheca Baſſetiana:</hi> OR A CATALOGUE OF <hi>Greek, Latin</hi> and <hi>Engliſh</hi> BOOKS in moſt Faculties. BEING THE LIBRARY OF THE Reverend Mr. <hi>WILLIAM BASSETT,</hi> Late Rector of St. <hi>Swithin</hi>'s, <hi>London.</hi> Which will be Sold by Auction on <hi>Thurſday</hi> the Fourth of <hi>February</hi> 1696/7. at
+<hi>Rolls</hi>'s Auction-Houſe in <hi>Petty-Cannon-Alley</hi> near the North ſide of St. <hi>Paul</hi>'s Church.</p>
+            <p>By <hi>Edward Millington.</hi>
+            </p>
+            <p>Catalogues may be had at Mr. <hi>Parker</hi>'s in the
+<hi>Piazza</hi> under the <hi>Royal Exchange;</hi> Mr. <hi>Brown</hi> without
+<hi>Temple-Bar;</hi> Mr. <hi>Caſtle</hi> near <hi>Scotland-yard;</hi> Mr.
+<hi>Feltham</hi> at the foot of the Parliament-Stairs; Mr. <hi>Francis Hubbert</hi> in <hi>Duck-Lane;</hi> Mr. <hi>Shirley</hi> in <hi>Oxford,</hi> and Mr. <hi>Dawſon</hi> in <hi>Cam<g ref="char:EOLhyphen"/>bridge,</hi> Bookſellers, and at the place of Sale.</p>
+         </div>
+         <div type="conditions_of_sale">
+            <pb facs="tcp:44735:2"/>
+            <head>Conditions of SALE.</head>
+            <list>
+               <item>I. THE higheſt Bidder is the Buyer.</item>
+               <item> II. If any Difference ariſe, the Book ſhall be re-expos'd.</item>
+               <item> III. If any Book prove Imperfect before it be taken away, the Buyer ſhall have liberty to refuſe it.</item>
+               <item> IV. Any Buyer unknown to the Seller, ſhall give in his Name, and place of Abode, paying alſo Five Shillings in the Pound (if demanded) in part for the Books.</item>
+               <item> V. The Money for the Books bought, ſhall be paid in one Week after the Sale is ended, at the place of Sale, where attendance ſhall be given for the de<g ref="char:EOLhyphen"/>livery.</item>
+               <item> VI. The Books ſhall be expos'd to view three days before the Sale.</item>
+            </list>
+            <p>Thoſe Gentlemen who cannot attend, are de<g ref="char:EOLhyphen"/>ſir'd to ſend their Commiſſion to the place of Sale, where they ſhall be Faithfully executed by</p>
+            <closer>
+               <signed>NATH. ROLLS<g ref="char:punc">▪</g>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="section">
+            <pb facs="tcp:44735:2"/>
+            <pb facs="tcp:44735:3"/>
+            <pb n="1" facs="tcp:44735:3"/>
+            <head>Libri Theologici <hi>in Folio.</hi>
+            </head>
+            <list>
+               <item>1 THeod. Beza in N. T. cum Camerarii notis <hi>Cant</hi>
+1642</item>
+               <item>2 Franciſci Vatabli Biblia ſacra <hi>Baſil.</hi>
+1564</item>
+               <item>3 Biblia Sacra Graece, ex Verſione, 70 Interpretum
+<hi>Franc.</hi> 1597</item>
+               <item>4 Jo. Buxtorfii Lexicon Opus 30 Annorum <hi>Baſil.</hi>
+1640</item>
+               <item>5 — Concordantiae Bibliorum Hebraicae <hi>Baſil</hi>
+1632</item>
+               <item>6 Tho. Aquinatis Summa Theologica <hi>Paris</hi> 1638</item>
+               <item>7 — Summa contra Gentiles cum Fr. de Silveſtris Comment 1586</item>
+               <item>8 Jac. Uſſerii Armach. Annales V. &amp; N. Teſtament.
+<hi>Paris</hi> 1678</item>
+               <item>9 S. Pagnini &amp; Merceri theſaurus Linguae Sanctae
+<hi>Col.</hi> 1614</item>
+               <item>10 Valentini Schindleri Lexicon Pentaglotton <hi>Francf.</hi>
+1612</item>
+               <item>11 Wolfgangi Muſculi Opera Omnia in 8 Vol.</item>
+               <item>12 Jo. Cameronis Opera omnia <hi>Genev.</hi> 1659</item>
+               <item>13 Leigh Critica Sacra V. &amp; N. Teſtamenti
+<hi>Lond.</hi> 1650</item>
+               <item>14 Biblia Hebraea interlinearea Ariae Montani 1619</item>
+               <item>15 Chemnitii Examen Concilii Tridentini <hi>Gen.</hi>
+1641</item>
+               <item>16 Rob. Ballii Hiſtoria Sacra &amp; Prophana
+<hi>Amſt.</hi> 1663</item>
+               <item>17 Rob. Bodii Praelectiones in Epheſios cum Indicibus
+<hi>Lond.</hi> 1652</item>
+               <item>18 Jo. Maldonati in quatuor Evangeliſtas Commentarii
+<hi>Mog.</hi> 1624</item>
+               <item>19 Th. Bradwardinus Archiep. Cant. de Cauſa Dei
+<hi>Lond.</hi> 1618</item>
+               <item>20 D. Chamieri Panſtratiae Catholicae 4 Vol.
+<hi>Genev.</hi> 1626</item>
+               <item>21 Cornelii a Lapide Comment. in quatuor minores Prophetas
+<hi>Antw.</hi> 1625</item>
+               <item>22 D. Guil. Twiſſi Vindiciae Gratiae, <hi>&amp;c. Amſt.</hi> 1632</item>
+               <item>23 — De Scientia media <hi>Arnh.</hi> 1639</item>
+               <item>24 Guil. Pariſienſis Opera omnia <hi>Ven.</hi>
+1591</item>
+               <item>25 R. Baxteri Methodus Theologiae Chriſtianae
+<hi>Lond.</hi> 1679</item>
+               <item>26 Corn. Janſenii Auguſtinus <hi>Roth.</hi> 1652</item>
+               <item>27 — Commentarii in ſuam Concordiam <hi>Lugd.</hi>
+1666</item>
+               <item>28 Zanchii Opera omnia 3 Vol. nitidiſſime Compact — apud Criſp. 1618</item>
+               <item>29 Baſilii Magni Opera omnia, 2 Vol. Gr. &amp; Lat. ſeparatim</item>
+               <item>30 S. Bernardi Opera omnia cum Picardi notis <hi>Paris</hi>
+1632</item>
+               <item>31 Cypriani Opera omnia cum Pamelii Annotationibus
+<hi>Par.</hi> 1632</item>
+               <item>32 Leo Magnus, Maximus Taurinenſis, <hi>&amp;c. Lugd.</hi>
+1634</item>
+               <item>33 Menochii brevis ſenſus litteralis totius Scripturae, Vol. 1. <hi>Col.</hi> 1630</item>
+               <item>34 Petri Martyris Opera omnia in 8 Volum.</item>
+               <item>35 D. Henrici Mori Opera omnia, 3 Vol. <hi>Lond.</hi>
+1679</item>
+               <item>36 Jo. Davenant Sarisb. Epiſc. Expoſitio Epiſt. ad Coloſsenſes <hi>Cant.</hi> 1630</item>
+               <item>37 — Praelectiones de Judice Controv. <hi>&amp;c. Cant.</hi> 1631</item>
+               <item>38 — Determinationes Quaeſt. quar. Theologicarum
+<hi>Cant.</hi> 1634</item>
+               <item>39 Auguſtinus de Civitate Dei cum Lud. Vivis Coment. operum T. 5. <hi>Baſil.</hi> 1542</item>
+               <item>40 — operum Tomus Nonus lineis Longis <hi>Baſil.</hi>
+1529</item>
+               <item>41 Polani Syntagma Religionis Chriſtianae opt. edit.
+<hi>Fran.</hi> 1655</item>
+               <item>42 Biblia Sacra Lat. reddita &amp; Schol. illuſtr. ab Imm. Tremel. &amp; Fra. Junio <hi>Han.</hi> 1596</item>
+               <pb n="2" facs="tcp:44735:4"/>
+               <item>43 Nov. Teſtam. Grec. cum dupl. Interpr. Lat. <hi>viz.</hi> Veteri &amp; Theod. Bezae <hi>Cant.</hi> 1642</item>
+               <item>44 Pineda (Joan.) Com. in Lib. Job, cum Paraphrſ. ſingulorum Capitum <hi>Paris</hi> 1631</item>
+               <item>45 Dauderſtadii (Chriſt.) Labores Pſalter. Theoret. Pract. cum Indic. <hi>&amp;c. Lipſ.</hi> 1679</item>
+               <item>46 Eſtii (Guil.) Com. in omnes Apoſtolorum Epiſtolas abſolutiſſima <hi>Col.</hi> 1631</item>
+               <item>47 Ten<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e (Ludov.) Com. in Epiſt. D. Pauli ad Hebraeos cum aliis Tract. <hi>Lond.</hi>
+1661</item>
+               <item>48 Salmeronis (Alfons.) Opera omnia, ſive Com. in Novum Teſt. 7 vol. <hi>Col.</hi> 1612</item>
+               <item>49 Davenant (Guil.) Expoſitio Epiſtolae D. Pauli ad Coloſſenſes <hi>Cant.</hi> 1639</item>
+               <item>50 — Determinationes Queſtionum quarundam Theologicar. <hi>ibid.</hi>
+               </item>
+               <item>51 Eraſmi (Deſid.) Roterod. Annot. in Nov. Teſt. ab Autore recognitae, <hi>Baſil.</hi> 1527</item>
+               <item>52 Aretii (Bened.) Com. in Nov. Teſtamentum cum Indicibus
+<hi>Bern</hi> 1608</item>
+               <item>53 Paraei (Dav.) Opera Theol. Exegetica cum Authoris Vita, 2 Vol. 1628</item>
+               <item>54 Calvini. Ope. omn. Theol. cum Indic. locupletiſs. in 7 To. &amp; 8 vol. <hi>Gen.</hi> 1617</item>
+               <item>55 Biblioth. Frat. Polon. ſive F. Socini. J. Crellii, D. Brenii, <hi>&amp;c.</hi> Op. om. 8 vol. <hi>Am.</hi> 1656</item>
+               <item>56 Polani (Amand.) a Polansdorf Syntagma Theologiae Chriſtianae <hi>Han.</hi> 1625</item>
+               <item>57 Junii (Franc.) Opera omnia Theol. cum Authoris Vita, 2 vol. <hi>Genev.</hi> 1068</item>
+               <item>58 S.S. Jacobi Fratris Dom. Baſil. Magni &amp; Joan. Chryſoſt. Litur. Grece, <hi>Paris</hi> 1560</item>
+               <item>59 Stephani (Henr.) Concord. Graec. Novi Teſtam. (Editio ſecunda) <hi>Genev.</hi> 1624</item>
+               <item>60 Biblia LXX &amp; Libri Apoc. juxta Edit. Roman. juſſu P. Sixti V. cum Nobil. &amp; alior. Scholiis: Item Nov. Teſtament. Graece cum Verſione Lat. Vulgata, 2 vol. <hi>Par.</hi> 1628</item>
+               <item>61 S. Ambroſii Mediolan. Opera quae extant omnia in 15 Tom. &amp; 2 vol. <hi>Baſi.</hi> 1567</item>
+               <item>62 S. Baſil. Mag. Caeſar. Arch. Opera Gr, Lat. cum Notis Front. Ducaei, 3 vol. <hi>Pa.</hi> 1638</item>
+               <item>63 S. Greg. Epiſc. Nyſſeni Op. cum No. &amp; Indicib. neceſſar. Grae. L. 3 vol. <hi>ibid.</hi> 1638</item>
+               <item>64 S. Juſt. Martyr. Athenagorae, Theoph. Antioch.
+<hi>&amp;c.</hi> Opera Grae. Lat. <hi>Colon.</hi> 1686</item>
+               <item>65 S. Greg. Nazienz. Op. Grae. Lat. ex Interp. Jac. Bill. Prunaei &amp; F. Mor. 2 vol. <hi>Par.</hi> 1630</item>
+               <item>66 S. Irenaei Lug. Epiſ. Opera, cum Fragm. &amp; Notis J. Billii, Front. Ducaei, <hi>&amp;c. Ib.</hi> 1575</item>
+               <item>67 S. Greg. Thamatur. Macarii Aegyp. Baſil. Seleuciae Epiſ, <hi>&amp;c.</hi> Ope. Gr. Lat. <hi>Ibid.</hi> 1622</item>
+               <item>68 S. Hieron. Stridon. Opera ex recenſ. Mar. Victo. (Edit. noviſs.) 9 Tom. 4 vol. <hi>Ib.</hi> 1624</item>
+               <item>69 S. Joan. Scholaſt. vulgo Climaci Opera Gr. Lat. Interp. Matth. Radero, <hi>Ibid.</hi> 1633</item>
+               <item>70 S. Optati Milevitani; Facundi Hermianen. &amp; Gabr. Albaſpin. Opera <hi>Ibid.</hi> 1689</item>
+               <item>71 S. Gregorii Papae cognomen. Mag. Opera omnia cum dupl. Ind. 2 vol. <hi>Ibid.</hi> 1571</item>
+               <item>72 §. Syneſii Epiſc. Cyrenes Opera Gr. Lat. Interpret. Dion. Petavio, <hi>Ibid.</hi> 1631</item>
+               <item>73 S. Thomae Aquinatis Summa totius Theol. cum variis Indicibus <hi>Ibid.</hi> 1615</item>
+               <item>74 Suarez (Franc.) Comment. in primam Partem Secundae D. Tho. Aquin. <hi>Mog.</hi> 1622</item>
+               <item>75 Bellarmini (Rob.) Diſputat. de Controver. Fidei Chriſtianae, 3 vol. <hi>Ingol.</hi> 1590</item>
+               <item>76 Leon. Magni, Max. Taurinen. Petri Chryſol. Fulgen. Ruſpen. &amp;c. Opera, <hi>Lugd.</hi> 1633</item>
+               <item>77 Twiſsi (Guil.) Animadverſ. in Jac. Arminii Collation. cum Franc. Junio <hi>Am.</hi> 1649</item>
+               <item>78 Maſoni (Franc.) Vindic. Eccleſ. Anglic. ſive de legiti. ejuſd. Miniſter. &amp;c. <hi>Lon.</hi> 1638</item>
+               <item>79 Davenantii (Joan.) Theologic. quarund. Quaeſtion. Determinationes, <hi>Cant.</hi> 1634</item>
+               <item>80 Baronii (Caeſ.) Annales Eccleſiaſtici (Editio optima) 12 vol. <hi>Antv.</hi> 1610</item>
+               <item>81 Spondani (Henr.) Annalium Sacrorum &amp; Eccleſiaſtic. vol. 1. (ſeparat.) <hi>Par.</hi> 1660</item>
+               <item>82 Saliani (Jac.) Annalium Eccleſiaſtic. Veteris Teſtamenti Epitome <hi>ibid.</hi> 1635</item>
+               <item>83 Nicephori Calliſti Eccleſ. Hiſt. lib. 18. ex Interpr. Joh. Longi &amp; Front. Ducaei, 2 vol. <hi>Ibid.</hi> 1630</item>
+               <item>84 Ven. Bedae Hiſtoria Eccleſiaſtica Gentis Anglor. Saxonico-Latine, <hi>Catabr.</hi> 1543</item>
+               <item>85 Hiſtoriae Eccleſiaſticae Centuriae xiii. per Studioſos Magdeburg. 7 vol. <hi>Baſil</hi> 1560</item>
+               <item>86 Acta Syn, Nation. Dordrecht. Author. Ordin. Foed. Belg. Provin. <hi>Lugd. Bat.</hi> 1620</item>
+               <item>87 Sguropuli (Sylv.) Hiſt. Conc. Flor. cum Inter. &amp; Notis R. Creight. Gr. L. <hi>Hag.</hi> 1660</item>
+               <pb facs="tcp:44735:4"/>
+               <pb facs="tcp:44735:5"/>
+               <pb n="3" facs="tcp:44735:5"/>
+               <item>88 Zonarae (Joan.) Comment. in Canones S. Apoſtol. &amp; Concil. Gr. Lat. <hi>Par.</hi> 1618</item>
+               <item>89 Samerii (Henr.) Chronologia Sacra a Mundo condito ad Chriſtum <hi>Antv.</hi> 1608</item>
+               <item>90 Uſſerii (Jac.) Antiquit. Eccleſ. Brit. item Hiſt. Pelag. &amp; de Eccl. Suc. <hi>Lon.</hi> 1687</item>
+               <item>91 Spencerus (Joan.) de Legibus Hebr. Ritualibus &amp; earum Ratio nibus <hi>Cant.</hi> 1685</item>
+               <item>92 Coſin (Rich.) Eccleſ. Anglican. Politeia in Tabulas digeſta <hi>Oxon</hi> 1684</item>
+               <item>93 Corpus Juris Canonici editum juſſu P. Gregorii XIII. &amp; Notis illuſt. <hi>Ant.</hi> 1648</item>
+               <item>94 Concilia Anti<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Galliae a J. Sirmondo edita in 3 Vol.
+<hi>Pariſ.</hi> 1632</item>
+               <item>95 S. Hierom. Stridon. Opera cum Scholiis Mar. Victorii 9 Tom. 2 V. <hi>Col.</hi> 1616</item>
+               <item>96 Riveti (Andr.) Opera Theologica ab Authore aucta 3 Vol.
+<hi>Roter<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d.</hi> 1651</item>
+               <item>97 Mori (Henr.) Opera Theologica cum Synchroniſmis Apocalypticis <hi>Lon.</hi> 1674</item>
+               <item>98 Huetii (Pet. Dan.) Demonſtrat. Evangelica ad Sereniſſ. Delphinum <hi>Par.</hi> 1679</item>
+               <item>99 Biblia Vulgatae Edit. cum elegantiſſ. Icon. &amp; Expli. Nom. Heb<g ref="char:punc">▪</g> &amp;c. <hi>Ant.</hi> 1571</item>
+               <item>100 Bibliotheca Studii Theolog. ex S. Auguſtini &amp; alior. Doct. Operib. &amp;c. 1581</item>
+               <item>101 Bezae (Theod.) Tractat. Theolog. cum Indicibus neceſſariis. — <hi>apud Criſp.</hi> 1570</item>
+               <item>102 Tamburini (Tho.) Decem Praeceptorum Decalogi Explicat.
+<hi>Venet.</hi> 1654</item>
+               <item>103 D. Hilarii Lucubrat. per Deſ. Eraſmum emendatae — <hi>apud Forben. Baſil.</hi> 1523</item>
+               <item>104 Whitakeri (Guil.) adv. Tho. Stapletoni Defenſ. Eccleſ. Auth. <hi>Cant.</hi> 1594</item>
+               <item>105 Clavis Theologiae ſive Theſaurus locorum Commun. Theolog. <hi>Lond.</hi> 1632</item>
+               <item>106 Becani (Mart.) Summa Theolog. Schol. aucta a Gerv: Biionio <hi>Pariſ.</hi> 1568</item>
+               <item>107 Malvenda (Tho.) de Antichriſti Praecurſorib. Advent. Signis, &amp;c. <hi>Lugd.</hi> 1647</item>
+               <item>108 Tertulliani (L. Sept. Flor.) Opera cum Annotat. Beat. Rhenani <hi>Baſil.</hi> 1562</item>
+               <item>109 Becmani (Chriſt.) Exercitat, Theolog. contra E. Socin. V. Smal. <hi>Amſt.</hi> 1644</item>
+               <item>110 De la Cerda (Joh. Lud.) Adverſ. Sacra, Pſalter. Salom. Graec. Lat. &amp;c. <hi>Lugd.</hi>
+               </item>
+               <item>111 Mendoza (Petr. Hurt. de) Diſputat. de Incarnatione Filii Dei <hi>Antv.</hi> 1634</item>
+               <item>112 Pricaei (Joh.) Comment. in Nov. Teſtam. &amp; Lib. Pſalmorum <hi>Lond.</hi> 1660</item>
+               <item>113 Duns Scoti (Joan.) in Prim. &amp; ſecund. lib. ſentent. Quaeſt. ſubtil. <hi>Antv.</hi> 1620</item>
+               <item>114 Eſtii (Guil.) in quatuor lib. ſententiarum Commentaria <hi>Pariſ.</hi> 1638</item>
+               <item>115 Lancicii (Nic.) Opuſcula ſpiritualia cum Indicibus neceſſ. 2 Vol. <hi>Antv.</hi> 1650</item>
+               <item>116 Walaei (Ant.) Opera Theol. viz. Enchirid. Relig. Reform. &amp;c. <hi>Lugd. Bat.</hi> 1643</item>
+               <item>117 Nierembergii (Joh. Euſ.) Stromata S. item Gnomoglyph &amp; Sig. <hi>Lugd.</hi> 1642</item>
+               <item>118 — Doctrin. Aſcet. ſive ſpiritual. Inſtitut. Pandectae <hi>Ibid.</hi> 1643</item>
+               <item>119 — Homiliae concatenatae &amp; Erotem. Curioſae Lectionis <hi>Antv.</hi> 1651</item>
+               <item>120 Eraſmi (Deſ.) in Novum Teſtamentum Annotation. — <hi>apud Froben. Baſil</hi> 1535</item>
+               <item>121 Parei (Dav.) Opera Theologica Exegetica 2 Vol.
+<hi>Genev.</hi> 1642</item>
+               <item>122 Canon. S. Apoſt. Conc. &amp;c. item Photii Nomoc. cum Com. T. Balſam. <hi>Par.</hi> 1561</item>
+               <item>123 D. Bernardi Opera accurat. recog. reſtituta — <hi>apud Harvag. Baſil</hi> 1552</item>
+               <item>124 Gerſonii (Joan.) Canc. Par. Opera, cum ipſius vita, Miraculis, &amp;c. <hi>Ibid.</hi> 1518</item>
+               <item>125 Slichtingii (Joh.) Comment. in pleroſque Novi Teſtamenti Libros <hi>Amſt.</hi> 1656</item>
+               <item>126 Prideaux (Joh.) 22 Lection. de totidem. Relig. capit. Controv. <hi>Oxon</hi> 1648</item>
+               <item>127 Montacutii (Rich.) Apparatus ad Origines Eccleſiaſticas <hi>Ibid.</hi> 1635</item>
+               <item>128 Mornayi (Phil.) Myſterium Iniquitat. ſeu Hiſtoria Papatus <hi>Salmur.</hi> 1611</item>
+               <item>129 Laureti (Hier.) Sylva Allegoriarum totius Sacrae Scripturae <hi>Colon.</hi> 1612</item>
+               <item>130 Stephani (Rob.) Comment. in Evangelia cum Novis Gloſſis 1553</item>
+               <item>131 Ravanellae (Petr.) Bibliotheca ſacra cum Additamentis
+<hi>Genev.</hi> 1650</item>
+               <item>132 Miſſale Romanum cum Rubricis &amp; Sculpt. elegant
+<hi>Pariſ.</hi> 1573</item>
+               <item>133 Chamieri (Dan.) Panſtratia Cathol. adv. Pontificios 4 Tom. 2 Vol. <hi>Franc.</hi> 1627</item>
+               <item>134 Zanchii (Hier.) Opera omnia Theologica (Editio optima) 3 Vol. <hi>Genev.</hi> 1614</item>
+               <item>135 Stapletoni (Tho.) Princip. Fidei demonſtrat. ſive Controverſiae, &amp;c. <hi>Par.</hi> 1578</item>
+               <pb n="4" facs="tcp:44735:6"/>
+               <item>136 Novum Teſtam. cum Graeco Textu &amp; 2 Interpretionibus Latinis &amp; Annotationibus, cura Theod Bezae ex Offic. Steph. 1582</item>
+               <item>137 Przicovii (Sam.) in Init. Matth. &amp; omnes Epiſt. Apoſt. Comment. <hi>Amſt.</hi> 1692</item>
+               <item>138 Colomeſii (Paul.) Epiſt. Ger. Joh. Voſſii &amp; aliorum Claror. viror. <hi>Lond.</hi> 1690</item>
+               <item>139 Bibliothecae Fratrum Polonorum Tomus nonus 1692</item>
+               <item>140 Suiceri (Caſp.) Theſaurus Eccleſiaſticus e Patribus Graecis 2 Vol. <hi>Amſt.</hi> 1682</item>
+               <item>141 Bright Tabulae Legis Chriſtian. <hi>Lond.</hi>
+1687</item>
+               <item>142 Pearſon (Joan.) Praelectiones Theologicae</item>
+               <item>143 A Lapide (Corn.) Comment. in Epiſtolas D. Pauli
+<hi>Lugd.</hi> 1644</item>
+               <item>144 — Ejuſdem in Prophetas Comment.
+<hi>Ibid.</hi>
+               </item>
+               <item>145 Marſilii Ficini Opera omnia (Editio optima)</item>
+               <item>146 Novum Teſtamentum cum Annotationibus, &amp;c. Flaccii Illyrici</item>
+               <item>147 Catena Aurea in Pſalmos</item>
+               <item>148 Sebunde (Raym. de) Theologia Naturalis</item>
+               <item>149 Janſenii (Corn.) Comment. &amp;c. in quatuor Evangelia</item>
+               <item>150 Bodii in Epiſtolam <hi>D.</hi> Pauli ad Epheſios Commentarii</item>
+               <item>15 Acta Synodi Epheſinae</item>
+               <item>152 Euſebii, Socratis, &amp;c. Hiſtoria Eccleſiaſtica Gr. Lat. 1612</item>
+            </list>
+         </div>
+         <div type="section">
+            <head>Libri Theologici, in <hi>Quarto.</hi>
+            </head>
+            <list>
+               <item>1 WEndelini Syſtema majus Chriſtianae Theologiae
+1666</item>
+               <item>2 Jo. Stranguis de voluntate &amp; action. Dei circa peccatum
+1657</item>
+               <item>3 — <hi>De</hi> Interpretatione &amp; perfectione S. Scripturae 1663</item>
+               <item>4 Jo. Eliot Biblia Sacra Lingua Indiana <hi>Cant.</hi>
+1687</item>
+               <item>5 Hiſtoria Religionis Judaeorum per Rab. Moſem Levi
+1681</item>
+               <item>6 Joſuae Placaei Opuſcula nonnulla <hi>Salmur</hi>
+1656</item>
+               <item>7 Pſalmi Davidis ex Heb. in Latinum Carmen converſi
+1514</item>
+               <item>8 Reformatio Legum Eccleſiaſticarum <hi>Lond.</hi>
+1640</item>
+               <item>9 Diſquiſitiones Criticae <hi>Lond.</hi> 1684</item>
+               <item>10 Th. Gatakeri Cinnus de Novi Inſtrumenti Stylo, Targum, &amp;c.</item>
+               <item>11 Parkeri Tentamina Phyſico-Theologica de Deo
+<hi>Lond.</hi> 1665</item>
+               <item>12 Jo. Buxtorfii Anticritica ſeu vindiciae veritatis Hebraicoe</item>
+               <item>13 Jo. Forbeſii Irenicum, Amatoribus Veritatis &amp; Pacis
+1625</item>
+               <item>14 Jac. Uſſerii Armachani Britanicarum Eccleſiarum Antiquitates</item>
+               <item>15 — De Chriſtianarum Eccleſiarum ſucceſſione, &amp; Statu <hi>Lond.</hi> 1613</item>
+               <item>16 Jo. Buxtorfii Tyberias ſive Commentarius Maſorethicus
+1620</item>
+               <item>17 Jo. Seldeni in Eutychii Origines Commentarius
+<hi>Lond.</hi> 1652</item>
+               <item>18 Fauſti Socini Praelectiones Theologicae 1627</item>
+               <item>19 <hi>D.</hi> Th. Tullii Juſtificatio Paulina
+<hi>Oxon.</hi> 1674</item>
+               <item>20 Caſpari Streſonis Technologia Theologica <hi>L.B.</hi>
+1634</item>
+               <item>21 Jo. Hen. Biſterfandii de uno Deo, Patre, Filio, &amp;c.
+<hi>L.B.</hi> 1639</item>
+               <item>22 Pauli Voet Theologia naturalis Reformata 1656</item>
+               <item>23 Petri Thyrei de apparitionibus Spirituum tractatus duo
+1600</item>
+               <item>24 <hi>D.</hi> Ant. Tuckney Praelectiones Theologicae
+<hi>Amſt.</hi> 1679</item>
+               <pb facs="tcp:44735:6"/>
+               <pb facs="tcp:44735:7"/>
+               <pb n="5" facs="tcp:44735:7"/>
+               <item>25 <hi>D.</hi> Jo. Rainoldi Cenſura Librorum Apocryphorum 2 Vol.</item>
+               <item>26 <hi>D.</hi> Jo. Arrowſmith Tactica Sacra <hi>Cant.</hi>
+1657</item>
+               <item>27 Sixtini Amama Anti-Barbarus Biblicus 4 to Libro auctus</item>
+               <item>28 Scharpii curſus Theologicus <hi>Gen.</hi> 1620</item>
+               <item>29 Binchii mellificium Theologicum <hi>Amſt.</hi>
+1666</item>
+               <item>30 <hi>D.</hi> Andrei Riveti Catholicus Orthodoxus, 2 Vol.</item>
+               <item>31 Hen. de Norris vindiciae Auguſtin. 1675</item>
+               <item>32 <hi>D.</hi> Prideaux faſciculus Controverſiarum, &amp;c. 1664</item>
+               <item>33 Mich. Waltheri Harmonia Biblica <hi>Noremb.</hi>
+1664</item>
+               <item>34 — Officina Biblica <hi>Wittemb.</hi> 1668</item>
+               <item>35 <hi>D.</hi> Draytoni Expoſitio analytica omnium Epiſtolarum <hi>B.</hi> 1656</item>
+               <item>36 Jo. Hoornbeek diſputationes Theolo. Anti-Sociniana:</item>
+               <item>37 Jo. Seldenus de Synedriis Hebraeorum Lib. 1 <hi>Lond.</hi>
+1658</item>
+               <item>38 Jo. Cameronis myrothecium Evangelicum <hi>Sal.</hi>
+1677</item>
+               <item>39 Jo. Scharpii Symphonia Prophetarum &amp; Apoſtolorum
+<hi>Gen.</hi> 1625</item>
+               <item>40 Biblia Sacra vulgat' Editionis P. Sixti V. juſſu recognita <hi>Antv.</hi> 1664</item>
+               <item>41 Druſii (Jo.) Annotat. in Novum Teſtament. ſive Preterit. Lib. 10. <hi>Fr.</hi> 1612</item>
+               <item>42 Enjedini (Geo.) Explicationes locorum Vet. &amp; Nov. Teſt. de S. Trin. <hi>Amſt.</hi>
+               </item>
+               <item>43 <hi>Piſcatoris</hi> (<hi>Joh.</hi>) Comment. in omnes Libros N. Teſt. (Editio ſecun.) <hi>Herb.</hi> 1621</item>
+               <item>44 Montani (<hi>Bened. Ar.</hi>) de optimo imperio, ſive in Lib. Joſuae Com. <hi>Antv.</hi> 1583</item>
+               <item>45 Sclateri (Guil.) utriuſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Epiſt. ad Corinth. Explicatio Analytica <hi>Oxon</hi> 1633</item>
+               <item>46 Beveregii (Guil.) Codex Canonum Eccleſ. Primit. vindic. Gr. Lat. <hi>Lond.</hi> 1678</item>
+               <item>47 S. S. Ignatii &amp; Barnab. Epiſt. ex Biblioth. Flor. Edidit Iſ. Voſſius Gr. Lat. 1680</item>
+               <item>48 Arnobii Afri adverſus Gentes Lib. 7. cum integris omn. Com. <hi>Lug. Bat.</hi> 1651</item>
+               <item>49 M. Min. Felicis &amp; Jul. Firmici Opuſcula cum variorum Comment. <hi>Ibid.</hi> 1652</item>
+               <item>50 Cotelerii (Joh. Bapt.) Eccleſ. Gr. Monum. Gr. Lat. cum Notis 2 Vol. 1677</item>
+               <item>51 Origenis contra Celſ. Lib. 8. &amp; ejuſdem Philocalia cum Not. Guil. Spenc. 1658</item>
+               <item>52 Cyrilli Hieroſol. Archiep. Catech. edit. a Jo. Prevotio Gr. Lat. <hi>Pariſ.</hi> 1609</item>
+               <item>53 Codex Donation. piarum A. Miraei cura erutus &amp; Notis illuſt. <hi>Brux.</hi> 1624</item>
+               <item>54 Eccleſiarum Belg. Doctrina &amp; Diſciplina Gr. — <hi>apud Elzevir. Senior. Amſt.</hi> 1648</item>
+               <item>55 Dallaeus (Joh.) de Scriptis Dion. Areopagitae &amp; Ignatii Antiocheni <hi>Gen.</hi> 1666</item>
+               <item>56 Pearſon (Joh.) Vindiciae Epiſt. S. Ignatii, &amp; Iſ. Voſſii Epiſt. adv. <hi>D.</hi> Bl. <hi>Cant.</hi> 1672</item>
+               <item>57 Outramus (Guil.) de Sacrificiis Judaeorum, Gentium profanar. &amp;c. <hi>Lond.</hi> 1677</item>
+               <item>58 Limborch (Phil. a) Theologia Chriſtiana ad praxin Pietatis directa <hi>Amſt.</hi> 1686</item>
+               <item>59 Schriveneri (Mat.) Apol. pro S. Eccleſiae Patribus cont. Jo. Dallaeum <hi>Lond.</hi> 1672</item>
+               <item>60 Breganii (Raym.) Theologiae Gentium de cognitione Divina Enar. <hi>Venet.</hi> 1621</item>
+               <item>61 Campanellae (Tho.) Tract. varii, viz. Atheiſm. triumph. de Gent. &amp;c. <hi>Par.</hi> 1636</item>
+               <item>62 Barlow (Tho.) Exercit. aliquot Mètaphyſicae de Deo (Editio 2.) <hi>Oxon.</hi> 1658</item>
+               <item>63 Voſſii (Gerh. Joh.) Diſſertat. Variae de Jeſu Chriſti Gen. de 3 Symb. &amp;c. 1643</item>
+               <item>64 Oſiandri (Joh. Adam.) Diſſert. de Jub. Ebraeor. Chriſt. &amp; Academ. <hi>Tubing.</hi> 1677</item>
+               <item>65 Prateoli Marcoſſii (Gabr.) de Vitis, Sectis, &amp;c. Haeret. Elench. Alph. <hi>Colon.</hi> 1581</item>
+               <item>66 Otii (Joh. Hen.) Annal. Anabap. ſive de ejus Sectae Orig. prog. &amp;c. <hi>Baſil</hi> 1672</item>
+               <item>67 Micraelii (Joh.) Syntag. Hiſtor. Eccl. omn. cum Cont. D. Hartenac. <hi>Lypſ.</hi> 1679</item>
+               <item>68 Zimmermanni (Matthiae) Amaenitates Hiſtoriae Eccleſiaſticae <hi>Dreſd.</hi> 1681</item>
+               <item>69 Druſius (Joh.) de Sect. Jud. &amp; Joſ. Scal. Elench. Nic. Serrarii. <hi>Arnheim</hi> 1619</item>
+               <item>70 Richerii (Edm.) Hiſt. Conc. General. &amp; Vind. Scholae Pariſ. 4 Vol. <hi>Amſt.</hi> 1683</item>
+               <item>71 Pallavicini (Sfort.) Hiſt. Conc. Trident. cum Indicibus variis 3 Vol. <hi>Antv.</hi> 1670</item>
+               <item>72 Allatius (Leo.) de Eccleſiae Occid. &amp; Orient. perpetua Conſenſione <hi>Amſt.</hi> 1648</item>
+               <pb n="6" facs="tcp:44735:8"/>
+               <item>73 Voſſii (Ger. Joh.) Hiſt. de Controverſ. Pelagianis Lib. 7. (Editio 2.) <hi>Ibid.</hi> 1655</item>
+               <item>74 Trittenhem (Joh. a) Abbatis Spanhem. Catalogus Script. Eccleſia. <hi>Colon</hi> 1531</item>
+               <item>75 Caſauboni Iſ.) de Rebus Sacris &amp; Eccleſiaſticis Exercitationes XVI. <hi>Gen.</hi> 1655</item>
+               <item>76 Prideaux (Joh.) Faſciculus Controverſiarum Theologicarum <hi>Oxon</hi> 1664</item>
+               <item>77 De Varna (Baſ.) Analyſis Coloquii Ratisbon. Anno 1601. habiti <hi>Francf.</hi> 1602</item>
+               <item>78 Morelius (Joan.) de Eccleſia ab Antichr. per ejus excidium liber. <hi>Lond.</hi> 1589</item>
+               <item>79 Peltii (Joh.) Harmonia Remonſtrantium &amp; Socinianorum
+<hi>Lugd. Bat.</hi> 1633</item>
+               <item>80 Platinae (B.) Hiſt. de Vit. Rom. Pontif. cum Addit. Onuphrii, &amp;c. <hi>Colon.</hi> 1626</item>
+               <item>81 Acta Synodi Nat. juſſu Ord. Foed. Belg. Provinc. Dordrech. habitae <hi>Dordr.</hi> 1620</item>
+               <item>82 Molinaei (Lud.) Paraeneſis adv. Moſ. Amyraldum &amp; Joh. Dallaeum <hi>Lond.</hi> 1656</item>
+               <item>83 Braunii (Joh.) Syſtema Theologiae Didacticae &amp; Elenchticae <hi>Amſt.</hi> 1688</item>
+               <item>84 Balduini (Fred.) Tractatus luculentus de Caſibus Conſcientiae <hi>Franc.</hi> 1654</item>
+               <item>85 Croii (Joh.) Sacrae &amp; Hiſtoricae in Novum Foedus Obſervationes <hi>Genev.</hi> 1645</item>
+               <item>86 Bonartis (Tho.) Concordia Scientiae cum Fide Lib. 5. comprehenſ. <hi>Colon</hi> 1665</item>
+               <item>87 Mareſii (Sam.) Diſputat. Theolog. Select. Sylloge 2 Vol. <hi>Groning.</hi> 1660</item>
+               <item>88 Voſſii (Ger. Joh.) Harmon. Evang. de Paſſion. Reſur. &amp;c. Jeſu Chriſti <hi>Amſt.</hi> 1656</item>
+               <item>89 — Hiſtoriae de Controverſiis Pelagianis Lib. 7.
+<hi>Lugd. Bat.</hi> 1618</item>
+               <item>90 Mareſii (Sam.) Syſtema Breve Univerſae Theologiae
+<hi>Groning.</hi> 1659</item>
+               <item>91 Molinaei (Petr.) Anatome Arminianiſmi, ſeu enucleat. Contr. <hi>Lugd. Bat.</hi> 1621</item>
+               <item>92 Humfredi (Laur.) Vita &amp; Defenſio Doctrinae Joan. Juelli <hi>Lond.</hi> 1573</item>
+               <item>93 Academiae Leydenſ. Cenſura in Confeſſionem Remonſtrantium <hi>Lugd. Bat.</hi> 1626</item>
+               <item>94 Hiſtoria Revelat. C. Cotteri, C. Poniatoviae &amp; Nic. Drabricii 1659</item>
+               <item>95 Dicſoni (Dav.) Therapeutica Sacra, de curandis Caſibus Conſcien. <hi>Lond.</hi> 1656</item>
+               <item>96 Voſſi (Ger. Joh.) Theſes Theologicae &amp; Hiſtoricae de Variis Cap. <hi>Belloſit.</hi> 1628</item>
+               <item>97 James (Tho.) Catalogus Univerſ. Libror. in Biblioth. Bodleiana. <hi>Oxon</hi> 1620</item>
+               <item>98 Concilium Trident. ex Recognit. Joh. Gallimart Aug. Barboſae, &amp;c. <hi>Lugd.</hi> 1631</item>
+               <item>99 Vorſtii (Conr.) Anti-Bellarminus Contract. ſive Exam. Cont. <hi>&amp;c. Hanov.</hi> 1610</item>
+               <item>100 Medi (Joſ.) Clavis Apocalyptica (Editio ſecunda)
+<hi>Cant.</hi> 1632</item>
+               <item>101 Lubberti (Sibr.) de Jeſu Chriſto Servat. Lib. 4. adv. F. Socin. <hi>Franc.</hi> 1611</item>
+               <item>102 Scharpii (Joh.) Symphonia Prophet. &amp; Apoſt. in 2 Part. <hi>Genev.</hi> 1639</item>
+               <item>103 Sancta Clara (Franc. a) Deus, Natura, Gratia, ſive Tractat. <hi>&amp;c. Lugd.</hi> 1634</item>
+               <item>104 Arriba (Franc. de) Opus Conciliator. Gratiae &amp; Liberi Arbitrii <hi>Pariſ.</hi> 1622</item>
+               <item>105 Heinſii (Dan.) Sacrar. Exercitat. ad Novum Teſtamentum Lib. 20. <hi>Cant.</hi> 1640</item>
+               <item>106 Alexandri Angli Summa, ſeu Deſtructorium Vitiorum
+<hi>Venet.</hi> 1582</item>
+               <item>107 Downami (Geo.) Papa Antichriſtus, ſive diatriba de Antichriſto <hi>Lond.</hi> 1620</item>
+               <item>108 Raadt (Alh. de) Apologia Veritatis pro Sam. Mareſio
+<hi>Amſter.</hi> 1673</item>
+               <item>109 Lightfoot (Joh.) Horae Hebraicae, &amp; Talmud. in Evang. S. Lucae <hi>Cant.</hi> 1674</item>
+               <item>110 Judicium Synodi Dordrecht. de 5 Doct. Capit. in Eccleſ. Belg. Controv. 1619</item>
+               <item>111 Mortonii (Tho.) Epiſc. Dunelm. adv. Eccleſ. Rom. de Mer. Tract. <hi>Cant.</hi> 1637</item>
+               <item>112 Boeharti (Sam.) Geographia Sacra cum Tabulis Chorograph.
+<hi>Francof.</hi> 1681</item>
+               <item>113 Parkeri (Sam.) Epiſc. Oxon. Diſput. de Deo &amp; Provident. Divina <hi>Lond.</hi> 1678</item>
+               <item>114 Wren (Matth.) Increpatio Bar-Jeſu adv. Catecheſin Racovianam <hi>Ibid.</hi> 1660</item>
+               <item>115 Turretini (Franc.) Inſtitutio Theologiae Elenchticae 3 Vol. <hi>Genev.</hi> 1688</item>
+               <item>116 Bedae (Ven.) Presbyt. Opera Theologica, nec non Hiſtorica <hi>Lond.</hi> 1693</item>
+               <item>117 Allatius (Leo.) de Eccleſ. Occident. &amp; Orient. perpetua Conſen. <hi>Colon.</hi> 1648</item>
+               <item>118 Mabillon (Joh.) de Liturgia Gallicana Grae. Lat.
+<hi>Pariſ.</hi> 1685</item>
+               <item>119 Malbranche (<hi>P.</hi>) de Inquirenda Veritate ex Gallico Latine reddit <hi>Gen.</hi> 1691</item>
+               <item>120 Lexicon Graeco Latinum, H. Stephani</item>
+               <pb facs="tcp:44735:8"/>
+               <pb facs="tcp:44735:9"/>
+               <pb n="7" facs="tcp:44735:9"/>
+               <item>121 Dictionarium Hiſtor. Geogr. et Poet.</item>
+               <item>122 Hereboordi Meletemata Philoſoph.</item>
+               <item>123 Arrowſmith Tactica Sacra.</item>
+               <item>124 Walliſii Opera Mathematica.</item>
+            </list>
+         </div>
+         <div type="section">
+            <head>Libri Theologici <hi>in Octavo.</hi>
+            </head>
+            <list>
+               <item>1 VEtus Teſtamentum Graece ex Verſione 70 Interpret.
+<hi>Cant.</hi> 1665</item>
+               <item>2 Buck Novum Teſtamentum Graecum <hi>Ibid.</hi> 1632</item>
+               <item>3 Jo. Calvini Inſtitutiones Chriſtianae Religionis
+1561</item>
+               <item>4 Tertullianus de Pallio cum Claudii Salmaſii Notis
+1665</item>
+               <item>5 Praeſtantium &amp; eruditorum Virorum Epiſtolae
+<hi>Amſt.</hi> 1669</item>
+               <item>6 Jo. Hoornbeeck de Independentiſmo Epiſtola, &amp; Jacobi Uſſerii reductio.</item>
+               <item>7 Sanderſon de Conſcientiae Obligatione Praelectiones decem.</item>
+               <item>8 Joſeph. Durantus de Ritibus Eccleſiae Catholicae
+<hi>Par.</hi> 1632</item>
+               <item>9 Synopſis Purionis Theologiae <hi>Lugd. Bat.</hi>
+1642</item>
+               <item>10 Jo. Dallaeus de Pſeudepigraphis Apoſtolicis
+<hi>Hagu.</hi> 1653</item>
+               <item>11 Gisbertus Voetius de Exercitiis Pietatis 1660</item>
+               <item>12 Chriſt. Sandii Nucleus Hiſtoriae Eccleſiaſticae
+1669</item>
+               <item>13 — Interpretationes Paradoxae <hi>Coſmop.</hi>
+1670</item>
+               <item>14 Guil. Durandi Rationale Divinorum Officiorum <hi>Antv</hi>
+1570</item>
+               <item>15 S. Auguſtinus de Civitate Dei cum Lud. Vivis Notis, 2 Vol.</item>
+               <item>16 Petri Chryſologi Sermones <hi>Lugd.</hi> 1636</item>
+               <item>17 Joſephus de Voiſin de Lege Divina <hi>Paris</hi>
+1650</item>
+               <item>18 Moſes Amyraldus de Myſterio Trinitatis <hi>Salm.</hi>
+1661</item>
+               <item>19 — Diſſertationes Theologicae ſex
+<hi>Salm.</hi> 1660</item>
+               <item>20 Jac. Arminii examen Theſium Gomari, &amp; vindiciae Curcellaei</item>
+               <item>21 Oliver Bowles de Paſtore Evangelico <hi>Lond.</hi>
+1655</item>
+               <item>22 Wollebii Compendium Chriſtianae Theologiae
+<hi>Cant.</hi> 1641</item>
+               <item>23 Jo. Calvini Opuſcula 1563</item>
+               <item>24 Pſalmi, Proverbia, Eccleſiaſt. &amp; Cant. Cant. Heb. &amp; Latin.</item>
+               <item>25 Robertſoni Textus Hebr. <hi>Pſalm.</hi> &amp;
+<hi>Lamentat.</hi>
+               </item>
+               <item>26 Ant. Hulſii Nomenclator Biblicus Haebraeo-Latinus
+1650</item>
+               <item>27 Catechiſmus Judaeorum Heb. &amp; Lat. per Lud. de Veil
+1679</item>
+               <item>28 H. Grotius de veritate Religionis Chriſtianae cum Annot.</item>
+               <item>29 Duae Catecheſes a Joanne Biddello 1664</item>
+               <item>30 Jo. Epiſc. Dunelmenſis Hiſtoria Tranſubſtantialis.</item>
+               <item>31 De Graecae Eccleſiae Hodierno Statu, <hi>Lond.</hi>
+1678</item>
+               <item>32 Guil. Apollonii Jus Majeſtatis circa ſacra 1642</item>
+               <item>33 — Grallae <hi>Franeker</hi> 1646</item>
+               <item>34 Minutius Felix et Julius Firmicus 1662</item>
+               <item>35 D. Gregorii Nazienzeni Selectae Epiſtolae, Gr. et Lat.</item>
+               <item>36 Juelli Apologia Eccleſiae Anglicanae <hi>Lond.</hi>
+1626</item>
+               <item>37 Jo. Sleidan de quatuor ſummis Imperiis <hi>Cant.</hi>
+1646</item>
+               <item>38 Jo Crucii Epiſtolae <hi>Amſt.</hi> 1651</item>
+               <item>39 Guil. Grotius de Principiis Juris Naturalis <hi>Cant.</hi>
+1673</item>
+               <pb n="8" facs="tcp:44735:10"/>
+               <item>40 Schickardi Horologium Haebraeum interfoliat.</item>
+               <item>41 Alvarez Grammatica Opt. Editionis <hi>Antv.</hi>
+1662</item>
+               <item>42 Ro<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>t de Orgine Fontium <hi>Oxon</hi> 1685</item>
+               <item>43 Po<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>. Vergilius de rerum Inventoribus <hi>Arg</hi> 1606</item>
+               <item>44 G. Fournier Lib. 6 Primi Euclidis element Geom.
+<hi>Lond.</hi> 1654</item>
+               <item>45 Th. Kempiſii de Imitando Chriſto per Caſtalionem
+<hi>Baſileae</hi>
+               </item>
+               <item>46 Apuleii Madaurenſis Opera omnia <hi>Plantin.</hi>
+1610</item>
+               <item>47 Joſ. de Voiſin Diſputatio Caballiſtica de Anima
+<hi>Paris</hi> 1635</item>
+               <item>48 Junii Bruti Vindiciae contra Tyrannos cum aliis Tractatibus</item>
+               <item>49 Biblia Sacra Hebraice et Novum Teſtamentum Graece cum Inter-linearea Interpretatione Latina Chriſtiant. Pagnini, Bened. Ar Montani,
+<hi>&amp;c.</hi> 7 Vol. <hi>Antv.</hi> 1613</item>
+               <item>50 D. Aur. Auguſt. Oper. Tom. 5. ſive de Civit. Dei cum Com. Lod. Vivis 2 vol. 1622</item>
+               <item>51 L. Caelii Lactantii. Opera cum Varior. Com. Opera Serv. Gallaei <hi>Lugd. Bat.</hi> 1660</item>
+               <item>52 Sulp. Severi Opera omnia cum Lectiſsim. Variorum Commentariis, <hi>Amſt.</hi> 1665</item>
+               <item>53 D. Euſebii Emiſſeni Epiſcopi Opera, cum triplici Indice <hi>Paris</hi> 1575</item>
+               <item>54 Canon. Grae. Concilii Laodic. cum Verſ. Gent. Herv. Dion. Exigui, <hi>&amp;c. Norib.</hi> 1684</item>
+               <item>55 Dodwel. (Henr.) Diſſert. in Irenae. cum Fragm. Phil. Sidetae &amp; Notis, <hi>Oxon.</hi> 1689</item>
+               <item>56 Breviarium Ordinis Praedicatorum Nic. Rodulpii juſſu editum, <hi>Paris</hi> 1632</item>
+               <item>57 Calvini (Joh.) Inſtitutio Chriſtianae Religionis cum duplici Indice, <hi>Genev.</hi> 1569</item>
+               <item>58 Riveti (Andr.) Critici Sacri lib. 4. cum Tractatu de Patr. Author. <hi>Ibid.</hi> 1660</item>
+               <item>59 Hackſpanii (Theod.) Term. Diſtinctio. et Diviſion. Philoſoph. Theol. <hi>Altorf.</hi> 1665</item>
+               <item>60 Urſini (Joh. Henr.) Paralipom. Miſcellaneor. Theologico-Philologic. <hi>Norimb.</hi> 1667</item>
+               <item>61 Schotani (Joh.) Exercit. Academ. ad Sacram 1. Geneſeos Rer. Hiſt. <hi>Franequ.</hi> 1687</item>
+               <item>62 Lomb. (Petr.) Epiſc. Pariſ. Sentent. Lib. 4. ab Ant. Monchiac. recogniti <hi>Colon.</hi> 1619</item>
+               <item>63 Bellarmin. (R.) de Scriptorib. Eccleſiaſtic. cum brevi Chronolog. <hi>Lugd.</hi> 1674</item>
+               <item>64 Oudin (Caſim.) Supplement. de Scriptorib. Eccleſ. a Bellarm. omiſſis, <hi>Paris</hi> 1686</item>
+               <item>65 Labbei (Phil.) de Scriptor. Eccleſ. Diſſertatio Hiſtorico-Philolog. 2 vol. <hi>Ib.</hi> 1660</item>
+               <item>66 Carranzae (Barth.) Summa omnium Concil. &amp; Pontif.
+<hi>Ibid.</hi> 1678</item>
+               <item>67 Cyprii (Phil.) Eccleſ. Conſtant. Proto-notarii Chron. Eccl. Graecae <hi>Lipſ.</hi> 1687</item>
+               <item>68 Smith (Tho.) de Graecae Eccleſiae hodierno Statu Epiſt. (Edit. Secun.) <hi>Lon.</hi> 1678</item>
+               <item>69 Sandii (Chriſtoph.) Nucleus Hiſtoriae Eccleſiaſticae, <hi>&amp;c. Amſt.</hi> 1669</item>
+               <item>70 — Bibliotheca Anti-Trinitatior. ſive Autorum Socinianorum <hi>Ibid.</hi> 1685</item>
+               <item>71 Toleti (Franc.) Inſtructio Sacerdot. cum Addition. Andr. Victorelli, <hi>Lugd.</hi> 1628</item>
+               <item>72 Meſſal. (Walon.) de Epiſ. &amp; Presbyt. contra Dion. Petav. Diſſert. <hi>Lugd. Bat.</hi> 1641</item>
+               <item>73 Hody (Humphr.) Diſſert. contra Hiſtor. Ariſteae de
+70 Interpretib <hi>Oxon.</hi> 1685</item>
+               <item>74 Biblia Sacra &amp; Novum Teſtamentum a Doctoribus Theol. Lovanienſ. emendata una cum Indice accurat. &amp; Interpr. Nom. Hebr. Chald.
+<hi>&amp;c. Antv.</hi> 1565</item>
+               <item>75 Catechiſm. Roman. ex Decreto Concil. Trident. cum Annot. Andr. Fabr. Leodii. <hi>Antv.</hi> 1601</item>
+               <item>76 Jugul. Cauſae, ſeu Ratio Doctr. &amp; Imp. Papal. Funditus evertendi, <hi>&amp;c. Lond.</hi> 1671</item>
+               <item>77 Du Viel (Car. Mar.) Acta S. Apoſtol. ad Literam explicata <hi>Ib.</hi> 1684</item>
+               <item>78 Patronus Bonae Fidei in Cauſa Puritan. contra Hierarch. Anglic. <hi>Lond.</hi> 1672</item>
+               <item>79 Voetii (Gisb.) Aſcetica, ſive Exercitia Pietatis
+<hi>Gorichem</hi> 1664</item>
+               <item>80 Theſauri (Eman.) Patriarc. ſive Chriſti Servatoris Genealog. <hi>&amp;c. Lond.</hi> 1651</item>
+               <item>81 Caſſiani (D. Joan.) Eremitae Opera, viz. Monaſt. Inſtitut. Lib. 4. <hi>Antv.</hi> 1578</item>
+               <item>82 Molinaei (Petr.) Poematum Sacrorum Libelli tres
+<hi>Gantabr.</hi> 1670</item>
+               <pb facs="tcp:44735:10"/>
+               <pb facs="tcp:44735:11"/>
+               <pb n="9" facs="tcp:44735:11"/>
+               <item>83 Grotii (Hug.) de Imp. Summar. Poteſt. circa Sacra Lib. cum Schol. D. Blondelli <hi>Paris</hi> 1648</item>
+               <item>84 Sanderi (Nic.) de Juſtificat. contra Colloqu. Altenburg, Lib. 6. <hi>Trev.</hi> 1588</item>
+               <item>85 Bezae (Theod.) de Polygamia adverſus Ochinum,
+<hi>&amp;c. Genev,</hi> 1565</item>
+               <item>86 And. Rhodii Ethicorum Nichomach. Paraphraſis</item>
+               <item>87 Plinii Epiſtolae <hi>Oxon.</hi>
+               </item>
+               <item>88 Suetonii Opera cum Notis <hi>Oxon.</hi>
+               </item>
+               <item>89 Zoſimi Hiſtoria Gr. &amp; Lat. <hi>Oxon.</hi>
+               </item>
+               <item>90 Biblia Latina Manuſcript.</item>
+               <item>91 Smith Grammat. Quadralinguis</item>
+               <item>92 Virgilii Opera ad Uſum Delphini</item>
+               <item>93 Elenchus Motuum Nuperor. Angliae pars 1 &amp; 2 d.</item>
+               <item>94 Stephani Teſtam. Graece cum Pſalm. Angl.</item>
+               <item>95 Sandii Hiſtoria Eccleſiaſt. 2 vol.</item>
+               <item>96 — Bibliotheca Antitrinitariorum</item>
+               <item>97 Juſtini Hiſtoria cum Notis Tan. Fabri</item>
+               <item>98 Sacrae Litaniae Variae</item>
+               <item>99 Hobbs de Cive</item>
+               <item>100 Biblia Sacra Hebraice Edit. a Joh. Leuſden Typis Joſ. Athiae <hi>Amſt.</hi> 1687</item>
+               <item>101 Triplex Haereſis in M<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>al. Mater Peccati Philoſ. cum ejus 2 Catulis. <hi>Col.</hi>
+1692</item>
+               <item>102 Acta S. Apoſtol. ad
+<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>teram explic. per Car. Mar. du Veil <hi>Lond.</hi> 1684</item>
+               <item>103 Barneſii (Joan.) Catholico-Romanus Pacificus
+<hi>Oxon.</hi> 1680</item>
+               <item>104 Hulſii (Ant.) Syſtema Controverſiarum Theologicarum
+<hi>Lugd. Bat.</hi> 1677</item>
+               <item>105 Dodwelli (Henr.) Diſſertationes in Irenaeum
+<hi>Oxon.</hi> 1689</item>
+               <item>106 Geminiani (Joa.) Summa de Exemplis &amp; Rerum Similitudinibus <hi>Antv.</hi> 163<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </item>
+               <item>107 Smith (Tho.) Miſcellanea Sacra &amp; Hiſtorica
+<hi>Lond.</hi> 1690</item>
+               <item>108 Chauvin (Steph.) de Religione Naturali <hi>Roterod.</hi>
+1693</item>
+               <item>109 Smith (Tho.) Reſponſ. ad D. Simonium ſuper Fide Graecorum <hi>Lond.</hi> 1690</item>
+               <item>110 Novum Teſtament. Graece cum variant. Lection Steph. Curcellaei <hi>Amſt.</hi> 1675</item>
+               <item>111 Andrews (Lanc.) Epiſc. Winton. Preces Privatae Grae. Lat. <hi>Oxon.</hi> 1675</item>
+               <item>112 Boyle (Rob.) Cogitationes de Sacrae Scripturae Stylo
+<hi>ibid,</hi> 1665</item>
+               <item>113 Biblia Sacra &amp; N. Teſt. Interpr. J. Tremellio, Fr. Junio &amp; Th. Beza, <hi>Amſt.</hi> 1633</item>
+               <item>114 Novum Teſtam. D. N. Jeſu Chriſti ex Interpret. Theod. Bezae <hi>Lond.</hi> 1659</item>
+               <item>115 Grotius (Hug.) de Veritate Religion. Chriſtia. (Editio noviſſima) <hi>Amſt.</hi> 1675</item>
+               <item>116 Acontii (Jac.) Stratagematum Satanae, Lib. 8. 1652</item>
+               <item>117 Ameſii (Guil.) Medulla Theologica (Editio noviſſima.) 1648</item>
+               <item>118 — de Conſcientia &amp; ejus Jure vel Caſibus, Lib. 5. 1635</item>
+               <item>119 S. Clementis ad Corinthios Epiſtola cum Notis Grae. Lat
+<hi>Oxon.</hi> 1677</item>
+               <item>120 Wollebii (Joan.) Compendium Theologiae Chriſtianae
+<hi>Ibid.</hi> 1657</item>
+               <item>121 Eraſmi (Deſid.) Enchiridion Militis Chriſt. &amp; de Preparat. ad Mortem 1685</item>
+            </list>
+         </div>
+         <div type="section">
+            <pb n="10" facs="tcp:44735:12"/>
+            <head>Libri Miſcellanei in <hi>Folio.</hi>
+            </head>
+            <list>
+               <item>1 TIti Livii Romana Hiſtoria, ex Edit. Coelii Curionis, &amp;c. <hi>Baſil.</hi> 1555</item>
+               <item>2 A. Calepini Dictionarium octo Linguarum <hi>Pariſ.</hi>
+1688</item>
+               <item>3 Simſoni Chronicon Catholicon <hi>Oxon.</hi> 1652</item>
+               <item>4 Caelii Rhodigini Lectiones Antiquae — <hi>apud Froben.</hi>
+               </item>
+               <item>5 Suarez de Legibus, ac Deo Legiſlatore <hi>Lond.</hi>
+1679</item>
+               <item>6 — de Angelis <hi>Mog.</hi> 1621</item>
+               <item>7 Adagia Eraſmi, Hadriani Junii, &amp;c. <hi>Hanov.</hi>
+1617</item>
+               <item>8 Roſini Romanae Antiquitates cum Indicibus
+<hi>Baſil.</hi> 1584</item>
+               <item>9 D. R. Ballii opus Hiſtoricum &amp; Chronologicum
+<hi>Amſt.</hi> 1663</item>
+               <item>10 Sethi Calviſii opus Chronologicum <hi>Fran.</hi>
+1620</item>
+               <item>11 Caroli du Freſne Gloſſarium Graecum 2 Vol.
+1688</item>
+               <item>12 Guil. Morelli Dictionarium <hi>Lond.</hi> 1583</item>
+               <item>13 Bonati Aſtronomia cum Comment. &amp; Haly de Judiciis Aſtronom.</item>
+               <item>14 H. Briggii Arithmetice Logarithmica <hi>Lond.</hi>
+1624</item>
+               <item>15 Scapulae Lexicon cum Appendice, &amp; Indice Latino
+1629</item>
+               <item>16 Minſhaei emendatio ſeu Ductor in Linguas
+<hi>Lond.</hi> 1627</item>
+               <item>17 Fr. Suarez Metaphyſica <hi>Mog.</hi> 1605</item>
+               <item>18 Jo. Launoii Epiſtolae omnes cum quatuor Indicibus
+1689</item>
+               <item>19 L. A. Senecae Opera cum A. Mureti Notis, &amp; Jani Gruteri</item>
+               <item>20 Fr. Baconi Opera Moralia &amp; Civilia <hi>Lond.</hi>
+1638</item>
+               <item>21 Jo. Seldeni Mare Clauſum ſeu de dominio Maris
+<hi>Lond.</hi> 1635</item>
+               <item>22 Lyndewood Conſtitutiones Angliae cum Othobono, &amp;c.</item>
+               <item>23 Polydori Vergilii Anglicae Hiſtoriae <hi>Baſil</hi>
+1546</item>
+               <item>24 Car. Molinaei ſupremi Galliae Parliamenti Conſtitutiones</item>
+               <item>25 Diophanti Alexandrini Arithmetica Gr. &amp; Lat.</item>
+               <item>26 Leonardus Leſſius de Juſtitia &amp; Jure
+<hi>Lov.</hi> 1675</item>
+               <item>27 Opera Q. Horatii Flacci cum multis Doctorum Annot.</item>
+               <item>28 D. Hen. Spelmanni Gloſſarium Archaiologicum
+<hi>Lond.</hi> 1687</item>
+               <item>29 Martini Del Rio Diſquiſitiones Magicae nitidiſſime compact. 1612</item>
+               <item>30 Jo. Hen. Alſtedii Enclyclopaedia 2 Vol. 1636</item>
+               <item>31 Elementorum Euclidis Lib. 13. Gr. &amp; Lat.
+<hi>Lond.</hi> 1620</item>
+               <item>32 Th. Cooperi Theſaurus Linguae Romanae &amp; Britannicae opt. Edit. <hi>Lond.</hi> 1584</item>
+               <item>33 Herodoti Hallicarnaſſei Hiſtoria Gr. &amp; Lat.
+<hi>Lond.</hi> 1677</item>
+               <item>34 Camdeni (Guil.) Annales Rerum Anglicar. &amp; Hibern. regn. Eliz. <hi>Lond.</hi> 1619</item>
+               <item>35 Robinſoni (Hug.) Annales Mundi ex Editione D. Tho. Pierce <hi>Ibid.</hi> 1675</item>
+               <item>36 Natalis Comitis Univerſ. Hiſtoriae ſui Temp. L. 30. cum Indice, &amp;c. <hi>Ven.</hi> 1531</item>
+               <item>37 Guicciardini (Franc.) Hiſtoria ſui Temporis, item Barth. Facius de Re<g ref="char:EOLhyphen"/>bus Geſtis Alphon. I. Reg. Neapol. &amp; Joan. Jov. Pontanus de Ferdin. I. <hi>Baſil.</hi> 1566</item>
+               <item>38 Moriſoti (Claud. Barth.) Orbis Marit. ſive Res in Mari Geſtae, &amp;c. <hi>Divio.</hi> 1643</item>
+               <item>39 Ludolfi (Jobi) Hiſtoria Aethiopica, ſive Regni Habeſſinorum, &amp;c. <hi>Francf.</hi> 1681</item>
+               <item>40 Pici (Joan.) Mirandulae Concordiaeque Comitis Opera omnia
+<hi>Baſil</hi> 1557</item>
+               <item>41 Nicephori Gregorae, Laon. Chalcocondylae &amp; Geo. Log. Hiſt. Byzant. <hi>Gen.</hi> 1615</item>
+               <item>42 Plutarchi Chae<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. Ethica, ſive Moralia Latin, Interp. Herm. Cruſerio.
+<hi>Franc.</hi> 1580</item>
+               <item>43 Erpenii (Tho.) Grammat. Arabica &amp; F. Raphalengii Lexicon. Arab. <hi>L.B.</hi> 1613</item>
+               <pb facs="tcp:44735:12"/>
+               <pb facs="tcp:44735:13"/>
+               <pb n="11" facs="tcp:44735:13"/>
+               <item>44 Corn. Taciti Hiſtoria cum Annotat. Andr. Alciati — <hi>apud Froben. Baſil</hi> 1518</item>
+               <item>45 Scapulae (Joan.) Lex. Gr. Lat. cum Ind. J. Meurſii Gloſſario, &amp;c. <hi>Lugd.</hi> 1663</item>
+               <item>46 Budaei (Guil.) L. Tuſani, C. Geſneri, H. Junii, &amp;c. Lex. Gr. 2 Vol. <hi>Baſil</hi> 1572</item>
+               <item>47 L. Ann. Senecae Opera ab J. Lipſio emendata &amp; Schol. &amp;c. (Edit. 2.) <hi>Ant.</hi> 1615</item>
+               <item>48 Flav. Joſephi Opera Gr. Lat. ex Interp. Sig. Gelenii, Eraſmi Rot. &amp;c. <hi>Gen.</hi> 1634</item>
+               <item>49 Philonis Judaei Opera omnia Gr. Lat. Sigiſm. Gelenio Interprete <hi>Pariſ.</hi> 1640</item>
+               <item>50 Photii Patriarchae Conſtant. Biblioth. Gr. Lat. cum Not. D. Haeſch. &amp;c. <hi>Ro.</hi> 1653</item>
+               <item>51 Jamblichus Chalcidenſis de Myſt. Aegypt. Gr. Lat. cum Verſion. &amp;c. <hi>Oxon.</hi> 1678</item>
+               <item>52 Strabonis Geogaph. Lat. &amp; Pomp. Mela cum Com. Joach. Vadian. &amp;c. <hi>Baſ.</hi> 1523</item>
+               <item>53 Scaligeri (Joſ.) Opus de emendat. Temp. cum Vet. Graec. Fragment. <hi>Gen.</hi> 1629</item>
+               <item>54 C. Plinii Secundi Hiſtoria Naturalis cum Annot. Sigiſm. Gelenii <hi>Baſil</hi> 1554</item>
+               <item>55 Geſneri (Conr.) Hiſtor. Anim. Lib. 2. cum multis Icon. aere inciſis <hi>Francf.</hi> 1586</item>
+               <item>56 Chartoni (Gualt.) Exercitat. de Anim. cum Mant. Anat. &amp; Fig. <hi>Oxon.</hi> 1677</item>
+               <item>57 Corteſii (Joh. Bapt.) Medicina Practica cum Indicibus neceſſ. 3 V. <hi>Meſſan.</hi> 1635</item>
+               <item>58 Zwelfer (Joh.) Pharmacopaeia Regia cum Mantiſſa Spagyrica <hi>Norimb.</hi> 1668</item>
+               <item>59 Cochlitis (Barth.) Chiromantiae ac Phyſiognomoniae Anaſtaſis <hi>Bonon.</hi> 1523</item>
+               <item>60 Cl. Salmaſii Plin. Exercit. in C. J. Solini Polihiſtora in 2 Vol. <hi>Par.</hi> 1629</item>
+               <item>61 Lubienieti Theat. Cometicum cum mult. Fig. in 2 Vol.
+<hi>Amſt.</hi> 1668</item>
+               <item>62 Euripidis Tragoediae Schol. &amp; Notis J. Barnes G: L.
+<hi>Cant.</hi>
+               </item>
+               <item>63 Matt. Paris Hiſtoria Edita per Wil. Watts 1676</item>
+               <item>64 De Judaeis (Corn.) Speculum Orbis Terrar. cum Tabb. Chorograph. <hi>Anv.</hi> 1593</item>
+               <item>65 Mercatoris (Ger.) Atlas, ſive Deſcriptio totius Mundi cum Tabb. <hi>Duisb.</hi> 1595</item>
+               <item>66 Wood (Ant.) Hiſtor. &amp; Antiq. Univerſit. Oxon. (Charta maj.) <hi>Oxon.</hi> 1674</item>
+               <item>67 Hyde (Tho.) Catalogus Impreſſ. Librorum Biblioth. Bodleianae <hi>Ibid.</hi> 1674</item>
+               <item>68 Ariſtotelis Opera omnia Graece, ex Recenſione Deſ. Eraſmi <hi>Baſil</hi> 1550</item>
+               <item>69 Marſilii Ficini Florent: Opera, una cum Gnomologia 2 Vol. <hi>Pariſ.</hi> 1641</item>
+               <item>70 Demoſthenis Opera Grae: Lat. ex verſ. H. Wolfii cum Ulpiani, &amp;c. <hi>Baſil</hi> 1532</item>
+               <item>71 Haraei (Franc.) Annal. Princip. Brabant. &amp; Belgii cum Icon. 2 vol. <hi>Antv.</hi> 1623</item>
+               <item>72 M.T. Ciceron. de Offic. Lib. 3. Item Cato Major, &amp;c. cum H.W. Com. <hi>Baſ.</hi> 1569</item>
+               <item>73 Maravigliae (Joſ. Mar.) Proteus Ethico-Polit. ſeu Leges variae Doct. <hi>Ven.</hi> 1660</item>
+               <item>74 Velſeri (Marc.) Opera Hiſt. &amp; Philologica cum multis Fig. <hi>Norimb.</hi> 1682</item>
+               <item>75 Abbatis Uſpergenſ. Chron. a Nino ad Car. 5. cum Icon. Imp. &amp;c. <hi>Argent.</hi> 1537</item>
+               <item>76 Luciani Opera Gr. Lat. cum Notis J. Bourdelotii, Theod. Marc. &amp;c. <hi>Pariſ.</hi> 1615</item>
+               <item>77 Demoſthenis Orationes &amp; Epiſtolae Graece cura Guil. Morelii <hi>Ibid.</hi> 1570</item>
+               <item>78 Ferrarii (Phil.) Lexicon Geograph. cum Tabb. Longitud. &amp; Latit. <hi>Lond.</hi> 1657</item>
+               <item>79 Budaei (Guil.) Commentarii Linguae-Graecae — <hi>apud Bebel. Baſil</hi> 1530</item>
+               <item>80 Munſteri (Sebaſt.) Coſmographiae Univerſalis Lib.
+6. cum Sculpt. <hi>Ibid.</hi> 1554</item>
+               <item>81 Grotii (Hug.) Grollae Obſidio, Petr. Potocii, &amp;c. Panegyr. Uladiſlao IV. dicat. Dion. Voſſii Paneg. Fred. Henr. Arauſ. Principi, &amp;c. <hi>Amſt.</hi> 1629</item>
+               <item>82 Ferretti (Jul.) de Re &amp; Diſciplina Militari Tractatus <hi>Venet.</hi> 1575</item>
+               <item>83 Helvici (Chriſt.) Theatrum Hiſtor. Chron. reviſ. ab J. Balt. Schuppio <hi>Oxon</hi> 1651</item>
+               <item>84 Matthaei Weſtmonaſterienſis Flores Hiſtoriarum
+<hi>Lond.</hi> 1567</item>
+               <item>85 Scapulae (Joan.) Lexicon Graeco-Latinum cum Indicibus, &amp;c. <hi>Baſil</hi> 1595</item>
+               <item>86 Xenophontis Opera Grae. Lat. cum Notis Joh. Leuncl. &amp; Ae. Porti <hi>Franc.</hi> 1596</item>
+               <item>87 Rerum Anglic. Henr. 8. Edv. 6. &amp; Maria Regnantibus Annales <hi>Lond.</hi> 1616</item>
+               <item>88 Euclidis-Element. Geometr. Lib. 15. cum Expoſit. Theonis, Hypſ. &amp;c. <hi>Baſ.</hi> 1537</item>
+               <item>89 Ven. Bedae de Natura Rerum &amp; Temporum Ratione Lib. 2.
+<hi>Ibid.</hi> 1529</item>
+               <item>90 Aur. Macrobii Opera ex vetuſtiſſimis M.SS. Codd. recognita <hi>Ibid.</hi> 1535</item>
+               <pb n="12" facs="tcp:44735:14"/>
+               <item>91 Perretti (Nic.) Cornu Copiae, ſeu Latinae Linguae Com. Locupletiſſ. <hi>Ibid.</hi> 1526</item>
+               <item>92 Jamblicus Chalcid. de Myſteriis Aegypt. Gr. Lat. per Tho. Gale <hi>Oxon</hi> 1678</item>
+               <item>93 Voſſii (Ger. Joh.) &amp; Clarorum Virorum ad eum Epiſtolae <hi>Lond.</hi> 1690</item>
+               <item>94 Holyoke (Tho.) Diction. Magnum Latino-Angl. &amp; Angl. Latin. <hi>Ibid</hi> 1677</item>
+               <item>95 Du Freſne (Car.) Gloſſarium ad Script. Med. &amp; infimae Lat. 3 Vol. <hi>Fran.</hi> 1681</item>
+               <item>96 Calvini (Joh.) Lexicon Juridicum accurate recognitum</item>
+               <item>97 Freheri (Marqu.) Theatrum Viror. Erud. Clar. cum Icon. 2 Vol. <hi>Norib.</hi> 1688</item>
+               <item>98 Chauvini (Steph.) Lexicon Philoſophicum cum Schem. &amp; Fig. <hi>Roterod.</hi> 1692</item>
+               <item>99 Hiſtoria &amp; Antiquit. Univerſitat Oxonienſ. per Ant. a Wood <hi>Oxon</hi> 1674</item>
+               <item>100 Puffendorfii (Sam.) Commentaria de Rebus Suecicis
+<hi>
+                     <g ref="char:V">Ʋ</g>ltraj</hi> 1688</item>
+               <item>101 Moriſoni (Rob.) Plantar. Hiſtoriae Univerſalis Pars Secunda <hi>Oxon</hi> 1680</item>
+               <item>102 Herculis Saxoniae Pantheum Medicinae Practicae Selectum
+<hi>Francof.</hi>
+               </item>
+               <item>103 Weckeri (Joh.) Medicinae utriuſque Syntaxes ex Medicis Theſauris <hi>Baſil</hi>
+               </item>
+               <item>104 Scriptores Optimi de Chirurgia in Germania conjunctim Editi <hi>Tigur.</hi> 1555</item>
+               <item>105 Hildani (Fabr.) Opera Omnia cum Severino (Editio optima)
+<hi>Francof.</hi> 1682</item>
+               <item>106 Malpighii (Marc.) Opera Iconibus elegantiſſimis illuſt. (Edit. ult.) <hi>Lon.</hi> 1687</item>
+               <item>107 Moaebii (Goth.) Synopſes Epitomes Inſtitut. Medicinae
+<hi>Jenae.</hi> 1690</item>
+               <item>108 Diemerbroeck (Isbr. de) Opera Medica omnia &amp; Anatom. cum Fig. 1685</item>
+            </list>
+         </div>
+         <div type="section">
+            <head>Libri Miſcellanei in <hi>Quarto.</hi>
+            </head>
+            <list>
+               <item>1 Jo Micraelii Syntagma Hiſtoriarum Politicarum 1654</item>
+               <item>2 Jo. Cluverii Hiſtoriarum totius Mundi Epitome
+<hi>Amſt.</hi> 1668</item>
+               <item>3 Henrici Kippingi Recenſus Hiſtoriae Univerſalis
+<hi>Brem.</hi> 1665</item>
+               <item>4 Chriſt. Matthiae Theatrum Hiſtoricum Theoretico-practicum 1689</item>
+               <item>5 Jo. Herburti rerum Polonicarum Chronicon <hi>Baſil</hi>
+1615</item>
+               <item>6 Jo. Alphonſus Borellus de motionibus naturalibus a gravitate pendent. 1620</item>
+               <item>7 Plinii Epiſtolae &amp; Panegyricus cum Catanaei Comment.
+1601</item>
+               <item>8 Phil. Launsberii Commentationes in motum Terrae
+<hi>Mid.</hi> 1630</item>
+               <item>9 Pauli Voet prima Philoſophia Reformata 1657</item>
+               <item>10 Ren. Des Cartes Opera Philoſophica <hi>Amſt.</hi>
+1672</item>
+               <item>11 Sam. Pufendorf de Jure Naturae &amp; Gentium 1672</item>
+               <item>12 Nic. Cragii de Republica Lacedaemoniorum, Lib. 4.
+1593</item>
+               <item>13 Guil. Seaman Grammatica Linguae Turcicae <hi>Oxon</hi>
+1670</item>
+               <item>14 Th. Erpenii Grammatica Arabica <hi>Amſt.</hi>
+1636</item>
+               <item>15 D. Zouch elementa Juris-prudentiae, <hi>&amp;c. Oxon.</hi>
+1636</item>
+               <item>16 D. Wallis Tractatus Geometricus de motu <hi>L.</hi>
+1670</item>
+               <item>17 M. Z. Boxhornii Hiſtoria Univerſalis Sacra &amp; Prophana 1675</item>
+               <item>18 Chemia Rationalis, &amp; praxis Chymiatrica Rationalis
+<hi>L.</hi> 1687</item>
+               <item>19 Ger. Jo. Voſſii Ars Hiſtorica <hi>L. B.</hi>
+1623</item>
+               <item>20 P. Rami Praelectiones in Ciceronis Orationes &amp; ejus vita.</item>
+               <item>21 Jobi Ludolphi Lexicon Aethiopico-Latinum <hi>Lond.</hi>
+1661</item>
+               <item>22 Abrahami Ortelii Theſaurus Geographicus recognitus &amp; auctus.</item>
+               <item>23 — Synonyma Geographica <hi>Antv.</hi> 1578</item>
+               <item>24 Laurentii Amalthea Onomaſtica <hi>Lucae</hi> 1640</item>
+               <item>25 Sixti Senenſis Bibliotheca Sancta <hi>Col</hi>
+1626</item>
+               <item>26 Iſ. Nowton Philoſophiae Naturalis Principia Mathematica <hi>
+                     <gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>d</hi> 1687</item>
+               <pb facs="tcp:44735:14"/>
+               <pb facs="tcp:44735:15"/>
+               <pb n="13" facs="tcp:44735:15"/>
+               <item>27 Ogygia ſeu Rerum Hibernicarum Chronologia <hi>Lond.</hi>
+1685</item>
+               <item>28 Richerii Vindiciae Doctrinae Majorum Schotae Pariſienſis 1683</item>
+               <item>29 Jo. Pierii Hieroglyphica <hi>Col. Agrip.</hi> 1631</item>
+               <item>30 Scoti Apparatus Latinae Locutionis <hi>Col. Allob.</hi>
+1621</item>
+               <item>31 Jo. Wieri Opera omnia <hi>Amſt.</hi> 1660</item>
+               <item>32 Pomp. Gaurici Neopolitani de Scriptur. Liber.</item>
+               <item>33 Praxis Franciſci Clarke in Foro Eccleſiaſtico
+<hi>Lond.</hi> 1666</item>
+               <item>34 D. Burneti Telluris Theoria Sacra <hi>Lond.</hi>
+1681</item>
+               <item>35 Cumberland (R.) de Legibus Naturae Diſquiſ. &amp; Refut. Philoſ. Hobb. <hi>Lond.</hi> 1672</item>
+               <item>36 Pufendorfii (Sam.) de Jure Naturae &amp; Gentium, Lib. 8.
+<hi>Lond. Scan.</hi> 1672</item>
+               <item>37 Riolani (Joh.) Opuſcula Anatom. Nova, de Motu Sanguinis,
+<hi>&amp;c. Lond.</hi> 1649</item>
+               <item>38 Licetus (Fortun.) de Monſtror. Cauſis Nat. &amp; Different. cum Iconib. <hi>Patav.</hi> 1634</item>
+               <item>39 Voſſius (Ger. Joh.) de Philoſoph. &amp; Philoſophorum Sectis, Lib. 2. <hi>Hag.</hi> 1658</item>
+               <item>40 Deſcartes (Ren.) Epiſt. partim Lat. partim Graece Conſcrip. 2 vol. <hi>Lond.</hi> 1668</item>
+               <item>41 De Dieu (Ludov.) Gram. Linguar. Orient. <hi>viz.</hi> Hebr. Chald. &amp; Syr. <hi>L. Bat.</hi> 1628</item>
+               <item>42 Scylacis Caryand. Peripl. item Peripl. Ponti Euxini cum Not. Iſ. Voſsii <hi>Amſt.</hi> 1639</item>
+               <item>43 Voſsii (Iſ.) Variarum Obſervationum Liber Singularis
+<hi>Lond.</hi> 1685</item>
+               <item>44 — (Ger. Joh.) Chronol. Sacra, ſive de ultimis Mundi Antiquit. <hi>Hagu.</hi> 1659</item>
+               <item>45 Pearſonii (Joh.) Opera Poſthu. Chronol.
+<hi>&amp;c.</hi> edita ab Henr. Dodwel <hi>Lond.</hi> 1688</item>
+               <item>46 Voſsii (Matth. Annal. Holland. Zelandiaeque Edit. 2da. cura A. Borr. <hi>Amſt.</hi> 1680</item>
+               <item>47 Chaloneri (Tho.) de Republ. Angl. Lib. 10. &amp; alia Poemata Miſcell. <hi>Lond.</hi> 1579</item>
+               <item>48 Plauti Comoediae cum Notis Paraei 1623</item>
+               <item>49 Mich. Apoſtolii Paroem. G. L. cum Verſione P. Pantini, L. B. 1629</item>
+               <item>50 Juliani Imperatoris Opera Omnia G. L. <hi>Paris</hi>
+1630</item>
+               <item>51 Merulae (Paul.) Coſmogr. General. &amp; Particul. cum Tab. Geogra. <hi>Antv.</hi> 1605</item>
+               <item>52 Aitzema (Leon. ab) Hiſtor. Pacis a Foederat. Belgis tractatae <hi>Lugd. Bat.</hi> 1654</item>
+               <item>53 C. Corn. Taciti &amp; Vell. Paterculi Opera cum Com. Juſt. Lipſii <hi>Antv.</hi> 1600</item>
+               <item>54 Lipſii (Juſt.) Epiſtolarum Selectarum Centuria Singularis <hi>Ibid.</hi> 1605</item>
+               <item>55 Roſini (Joh.) Antiquitat. Roman. Corpus a Tho. Dempſtero auctum <hi>Genev.</hi> 1555</item>
+               <item>56 Cauſſini (Nic.) de Eloquentia Sacra &amp; Humana, Lib.
+16. cum Indic. <hi>Paris</hi> 1637</item>
+               <item>57 Vet. Graecor. Poetar. Epigram. Grae-Lat. Inter. Eilh. Lubino apud Commel. 1604</item>
+               <item>58 Alvarez (Balt.) Vita Latine reddita a Car. Bovio
+<hi>Antv.</hi> 1670</item>
+               <item>59 Boteri (Joh.) Mundus Imperior. &amp; ejuſd. de Origine Urbium Tractat <hi>Lipſ.</hi> 1667</item>
+               <item>60 Simſoni (Edv.) Moſaica, ſive Chronicon Hiſtor. Cathol. complect. <hi>Canta.</hi> 1652</item>
+               <item>61 Stierii (Joan.) Praecepta Doctr. Logic. Ethic. Phyſ.
+<hi>&amp;c.</hi> Tab. compacta <hi>Lond.</hi>
+               </item>
+               <item>62 Gentii (Geo.) Hiſt. Judaica ab everſa Aede Hieroſol. ad haec Temp. <hi>Amſt.</hi> 1651</item>
+               <item>63 Gaſſendio (Petr.) Vita Tych. Brahei, item N. Cupern. Geo. Perbach. <hi>&amp;c. Ha.</hi> 1655</item>
+               <item>64 Claubergii (Joh.) Opera Phyſica &amp; ejuſdem Metaphyſica <hi>Amſt.</hi> 1664</item>
+               <item>65 Heereboord (Adr.) Meletemata Philoſoſph. ut plur. Metaphyſica <hi>Lugd. Bat.</hi> 1654</item>
+               <item>66 Buredani (Joh.) Quaeſtiones in 10. Lib. Ethicorum Ariſtotelis <hi>Oxon.</hi> 1637</item>
+               <item>67 Cevallerii (Ant. Rod.) Rudimenta Hebr. Linguae accurate conſcript. <hi>Viteb.</hi> 1574</item>
+               <item>68 Riſebergii (Laur.) de Rebus Gallicis Praecipuis Epitome,
+<hi>Helmſtad.</hi> 1594</item>
+               <item>69 Myricaei (Joh. Gaſp.) Grammaticae Syro-Chaldeae, Lib. 2.
+<hi>Genev.</hi> 1619</item>
+               <item>70 Wendelini (Marc. Frid.) Contempl. Phyſicae &amp; Admiranda Nili <hi>Cant.</hi> 1648</item>
+               <item>71 Rami (Petr.) Praelect in Ciceronis Orat. Conſular. cum ipſius Vita <hi>Baſi.</hi> 1575</item>
+               <item>72 Pearſonii (Joh.) Opera Poſth. Chronol. Edit. per H. Dodvellum <hi>Lond.</hi> 1688</item>
+               <item>73 M. T. Ciceronis Opera ex recenſ. &amp; cum Notis Gronovii, 2 Vol. 1692</item>
+               <item>74 Mabillon (Joh.) Muſaeum Italic. ſeu Collect. Script. Vet. cum Fig. <hi>Paris.</hi> 1687</item>
+               <pb n="14" facs="tcp:44735:16"/>
+               <item>75 Boxhornii (M. Zuer.) Hiſto. Univerſalis Sacra &amp; Profana <hi>Francof.</hi> 1675</item>
+               <item>76 Voſſii (Iſ.) Obſervat. Variae de Magnitudine. Urbis Romae, <hi>&amp;c. Lond.</hi> 1685</item>
+               <item>77 Fabri (Tan.) Epiſtolae Omnes in duabus Partibus
+<hi>Salmur.</hi> 1674</item>
+               <item>78 Gliſſonius (Franc.) de Natura Subſtantiae, ſeu Vita Naturae <hi>Lond.</hi> 1672</item>
+               <item>79 Mead (Sam.) Oratio pro Populo Anglicano <hi>
+                     <g ref="char:V">Ʋ</g>ltraj.</hi>
+1689</item>
+               <item>80 Seldenus (Joan.) de Nummis; Item Bibliotheca Nummaria
+<hi>Lond.</hi> 1675</item>
+               <item>81 De la Forge (Lud.) de Mente Humana ſecundum principia Carteſ. <hi>Amſt.</hi> 1669</item>
+               <item>82 Velthuſii (Lamb.) Opera Omnia, 2 Vol. <hi>Roterod.</hi>
+1680</item>
+               <item>83 Ward (S.) de Cometis &amp; earum Natura <hi>Oxon.</hi>
+1653</item>
+               <item>84 Matthiae (Chriſt.) Theatr. Hiſtor. Theoretico-Practicum <hi>Francof.</hi> 1689</item>
+               <item>85 Hankius (Mart.) de Romanarum Rerum Scriptoribus
+<hi>Lipſ.</hi> 1669</item>
+               <item>86 Petra Sancta (Sylv.) Symbola Heroica Iconibus illuſtrata
+1682</item>
+               <item>87 Creinii Methodus Studiorum optime Inſtituendorum
+<hi>Roterod.</hi> 1692</item>
+               <item>88 Gallaei Diſſertat. de Sibyllis earumque Oraculis cum Figur. <hi>Amſt.</hi> 1688</item>
+               <item>89 Pufferdorf (Sam.) de Jure Naturali &amp; Gentium (Caret. Titulo.)</item>
+               <item>90 Collectanea Chymica Leydenſia, per Chriſtoph. Love-Morley <hi>Lugd. Bat.</hi> 1684</item>
+               <item>91 Dolaei (Joh.) Encyclopaedia Chirurgica Rationalis
+<hi>Francof.</hi> 1689</item>
+               <item>92 Ryſchii (Fred.) Obſervationes Anatomico-Chirurgicae cum Fig. <hi>Amſt.</hi> 1691</item>
+               <item>93 Bartolettus (Fab.) de Reſpirationibus <hi>Bonon.</hi>
+1633</item>
+               <item>94 Michaelis (Joh.) Opera Omnia Medico-Chirurgica
+<hi>Norib.</hi> 1688</item>
+               <item>95 Dolaei (Joh.) Encyclopaedia Medicinae Theoretico-Practicae
+<hi>Amſt.</hi> 1688</item>
+               <item>96 Willis (Tho.) de Anima Brutorum (Charta Maj.) cum Sculpt
+<hi>Oxon.</hi> 1672</item>
+               <item>97 Waltheri (Geo.) Sylva Medica opulentiſsima
+<hi>Budiſs.</hi> 1679</item>
+               <item>98 Munnicks Praxis Chirurgiae ad praxin Hodiernam adornat
+1689</item>
+               <item>99 Bartholini (Tho.) Acta Medica &amp; Philoſoph. vol. 3.
+4. &amp; 5. cum Fig. 685</item>
+               <item>100 Pierius de Ruminantibus &amp; Ruminatione cum Sculpt.
+<hi>Baſil.</hi> 1</item>
+            </list>
+         </div>
+         <div type="section">
+            <head>Livres Francois <hi>Quarto.</hi>
+            </head>
+            <list>
+               <item>1 VOyage de Franc. Pyral. Delav. en trois Part. par le Sieur Du Val <hi>a Par.</hi> 1679</item>
+               <item>2 Conformi. de la Diſ. Eccleſ. des Prot. de Fr. avec celle des Anc. Chr. <hi>Eu.</hi> 1677</item>
+               <item>3 Abrege des Langues Francoiſe &amp; Lat. par Philib. Monet (5 Edit.) <hi>Paris</hi> 1685</item>
+               <item>4 Hiſtoire Critique du Vieux Teſt. par Rich. Simon (1 Edit.) <hi>Amſt.</hi> 1680</item>
+            </list>
+         </div>
+         <div type="section">
+            <head>Libri Miſcellanei in <hi>Octavo.</hi>
+            </head>
+            <list>
+               <item>1 ANt. le Grand Inſtitutio Philoſophiae <hi>Lond.</hi>
+1675</item>
+               <item>2 Sheringham de Anglorum Gentis Origine <hi>Cant.</hi>
+1620</item>
+               <item>3 Andraei Alciati Emblemata, cum Claudii Minois Comment.
+1608</item>
+               <item>4 Becmannus de Originibus Linguae Latinae Opt. Edit.
+1629</item>
+               <item>5 Annales Machaelis Glycae <hi>Baſil.</hi> 1572</item>
+               <item>6 Raymundi Lullii Opera O<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ia. <hi>Argent.</hi> 1651</item>
+               <item>7 H. Grotius de Jure Belli &amp; Paeis <hi>Amſt.</hi>
+1650</item>
+               <item>8 Diogenes de Vitis &amp; Philoſ. &amp; Heſychius cum Caſauboni Notis</item>
+               <pb facs="tcp:44735:16"/>
+               <pb facs="tcp:44735:17"/>
+               <pb n="15" facs="tcp:44735:17"/>
+               <item>9 M. Acci Plauti Comoediae cum Phil. Paraei Notis 1610</item>
+               <item>10 Julii Caeſaris Commentarii cum ſelectis Variorum Comment 1601</item>
+               <item>11 Horatii Opera ad uſum Delphini <hi>Lond.</hi>
+1696</item>
+               <item>12 Juſtini Hiſtoria cum Notis Variorum <hi>L. B.</hi>
+1684</item>
+               <item>13 M. Accius Plautus cum Notis Variorum <hi>Amſt.</hi>
+1669</item>
+               <item>14 Julii Caeſaris Comment. in uſum Delphini
+<hi>Lond.</hi> 1693</item>
+               <item>15 C. Cornelii Taciti Opera omnia cum Lipſii Comment. 2 Vol.</item>
+               <item>16 Aulus Perſius cum Iſaaci Caſauboni Comment.
+<hi>Pariſ.</hi> 1615</item>
+               <item>17 Levinus Lemnius de miraculis occultis Naturae
+<hi>Antv.</hi> 1581</item>
+               <item>18 H. C. Agrippa de occulta Philoſophia 1567</item>
+               <item>19 Guil. Camdeni Britannia <hi>Lond.</hi> 1590</item>
+               <item>20 Iſocratis Scripta Gr. &amp; Lat. per Wolphium</item>
+               <item>21 Natalis Comitis Mythologiae 1653</item>
+               <item>22 Theophraſti Notationes Morum Gr. &amp; Lat. cum Cauſauboni Comment.</item>
+               <item>23 Herodiani Hiſtoriae ſui temporis Gr. &amp; Lat.
+1630</item>
+               <item>24 Albericus Gentilis de Armis Romanis <hi>Han.</hi>
+1612</item>
+               <item>25 Horne de uſu Authoris <hi>Lond.</hi> 1687</item>
+               <item>26 Le Grand de Carentia ſenſus &amp; cognitionis in Brutis</item>
+               <item>27 Vander Linden de Scriptis Medicis <hi>Amſt.</hi>
+1651</item>
+               <item>28 Caius de Antiquitate Cantabrigienſis Academiae
+<hi>Lond.</hi> 1568</item>
+               <item>29 Julii C. Scaligeri de cauſis Linguae Latinae Lib. 13.
+1580</item>
+               <item>30 Ciceronis Orationes cum Notis Th. Freigii 3 Vol.</item>
+               <item>31 Georgii Fabritii de re Poetica Libri 7. <hi>Lipſiae</hi>
+1574</item>
+               <item>32 Berneggeri Quaeſtiones Miſcellaneae ex Corn. Taciti Scriptis</item>
+               <item>33 Commentarii Eilhardi Lubini in Auli Perſii Satyras
+1595</item>
+               <item>34 Onuphrii Panvinii Reipublicae Romanae Commentariorum, Lib.
+3.</item>
+               <item>35 L. Annaei Senecae Opera omnia, 2 Vol. <hi>Gen.</hi>
+1626</item>
+               <item>36 Ger. Joh. Voſſii Grammatica Graeca <hi>Lugd. Bat.</hi>
+1642</item>
+               <item>37 Jo. Hen. Urſini Atrium Latinitatis <hi>Franc.</hi>
+1657</item>
+               <item>38 D. Sharrock de Officiis ſecundum Naturae Jus
+<hi>Oxon.</hi> 1660</item>
+               <item>39 Caſtelli Lexicon Medicum Graeco-Latinum 1668</item>
+               <item>40 Plinii Epiſtolae, &amp;c. <hi>Venet.</hi> 1508</item>
+               <item>41 L. Marcus Antoninus de vita ſua Graec. &amp; Lat.
+<hi>Lugd.</hi> 1626</item>
+               <item>42 Walkeri Idiom. &amp; Phraſes <hi>Lond.</hi> 1670</item>
+               <item>43 Aeſopi Fabulae Gr. &amp; Lat. cum Figuris
+<hi>Amſt.</hi> 1672</item>
+               <item>44 D. Lower Vindicatio D. Williſii <hi>Lond.</hi>
+1665</item>
+               <item>45 G. Hornii rerum Britannicarum Libri Septem 1648</item>
+               <item>46 D. Waltoni Introductio ad Lectionem Linguarum Oriental. &amp;c.</item>
+               <item>47 Ravis Grammatica General. <hi>L<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>d.</hi> 1640</item>
+               <item>48 H. Grotii &amp; aliorum Diſſertationes de Studiis Inſtituendis</item>
+               <item>49 De Symbolica Aegyptiorum Sapientia <hi>Colon.</hi>
+1631</item>
+               <item>50 Jo. Barclaii Argenis <hi>Lugd. Bat.</hi> 1627</item>
+               <item>51 Helvetiorum Reſpublica — <hi>apud Elzev. Lugd. Bat.</hi>
+               </item>
+               <item>52 Hier. Cardani Arana Politica 1633</item>
+               <item>53 Gisberti Voetii Bibliotheca Studioſi Theologiae
+1644</item>
+               <item>54 Jo. Baptiſtae Portae Magia Naturalis <hi>Lugd. Bat.</hi>
+1644</item>
+               <item>55 D. R. Zouch Quaeſtionum Juris Civilis Centuria
+<hi>Lond.</hi> 1682</item>
+               <item>56 S. Pufendorf Elementa Juriſprudentiae <hi>Cant.</hi>
+1672</item>
+               <pb n="16" facs="tcp:44735:18"/>
+               <item>57 Corvini Definitio<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>s Juris Civilis <hi>Amſterd.</hi> 1652</item>
+               <item>58 Franzii Animalium Hiſtoria Sacra <hi>Amſt.</hi>
+1612</item>
+               <item>59 D. Heinſii Crepundia Siliana <hi>Cant.</hi> 1646</item>
+               <item>60 Fienus de viribus imaginationis <hi>Lond.</hi> 1657</item>
+               <item>61 Heurnii Comment. in Hyppocratis Aphoriſmos 1667</item>
+               <item>62 Cauſſinus (Nic.) de Symbolica Aegyptiorum Sapientia
+<hi>Colon.</hi> 1631</item>
+               <item>63 Kirchmanni (Joh.) Comment. de Vetuſtis Regibus Norvagicis, &amp;c. <hi>Amſt.</hi> 1684</item>
+               <item>64 Gregorii (Franc.) Etymologicum Parvum Linguae Graecae
+<hi>Lond.</hi> 1654</item>
+               <item>65 Schrevelii (Corn.) Lexicon Manuale auctum a Joſ. Hill
+<hi>Cantabr.</hi> 1668</item>
+               <item>66 Smetii (Henr.) Proſodia in novam formam digeſta
+<hi>Rothom.</hi> 1655</item>
+               <item>67 Schickardi (Wilh.) Horologium Ebraeum (Editio ultima)
+<hi>Lond.</hi> 1675</item>
+               <item>68 Du-Gard (Guil.) Rhetorices Elementa Quaeſt. &amp; Reſponſ. explic. <hi>Ibid.</hi> 1688</item>
+               <item>69 C. Plinii ſecundi Epiſtolarum Lib. 10. cum ſelectiſſimis Var. Not. <hi>L.B.</hi> 1669</item>
+               <item>70 Sanderſoni (Rob.) Logicae Artis Compendium (Editio ſexta) <hi>Oxon.</hi> 1664</item>
+               <item>71 — de Juramenti promiſiorii Obligatione Praelectiones VIII. <hi>Lond.</hi> 1683</item>
+               <item>72 Baronii (Rob.) Metaphyſica Generalis &amp; Specialis
+<hi>Lugd. Bat.</hi> 1657</item>
+               <item>73 Bleau (Guil.) Inſtitutio Aſtronomica de Uſu Globorum &amp; Sphaer. <hi>Amſt.</hi> 1640</item>
+               <item>74 Raii (Joh.) Catalogus Plantarum Angliae &amp; Inſularum adjacentium <hi>Lond.</hi> 1670</item>
+               <item>75 Sacra Bibliothecarum illuſtrium Arcana retecta <hi>Aug. Vind.</hi> 1668</item>
+               <item>76 P. Terentii Comoediae in Uſum Delphini 1688</item>
+               <item>77 P. Ovidii Metamorphoſes in Uſum Delphini 1696</item>
+               <item>78 Fleetwood (Guil.) Inſcriptionum Antiquar. Sylloge in 2 Part. diſtr. <hi>Lond.</hi> 1691</item>
+               <item>79 Flaccius Illyricus (Mat.) de Tranſlat. Imp. Rom. ad Germ. &amp; de Electione Epiſc. Item de Jure Regni &amp; Imp. Rom. &amp; de Donat. Conſtant. Tract. &amp;c. <hi>Baſil.</hi> 1566</item>
+               <item>80 Smith (Tho.) Miſcell. viz. Narrat. de Vita Cyrilli Lucarii, <hi>&amp;c. Lond</hi> 1686</item>
+               <item>81 Bleyenburgii (Dam.) Veneres, ſive Amor. Hortus 148 Floſcul. refert. <hi>Dordr.</hi> 1600</item>
+               <item>82 Valeſii (Petr.) Cauſa Valeſiana Epiſtolis ternis praelibata <hi>Lond.</hi> 1684</item>
+               <item>83 Schotani (Joh.) Exetaſis Cenſurae Huetianae in Philoſoph. Carteſ. <hi>Franek.</hi> 1691</item>
+               <item>84 Lipſii (Juſt.) Epiſtol. Select. Chilias cum Indice locupleriſs. <hi>Avenion.</hi> 1609</item>
+               <item>85 Buchanani (Geo.) Poemata Varia, viz. Franciſc. Eleg. &amp; Syl. Lib. &amp;c. <hi>Genev.</hi> 1594</item>
+               <item>86 Theophraſti Ethici Char. Grae. Lat. cum Verſ. &amp; Comment. Iſ. Caſaub. <hi>Lug.</hi> 1618</item>
+               <item>87 L. Ann. Senecae Philoſ. &amp; M. Ann. Senecae Rhetoris Opera Omnia <hi>Genev.</hi> 1618</item>
+               <item>88 Barclaii (Joh.) Argenis, Varior. Annotat, illuſtrata, 2 vol. <hi>Lugd. Bat.</hi> 1669</item>
+               <item>89 — Euphormionis Luſinini Satyricon cum Var. Comment. <hi>Ibid.</hi> 1674</item>
+               <item>90 Eraſmi (Deſ.) Colloquia cum Selectis Variorum Notis (Titulus deeſt.)</item>
+               <item>91 Q. Horatii Flacci Poemata cum Interpr. &amp; Notis ad ufum Delphini <hi>Lond.</hi> 1690</item>
+               <item>92 Val. Maximi Opera cum Varior Obſerv. &amp; recenſ. Ant. Thyſii <hi>Lugd. Bat.</hi> 1670</item>
+               <item>93 C. Jul. Caeſaris Commentaria cum ſelectiſs. Variorum Notis</item>
+               <item>94 C. Suetonii Tranquilli quae extant cum Annotat. Variorum</item>
+               <item>95 M. Acc. Plauti Comoediae ex recenſione &amp; cum Notis Doctorum</item>
+               <item>96 Q. Curtii Rufi Hiſt. Alexandri Magni cum Variorum Comment.</item>
+               <item>97 D. Jun. Juſtini Hiſtoria cum Variorum Obſervationibus</item>
+               <item>98 M.T. Ciceronis Opera ex recenſ. &amp; cum Notis J.F. Gronovii 11 Vol. <hi>Amſt.</hi> 1692</item>
+               <item>99 Criſp. Salluſtii quae extant cum Notis Variorum (Edit. optima) <hi>Ibid.</hi> 1690</item>
+               <item>100 Ann Lucani Pharſalia cum Variorum Annotationibus
+<hi>Lugd. Bat.</hi> 1669</item>
+               <item>101 Van Dalen (Jo.) de Oraculis Ethnicorum, Lib.
+<hi>Amſt.</hi> 1683</item>
+               <item>102 Zoſimi Hiſtor. Novae, Lib. 6. Grae Lat. Notis Illuſtratae <hi>Oxon.</hi> 1679</item>
+               <item>103 Batci (Geo.) Elenchi Motuum nuperorum in Angl. Pars 2da.
+<hi>Lond.</hi> 1663</item>
+               <pb facs="tcp:44735:18"/>
+               <pb facs="tcp:44735:19"/>
+               <pb n="17" facs="tcp:44735:19"/>
+               <item>104 Herodiani Hiſtor. Lib. 8. Grae. Lat. cum H. Stephani Expoſit. <hi>Lugd.</hi> 1640</item>
+               <item>105 Andronici Rhodii Ethicorum Nicomachorum Paraphraſis Gr. Lat. <hi>Can.</hi> 1679</item>
+               <item>106 Euclidis Elementa Geometr. breviter demonſtrata ab Iſ. Barrow <hi>Lond.</hi> 1678</item>
+               <item>107 Bogan (Zach.) Comparatio Homeri cum Scriptoribus Sacris
+<hi>Oxon.</hi> 1658</item>
+               <item>108 Hiſtor. Poet. Scriptores Antiqui Grae. Lat. Editi per Tho. Gale <hi>Pariſ.</hi> 1675</item>
+               <item>109 Raii (Joh.) Synopſis Method. Animal. Quadruped. &amp; Serpentum <hi>Lond.</hi> 1693</item>
+               <item>110 Varenii (Bern.) Deſcriptio Regni Japoniae &amp; Siam
+<hi>Cantabr.</hi> 1673</item>
+               <item>111 Decerpta ex Ovidio, Tibullo, Propertio &amp; Paedone
+<hi>Lond.</hi> 1692</item>
+               <item>112 Lomeyerus (Joh.) de Bibliothecis (Editio ſecunda)
+<hi>
+                     <g ref="char:V">Ʋ</g>ltraj.</hi> 1680</item>
+               <item>113 Vries (Ger. de) de Carteſii Meditat. Diſſertationes Hiſtoricae <hi>Ibid.</hi> 1691</item>
+               <item>114 Inſtitutio Aſtronomica de Uſu Globorum ſecund. 2 Hypotheſes <hi>Amſt.</hi> 1646</item>
+               <item>115 Guſtleri (Nic.) Hiſtoria Templariorum <hi>Ibid.</hi>
+1691</item>
+               <item>116 Peutengerus (C.) de Finibus Germaniae contra Gallos
+<hi>Jen.</hi>
+               </item>
+               <item>117 Megerlini (Petr.) Syſtema Mundi Copernicum
+<hi>Amſter.</hi> 1682</item>
+               <item>118 Lotichii (Petr.) Ecloga cum Notis Philologicis Joach. Felleri <hi>Lipſ.</hi> 1690</item>
+               <item>119 Le Grand (Ant.) Apologia pro Carteſio contra
+<hi>S.</hi> Parkerum <hi>Lond.</hi> 1679</item>
+               <item>120 Schefferus (Joh.) de Generoſi Nobilis Informatione Literaria <hi>Hamburg.</hi> 1683</item>
+               <item>121 Boyle (Rob.) Experimenta circa Qualitatum Originem
+<hi>Lond.</hi> 1692</item>
+               <item>122 Saldenus de Uſu ac abuſu Librorum <hi>Amſt.</hi>
+1688</item>
+               <item>123 L. Flori Hiſtoriae Romanae Epitome cum Variorum Notis
+<hi>Amſt.</hi> 1674</item>
+               <item>124 Paſcalius (Car.) de Coronis Tractat. decem Libris diſtinct. <hi>Lugd. Bat.</hi> 1671</item>
+               <item>125 L. Flori quae extant cum Notis Joh. Min-Ellii 1680</item>
+               <item>126 C. Suetonii Tranquilli Opera Notis illuſtrata
+<hi>Oxon.</hi> 1676</item>
+               <item>127 Rhetores Selecti Grae. Lat. Edita a Tho. Gale
+<hi>Ibid.</hi> 1676</item>
+               <item>128 Barclaii (Joh.) Argenis cum Variorum Notis 2 Vol.
+<hi>Lugd. Bat.</hi> 1664</item>
+               <item>129 Aeſopi &amp; Babriae Fabulae Grae. Lat. in Uſum Scholae Eton. <hi>Lond.</hi> 1682</item>
+               <item>130 Juſtini Hiſtoriae ab Iſ. Voſſio recognitae
+<hi>Salmur</hi> 1670</item>
+               <item>131 Q. Horatii Flacci Poemata cum Comment. Joh. Min-Ellii
+<hi>Roterod.</hi> 1677</item>
+               <item>132 C. Plinii Epiſtolae &amp; Panegyricus cum Notis Iſ. Caſauboni <hi>Genev.</hi> 1630</item>
+               <item>133 Walker (Guil.) Idiomaticum Dictionarium Anglo-Latinum
+<hi>Lond.</hi> 1690</item>
+               <item>134 C. Salluſtius cum Veterum Hiſtoricorum Fragmentis
+<hi>Amſt.</hi> 1675</item>
+               <item>135 Boyle (Rob.) Origo Formarum &amp; Qualitatum
+<hi>Ibid.</hi> 1671</item>
+               <item>136 C. Vell. Paterculus ex Recenſ. Nic. Heinſi — <hi>apud Elzevir. Ibid.</hi> 1678</item>
+               <item>137 Burgerſdicii (Franc.) Inſtitutiones Metaphyſicae
+<hi>Lugd. Bat.</hi> 1642</item>
+               <item>138 M.T. Ciceronis ad Familiares Epiſt: ex recenſ. J. Fr. Gronovii <hi>Ibid.</hi> 1992</item>
+               <item>139 T. Livii Hiſtoriarum quod extat ex Edit. J. F. Gronovii
+<hi>Amſt.</hi> 1678</item>
+               <item>140 Sleidanus (Joh.) de Quatuor Summis Imperiis
+<hi>Amſter.</hi> 1678</item>
+               <item>141 Shiptoni (Joh.) Pharmacopaeia Bateana cum Arcan. Goddard.</item>
+               <item>142 Mayerne (Theod.) Praxis in Morbis internis Gravioribus
+<hi>Lond.</hi> 1690</item>
+               <item>143 Morton (Rich.) Exercitationes de Morbis Univerſal. acutis <hi>Lond.</hi> 1692</item>
+               <item>144 Entii (Geo.) Apolog. pro Circuit. Sanguinis contra Edm. Pariſanum 1685</item>
+               <item>145 Jungken (Joan.) Praxis Medica juxta Moderna Principia
+<hi>Francf.</hi> 1689</item>
+               <item>146 Harris (Gualt.) de Morbis Acutis Infantum <hi>Lond.</hi>
+1689</item>
+               <item>147 Stulpartii (Corn.) Obſervat. Rarior. Medic. Chirurg. Anatom. 2 Vol. 1687</item>
+               <item>148 Abercromby (Dav.) Opuſc. Medica de Lue Venerea &amp; Pulſibus 1684</item>
+               <item>149 Greulichius (Joh.) de Bile Sana &amp; Aegra
+<hi>Francof.</hi> 1682</item>
+               <item>150 Briggs (Guil.) Nova Viſion. Theoria &amp; Ophthalmographia <hi>Lond.</hi> 1685</item>
+               <pb n="18" facs="tcp:44735:20"/>
+               <item>151 Hartmanni (Phil.) Succini Pruſſici Hiſtoria Phyſica <hi>Francf.</hi> 1677</item>
+               <item>152 Felicis (Ant.) Epiſtola de Ovis Cochlearum <hi>Aug. Vind.</hi> 1684</item>
+               <item>153 Caſſius (Andr.) de Principe Terrenorum Sidere Auro
+<hi>Hamburg.</hi> 1685</item>
+               <item>154 Mercklinus (Geo.) de Ortu &amp; Occaſu Transfuſionis Sanguinis <hi>Norib.</hi> 1679</item>
+               <item>155 Glaſtri (Joh.) Tractatus de Cerebri Fabrica &amp; Actionibus <hi>Baſil</hi> 1680</item>
+               <item>156 Grube (Herm.) de Ictu Tarantulae &amp; vi Muſices in ejus Curatione 1679</item>
+               <item>157 Munnicks (Joh.) de Urinis &amp; earum Inſpectione
+<hi>
+                     <g ref="char:V">Ʋ</g>ltraj.</hi> 1683</item>
+               <item>158 Budiſſinus (Caſp.) de Febribus <hi>Francof.</hi>
+1614</item>
+               <item>159 Horſtii (Joh. Dan.) Phyſica Hyppocratea Illuſtrata
+<hi>Ibid.</hi> 1682</item>
+               <item>160 Praxis Mayerniana in Morbis Internis Gravioribus
+<hi>Lond.</hi> 1690</item>
+               <item>161 Tractatus de Morbis Acutis Infantum a Gualt Harris M. D.
+<hi>Ibid.</hi> 1689</item>
+               <item>162 Ruyſch (Fred.) Dilucidatio Valvularum in Vaſis Lymphaticis <hi>Lug. Bat.</hi> 1687</item>
+               <item>163 Pharmacopaeia Bateana cum Arcanis Goddardianis
+<hi>Lond.</hi> 1691</item>
+               <item>164 Corn. Celſi de Re Medica Edit. ab Abmeloveen
+<hi>Amſt.</hi> 1687</item>
+               <item>165 Cheſneau (Nic.) Obſervationum Medicarum Libri Quinque
+<hi>Pariſ.</hi> 1672</item>
+               <item>166 Tuta Luis Venereae curandae Methodus: Item Novae Medic. Clavis 1686</item>
+               <item>167 Vander Wiel Obſervat. Medico-Anatomico-Chirurgicae 2 Vol. cum Fig. 1687</item>
+               <item>169 Lillii (Guil.) Breviſſima Inſtitutio, ſeu Ratio Grammatices <hi>Lond.</hi> 1695</item>
+               <item>170 Camdeni (Guil.) Inſtitutio Graecae Grammatices Compendiaria 1692</item>
+               <item>171 Farnabii (Tho.) Index Rhetoricus, Oratorius &amp; Poeticus 1676</item>
+               <item>172 Homeri Ilias, ſive de Rebus ad Trojam Geſtis Grae. Lat. <hi>Cantabr.</hi> 1648</item>
+               <item>173 Sil. Italici Punicorum Lib. 17. cum Herm. Buſchii Commentar. <hi>Baſil.</hi> 1543</item>
+               <item>174 P. Virgilii Maronis Opera, cum Notis Tho. Farnabii
+<hi>Amſt.</hi> 1650</item>
+               <item>175 Luciani Dialog. Selector. Lib. 11. a Guil. Du-Gardo recog. Grae. Lat. <hi>Lond.</hi> 1655</item>
+               <item>176 C. Suetonii Tranquilli quae extant cum Diverſorum Annotation. <hi>Oxon.</hi> 1661</item>
+               <item>177 M. Ann. Lucani Pharſalia adjectis ad Marginem Tho. Farnabii Notis, <hi>Lon.</hi> 1618</item>
+               <item>178 L. &amp; M. Ann. Senecae atque Aliorum Tragoediae cum Notis Marginal. 1613</item>
+               <item>179 Judicium Univerſit. Oxon. de Solenni Liga &amp; Foedere Juram. Negat. <hi>&amp;c.</hi> 1648</item>
+               <item>180 Mori (Henr.) Enchiridion Ethicum Rudimen. Moral. Philoſ. compl. <hi>Amſt.</hi> 1679</item>
+               <item>181 Hugonis (Herm.) Pia Deſid. Edit. poſtr. cum Iconibus Aeneis, <hi>Lond.</hi> 1677</item>
+               <item>182 Baconi (Franc.) Hiſtoria Ventor. &amp; Tractatus de Motus variis ſpeciebus <hi>L. Bat.</hi> 1638</item>
+               <item>183 Cluverii (Phil.) Introduct. in Univerſ. Geogr. cum P. Bertii Breviario, <hi>&amp;c.</hi> 1641</item>
+               <item>184 Sleidani (Joh.) de quatuor ſummis Imperiis, Lib. 3.
+1631</item>
+               <item>185 — Idem</item>
+               <item>186 Val. Catulli, Alb. Tibulli &amp; Sext. Propertii Poemata
+<hi>Antv.</hi> 1613</item>
+               <item>187 C. Corn. Taciti Opera cum optimis Exemplaribus collata
+<hi>Amſt.</hi> 1649</item>
+               <item>188 Val. Maximi Dictorum Factorumque Memorabilium, Lib. 9.
+1650</item>
+               <item>189 Laus Aſini cum multis aliis Feſtivis Opuſculis
+<hi>Lugd. Bat.</hi> 1629</item>
+               <item>190 Dugdale (Guil.) &amp; R. Dodſworth, Monaſticon, Anglic. cum Fig. <hi>Lond.</hi> 1682</item>
+            </list>
+         </div>
+         <div type="section">
+            <pb facs="tcp:44735:20"/>
+            <pb facs="tcp:44735:21"/>
+            <pb n="19" facs="tcp:44735:21"/>
+            <head>Livres Francois en <hi>Octavo,</hi> 12<hi rend="sup">o</hi>, &amp;c.</head>
+            <list>
+               <item>1 NOuvelle Biblioth. des Auteurs Eccleſ. par Ellies Du Pin
+3 vol. <hi>a Par.</hi> 1688</item>
+               <item>2 La Foy fondee ſur les Saintes Ecritures par Jean Daille
+<hi>Charent</hi> 1661</item>
+               <item>3 Traite du vray Uſage des Saints Peres par le meme Auteur
+<hi>Genev.</hi> 1633</item>
+               <item>4 Demonologie, ou Traite des Demons &amp; Sorciers par Fr. Perreaud 1651</item>
+               <item>5 Memoires de ce qui s'eſt paſſe en Suede par P. de Vaucien. V. 2. &amp; 3. <hi>P.</hi> 1675</item>
+               <item>6 — pour l'Hiſtoire du Cardinal Duc. de Richelieu Tom. 4. <hi>Amſt.</hi> 1667</item>
+               <item>7 Hiſtoire du Pontificat de St. Gregoire le Grand par M. Maimbourg <hi>Ibid.</hi> 1686</item>
+               <item>8 Examen du Liv. des Prejug. legit. contre les Calv. par Cl. Pajon 2 V. <hi>Ibid.</hi> 1683</item>
+               <item>9 Recueil des Edits, Declarations, Arreſts, &amp;c. touchant les Proteſtants <hi>Ibid.</hi> 1682</item>
+            </list>
+         </div>
+         <div type="section">
+            <head>Engliſh Divinity, <hi>Folio.</hi>
+            </head>
+            <list>
+               <item>1 DR. Hammond's Paraphraſe, and Annot-upon the New Teſtam
+<hi>Lond.</hi> 1671</item>
+               <item>2 Dr. Pet. Heylin's Sum of Chriſt. Theologie in the Apoſt. Creed 1673</item>
+               <item>3 Dr. Jer. Taylor's Collect. of Polemical and Moral Diſcourſes 1657</item>
+               <item>4 A view of the Soul, ſet out by Dr. Tillotſon
+<hi>Lond.</hi> 1682</item>
+               <item>5 M. G. Hughes his Learned Expoſition of Geneſis and Exodus <hi>Lond.</hi> 1672</item>
+               <item>6 A Recollection of Biſhop Hall's Works, or the Firſt Volume.</item>
+               <item>7 Mr. Richard Baxter's Catholick Theologie <hi>Lond.</hi>
+1675</item>
+               <item>8 Heywood's Hierarchy of the Bleſſed Angels, with all the Cuts 1635</item>
+               <item>9 Mr. William Wheatley his Prototypes <hi>Lond.</hi>
+1640</item>
+               <item>10 Mr. Richard Clerk's Sermons, one of the Tranſlat. of the Bible 1637</item>
+               <item>11 The Works of the moſt Reverend Biſh. Babington
+<hi>Lond.</hi> 1637</item>
+               <item>12 Mr. John Calvin's Inſtitutions, the White Letter
+1620</item>
+               <item>13 Dr. Gell's Remains, with his pious Notes and Obſerv. on the N. Teſtam. 1676</item>
+               <item>14 Dr. Towerſon on the Ten Commandments <hi>Lond.</hi>
+1685</item>
+               <item>15 Clement Cotton's Large Concordance, the Laſt Edition
+<hi>Lond.</hi> 1635</item>
+               <item>16 A Collection of Dr. Thomas Jackſon's Works, in 2 vol.
+1653</item>
+               <item>17 The Works of the Learned Mr. William Pemble <hi>Lond.</hi>
+1635</item>
+               <item>18 Dr. Manton's 3d. Vol. of Sermons, in Two Parts
+<hi>Lond.</hi> 1689</item>
+               <item>19 Dr. Edward Reinold's, Biſhop of Norwich, his Works Compleat, in 2 Parts.</item>
+               <item>20 Mr. Trap's Commentaries on the Old and New Teſtament, in
+5 Vol.</item>
+               <pb n="20" facs="tcp:44735:22"/>
+               <item>21 Biſhop Andrew's Sermons Preach'd before the Two Kings
+<hi>Lond.</hi> 1651</item>
+               <item>22 Dr. John Owen's Diſcourſe of the Holy Spirit, Large Paper and Gilt Back.</item>
+               <item>23 Mr. Hilderſham's 108 Lectures on John 4. <hi>Lond.</hi>
+1647</item>
+               <item>24 Dr. Beard and Dr. Taylor's Theatre of God's Judgment
+<hi>Lond.</hi> 1658</item>
+               <item>25 Dr. Pocock's Commentary on Micah and Malachi,
+<hi>Lond.</hi> 1677</item>
+               <item>26 Mr. G. Hutcheſon's Expoſition of St. John's Goſpel
+<hi>Lond.</hi> 1657</item>
+               <item>27 Mr. R. Parker's Scholaſtical Diſcourſe of the Croſs 1607</item>
+               <item>28 Dr. Gibb's his Saints Cordial <hi>Lond.</hi> 1638</item>
+               <item>29 Mr. William Jenkins Expoſition on the Epiſtle of Jude,
+<hi>Lond.</hi> 1656</item>
+               <item>30 Biſhop George Downham<hi>'s</hi> Large Treatiſe of Juſtification 1630</item>
+               <item>31 Haynes<hi>'s</hi> General View of the Holy Scriptures
+<hi>Lond.</hi> 1640</item>
+               <item>32 Wiiſon<hi>'s</hi> Compleat Chriſtian Dictionary enlarg'd, the 6th Edition, 1655</item>
+               <item>33 David Pareus his Commentary on the Revelations
+<hi>Lond.</hi> 1645</item>
+               <item>34 Dr. Fludd<hi>'s</hi> Moſaical Philoſophy
+<hi>Lond.</hi> 1659</item>
+               <item>35 Dr. Lightfoot<hi>'s</hi> Harmony of the New Teſtament
+<hi>Lond.</hi> 1655</item>
+               <item>36 A Relation of the Conference between Arch-B. Laud and Fiſher, Large Paper.</item>
+               <item>37 Mr. William Fenner<hi>'s</hi> Works compleat
+<hi>Lond.</hi> 1657</item>
+               <item>38 Mr. A. Burgeſſes<hi>'s</hi> 145 Sermons, on John 17.
+<hi>London</hi> 1662</item>
+               <item>39 — His Spiritual Refinings compleat in 2 Vol. in Quarto</item>
+               <item>40 — His Treatiſe of Original Sin <hi>Lond.</hi>
+1659</item>
+               <item>41 — Scripture Directory for Church Officers and People
+1659</item>
+               <item>42 Mr. Froſt's Select Sermons and Poſitions
+<hi>Cambr.</hi> 1658</item>
+               <item>43 Dr. Nath. Homes his Workes compleat <hi>Lond.</hi>
+1652</item>
+               <item>44 Dr. Twiſſe of the Riches of God's Love, againſt
+<hi>Hoord Lond.</hi> 1653</item>
+               <item>45 Mr. Roger<hi>'s</hi> his 7 Treatiſes <hi>Lond.</hi>
+1617</item>
+               <item>46 Mr. Jo. Cotton<hi>'s</hi> Practical Commentary on the Firſt Epiſtle of <hi>John</hi> 1656</item>
+               <item>47 Dr. Willet<hi>'s</hi> General View of Papiſtry
+<hi>Lond.</hi> 1634</item>
+               <item>48 — His Sixfold Commentary on Geneſis and Exo<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>s <hi>Lond.</hi> 1632</item>
+               <item>49 — His Sixfold Commentary on the Epiſt. to the Romans <hi>Lond.</hi> 1611</item>
+               <item>50 Dr. Feild of the Church, in 5 Books <hi>Oxf.</hi>
+1628</item>
+               <item>51 Bp. Brownrigg<hi>'s</hi> Sermons compleat, in 2 Parts
+<hi>Lond.</hi> 1686</item>
+               <item>52 Biſhop Hackett<hi>'s</hi> Sermons publiſh'd by Dr. Plume. <hi>Lond.</hi> 1675</item>
+               <item>53 Dr. Homes<hi>'s</hi> Reſurrection Reveal'd
+<hi>Lond.</hi> 1654</item>
+               <item>54 God's Plea for Niniveh <hi>Lond.</hi> 1657</item>
+               <item>55 Dr. Towerſon on the Lord's Prayer <hi>Lond.</hi>
+1685</item>
+               <item>56 Dr. H. More<hi>'s</hi> Grand Myſtery of Godlineſs
+<hi>Lond.</hi> 1660</item>
+               <item>57 — His Myſtery of Iniquity <hi>Lond.</hi>
+1662</item>
+               <item>58 — A Collection of his Philoſophical Writings
+1671</item>
+               <item>59 Dr. Hammond<hi>'s</hi> Sermons, Large Paper</item>
+               <item>60 Biſhop Andrews on the Ten Commandments</item>
+               <item>61 Dr. Th. Fuller<hi>'s</hi> Piſgah-Sight, Gilt Back.</item>
+               <item>62 Ainſworth<hi>'s</hi> (Henr.) Annot. on the Pent. Book of Pſalms, Cant. &amp;c. <hi>Lond.</hi> 1639</item>
+               <item>63 Book of Hom. Articles, Conſtitut. and Can. of the Ch. of Engl. <hi>Oxon.</hi> 1683</item>
+               <item>64 — of Common Prayer with the Pſalter or Pſalms of
+<hi>David,</hi> &amp;c. <hi>Ibid.</hi> 1683</item>
+               <item>65 A Concordance to the H. Script. with the various Readings by <hi>S. N. Cambr.</hi> 1662</item>
+               <item>66 Diodati<hi>'s</hi> (Joh.) Annotations upon the Holy Bible, (the third Edit. <hi>Lond.</hi> 1651</item>
+               <item>67 Heylin (Dr. Pet.) Summ of Chriſt. Theol. contain'd in the Apoſt. Creed 1673</item>
+               <item>68 Pearſon (Bp. Joh.) Expoſition of the Creed (the third Edition enlarg'd) 1669</item>
+               <pb facs="tcp:44735:22"/>
+               <pb facs="tcp:44735:23"/>
+               <pb n="21" facs="tcp:44735:23"/>
+               <item>69 Cradock (Sam.) Harmony of the four Evang. and their Text method. 1668</item>
+               <item>70 Andrews (Bp. Lanc.) 96 Sermons, with an Alphabet. Table (the 3d. Edit.) 1635</item>
+               <item>71 Sanderſon<hi>'s</hi> (Bp. Rob.) Sermons with a large Preface (the fifth Edition) 1671</item>
+               <item>72 Brownrigs (Bp. Ralph) Sermons publiſh'd by D. William Martin 1685</item>
+               <item>73 Greenham's (Rich.) Works, viz. Sermons and other Theological Tracts 1612</item>
+               <item>74 Taylor's (Bp. Jer.) Courſe of Sermons for the whole Year (the 5th. Edit. enl. 1678</item>
+               <item>75 — Great Exemplar, or Life of Jeſus Chriſt with Sculptures 1653</item>
+               <item>76 Cave's (Dr. Will.) Hiſt. of the Lives, Acts &amp; Mart. of the H. Apo. with Cuts 1677</item>
+               <item>77 — Of the Lives, &amp;c. of the Primitive Fathers of the Church 2 Vol. 1682</item>
+               <item>78 Fuller's (Tho.) Piſgah-ſight of Pal. and its conf. illuſt. with Maps, Cuts, &amp;c. 1650</item>
+               <item>79 Reynold (Bp. Joh.) Works Compleat. viz. Sermons, Expli. Tracts, &amp;c. 1679</item>
+               <item>80 Fenner's (Will.) Works viz. Theological Diſcourſes, Sermons, &amp;c. 1657</item>
+               <item>81 Hammord (Dr. Henr.) Works, Vol. 2d. or a Coll. of Polem. Diſcourſes, &amp;c. 1684</item>
+               <item>82 — Vol. 3d. being a Paraphraſe and Annotat upon the New Teſtament 1671</item>
+               <item>83 Mede's (Joſ.) Works Compleat, enlarged from the Author's Manuſcr. 1672</item>
+               <item>84 Chillingworth's (Will.) Religion of Proteſtants a ſafe Way to Salvation 1664</item>
+               <item>85 A Relation of the Conf. between Arch-Bp. L. and Fiſh. the Jeſuit (4th Edit. 1686</item>
+               <item>86 Hooker's (Rich.) Eccleſiaſt. Policy and other Tracts with the Author's Life 1666</item>
+               <item>87 F. Paul's Hiſt. of the C. of Tr. and of the Inquiſi. with the Life of the L. Auth. 1676</item>
+               <item>88 M. de St. Amour's Journal of the Controver. between the Janſen. and Molin. 1661</item>
+               <item>89 Drummond's (Will.) Hiſt. of Scotland with ſeveral Memorials of State 1655</item>
+               <item>90 Joſephus his Hiſtory laſt Edition</item>
+               <item>91 Hammond's Work in 4 Vol.</item>
+               <item>92 Dr. Lightfoots Works in 2 Vol.</item>
+               <item>93 Bp. Perſion's Expoſition on the Creed, laſt Edition</item>
+               <item>94 Book of Homilies</item>
+               <item>95 Clark's Bible with Notes</item>
+               <item>96 Du Pins Eccleſiaſtical Hiſtory</item>
+               <item>97 Leigh's Body of Divinity</item>
+               <item>98 Caryll's (Joſ.) Exp. with practical Obſerv. on the Book of Job, 2 vol. <hi>Lond.</hi> 1676</item>
+               <item>99 Taylor's (Bp. Jer.) Collection of Polemical and Moral Diſcourſes <hi>Ibid.</hi> 1657</item>
+               <item>100 Du Pin's (L. Ellies) New Hiſt. of Eccleſiaſt. Writers Compl. 7 To. 3 Vol. 1692</item>
+               <item>101 Nicholſon's (Bp. Will.) Expoſit. of the Apoſt. Creed in ſeveral Sermons 1661</item>
+               <item>102 Sandys's (Geo.) Paraph. upon the Pſal. and other Div. Poems (with Muſ. N.) 1638</item>
+               <item>103 Towerſon's (Dr. Gabr.) Explication of the Decal. or Ten Commandments 1676</item>
+               <item>104 — of the Apoſtles Creed, with a Diſcourſe of Catechizing 1678</item>
+               <item>105 A Relation of a Confer. between Arch-Bp. Laud, and Fiſher the Jeſuit 1686</item>
+               <item>106 Smith (Joh.) Chriſtian Religions Appeal to the Bar of Reaſon 1675</item>
+               <item>107 Maſon (Franc.) of the Conſecrat. &amp;c. of Biſhops, &amp;c. of the Ch. of Engl. 1613</item>
+               <item>108 Hall (Joh.) of Government and Obedience, determin'd by Scripture, &amp;c. 1654</item>
+               <item>109 Fox's (Joh.) Acts and Mon. of the Ch. and Martyrs, with Sculpt. 3 Vol. 1641</item>
+               <item>110 Hughes (Geo.) Analytical Expoſit. of the Books of Geneſis and Exodus 1672</item>
+               <item>111 Aſſembly of Divines Annotat. on the Holy Bible 2 Vol. (2d Edit.) <hi>Lond.</hi> 1651</item>
+               <item>112 Hammond's (Dr. Henr.) Annotations on the New Teſtament
+<hi>Ibid.</hi> 1689</item>
+               <item>113 L'Eſtrange's (Sr. Ham.) Alliance of Divine Offices
+1690</item>
+            </list>
+         </div>
+         <div type="section">
+            <pb n="22" facs="tcp:44735:24"/>
+            <head>Engliſh Divinity in <hi>Quarto.</hi>
+            </head>
+            <list>
+               <item>1 AInſworth<hi>'s</hi> Works in 2 volumes <hi>Lond.</hi>
+1639</item>
+               <item>2 Biſh. Patrick<hi>'s</hi> Parable of the Pilgrim
+<hi>Lond.</hi> 1683</item>
+               <item>3 Sixteen Modern Sermons by Dr. Stillingfleet, Tillotſon, Calamy, <hi>&amp;c.</hi>
+               </item>
+               <item>4 Dr. Stillingfleet<hi>'s</hi> Origines Sacrae <hi>Lond.</hi>
+1663</item>
+               <item>5 Stileman<hi>'s</hi> Peace-Offering, for Peace, Unity and Obedience 1662</item>
+               <item>6 Seventeen Sermons by Dr. Goodwin, Owen, Mr. Baxter, Bridge, &amp;c.</item>
+               <item>7 Culverwell<hi>'s</hi> Elegant and Learned Diſcourſes
+<hi>Lond.</hi> 1652</item>
+               <item>8 22 Sermons, by Dr. Tillotſon, Reinold's, Williams, Sherlock, <hi>&amp;c.</hi>
+               </item>
+               <item>9 Mr. R. Bolton<hi>'s</hi> Inſtructions, for right Comforting Afflicted Conſciences, 1635</item>
+               <item>10 15 Modern Sermons, bv. Dr. Alleſtree, Mr. Baxter, R. Bolton, <hi>&amp;c.</hi>
+               </item>
+               <item>11 Mr. Jo. Goodwin of the Divine Authority of Holy Scriptures
+1648</item>
+               <item>12 A Miſcell. of 11 Tracts begins with Dr. Homes Uſury is Injurious, <hi>&amp;c.</hi>
+               </item>
+               <item>13 Mr. Polhill's View of Divine Truths <hi>Lond.</hi>
+1678</item>
+               <item>14 Dr. Taylor of the Types and Shadows in the Old Teſtament
+1653</item>
+               <item>15 The Morning Exerciſe at St. Giles in the Fields
+<hi>Lond.</hi> 1660</item>
+               <item>16 The Morning Exerciſe againſt Popery <hi>Lond.</hi>
+1675</item>
+               <item>17 The Fourth Vol. of Caſuiſtical Morning Exerciſes
+<hi>Lond.</hi> 1690</item>
+               <item>18 Mr. John Smith<hi>'s</hi> Select Diſcourſes, Gilt Back
+<hi>Lond.</hi> 1660</item>
+               <item>19 A Miſcell. of 9 Tracts, begins with Mr. Pagitts Hereſiography, <hi>&amp;c.</hi>
+               </item>
+               <item>20 24 Sermons, by Mr. Marſhal, Dr. Goodwin, Mr. Jer. Burroughs, <hi>&amp;c.</hi>
+               </item>
+               <item>21 Twelve Tracts, begins with God<hi>'s</hi> Houſe of Prayer, <hi>&amp;c.</hi>
+               </item>
+               <item>22 Twelve Sermons, by Dr. Gauden, Maine, Hammond, &amp;c.</item>
+               <item>23 Twelve Modern Sermons, by Dr. Scot, Hacket, South, Burnet, &amp;c.</item>
+               <item>24 17 Funeral Sermons, by Mr. Aſh, Dr. Hardy, Owen, &amp;c.</item>
+               <item>25 Clerks Lives of the Fathers, and other Illuſtrious Perſons 1650</item>
+               <item>26 Dr. Tho. Goodwin's Leſſer Works in one Vol.
+<hi>Lond.</hi> 1647</item>
+               <item>27 Mr. Love's Combate between Fleſh and Spirit
+<hi>Lond.</hi> 1654</item>
+               <item>28 A Miſcell. of 10 Tracts, begins with the Worceſterſhire Agreement.</item>
+               <item>29 Six and twenty Modern Sermons, by Dr. Alleſtree, Sharp, Barrow, Patrick Sprat, Cartwright, Meggot, &amp;c.</item>
+               <item>30 Mr. Iſaac Ambroſe<hi>'s Prima Media, &amp; <g ref="char:V">Ʋ</g>ltima Lond.</hi> 1659</item>
+               <item>31 Seven choice Tracts, begins with a perſwaſion to Loyalty, &amp;c.</item>
+               <item>32 Fourteen Modern Sermons, by A. B. Tillotſon, Worceſter, Sarum, &amp;c.</item>
+               <item>33 Dr. Tho. Jackſon of the Eternal Truth of Scriptures
+<hi>Lond.</hi> 1613</item>
+               <item>34 Six choice Tracts, begins with the Duke of Buckingham's Diſcourſe, &amp;c.</item>
+               <item>35 Mr. Weemes his Works compleat in 4 vol. <hi>Lond.</hi>
+1637</item>
+               <item>36 18 Modern <hi>Sermons</hi> by Mr. Smith, <hi>Dr.</hi> Willis, <hi>Dr.</hi> Calamy, &amp;c.</item>
+               <item>37 <hi>Dr.</hi> Hammond<hi>'s</hi> Practical Catechiſm, and other of his <hi>Tracts</hi>
+               </item>
+               <item>38 8 <hi>Modern Sermons</hi> by <hi>Dr, Cudworth,</hi> the Biſhop of Gloceſter, Chicheſter, &amp;c.</item>
+               <item>39 Biſhop Jer. Taylor<hi>'s</hi> Epiſcopacy aſſerted
+<hi>Lond.</hi> 1647</item>
+               <item>40 Several <hi>Sermons</hi> by <hi>Dr.</hi> South, Meggot, Tillotſon, with other <hi>Tracts</hi>
+               </item>
+               <item>41 <hi>Dr.</hi> Manton<hi>'s</hi> Expoſition, with Notes on
+<hi>James Lond.</hi> 1657</item>
+               <pb facs="tcp:44735:24"/>
+               <pb facs="tcp:44735:25"/>
+               <pb n="23" facs="tcp:44735:25"/>
+               <item>42 — His Practical Commentary on <hi>Jude Lond.</hi>
+1658</item>
+               <item>43 Swinnock<hi>'s</hi> Door of Salvation open'd by the Key of Regeneration 1671</item>
+               <item>44 Mr. Tho. Jackſon of Juſtifying Faith, Large Paper
+<hi>Lond.</hi> 1631</item>
+               <item>45 The Works of Mr. John Cotton in Ten Treatiſes</item>
+               <item>46 <hi>Mr.</hi> Richard Vines of the Sacrament of the Lord<hi>'s</hi> Supper 1657</item>
+               <item>47 16 Choice Modern Sermons, by <hi>Dr.</hi> Barrow, Biſhop Sprat, Sharp, &amp;c.</item>
+               <item>48 Streats dividing of the Hoof <hi>Lond.</hi> 1654</item>
+               <item>49 22 Sermons before the Parliament, by <hi>Dr.</hi> Burgeſs, <hi>Mr.</hi> Marſhal, &amp;c.</item>
+               <item>50 <hi>Mr.</hi> Tho. Watſon on the Beatitudes
+<hi>Lond.</hi> 1660</item>
+               <item>51 4 <hi>Sermons</hi> by <hi>Mr.</hi> Croſs, Vines at the E. of Eſſex Fun, <hi>Dr.</hi> Reinolds, with 14 Tra.</item>
+               <item>52 <hi>Dr.</hi> Gibbs his Returning Backſlider
+<hi>Lond.</hi> 1641</item>
+               <item>53 — His Light from Heaven, in 4 <hi>Treatiſes Lond.</hi> 1638</item>
+               <item>54 — His Bowels open'd <hi>Lond.</hi> 1639</item>
+               <item>55 Biſhop Uſher<hi>'s</hi> Anſwer to the Jeſuits Challenge, with his Sermons</item>
+               <item>56 18 choice Modern <hi>Sermons,</hi> by A. B. Tillotſon, Sandcroft, Biſhop Fowler, &amp;c.</item>
+               <item>57 <hi>Mr.</hi> Jer. Burroughs Heart diviſions, the Evil of the Times 1646</item>
+               <item>58 15 Sermons, by <hi>Dr.</hi> Reinolds, Arrowſmith, Seaman, <hi>Mr.</hi> Ob. Sedgwick, &amp;c.</item>
+               <item>59 Hall<hi>'s</hi> Beauty of <hi>Magiſtracy,</hi> with Swinock<hi>'s</hi> dignity and duty of <hi>Magiſtrates</hi>
+               </item>
+               <item>60 <hi>Dr.</hi> Preſton of <hi>Mortification,</hi> Biſhop Carleton<hi>'s</hi> Thankful Remembrancer</item>
+               <item>61 <hi>Mr.</hi> William Strong<hi>'s</hi> 31 ſelect
+<hi>Sermons Lond.</hi> 1656</item>
+               <item>62 12 <hi>Modern Sermons,</hi> by <hi>Mr.</hi> Glanvil,
+<hi>Dr.</hi> Pierce, Biſhop Williams, Patrick, &amp;c.</item>
+               <item>63 23 <hi>Sermons</hi> by Dr. Sibbs, Tho. Fuller, Biſhop Uſher, Tho. Adamas, &amp;c.</item>
+               <item>64 <hi>Mr.</hi> Baxter<hi>'s</hi> Saints Everlaſting Reſt
+<hi>Lond.</hi> 1677</item>
+               <item>65 — The Reaſons of the Chriſtian Religion</item>
+               <item>66 Dr. Feild of the Church, in 5 Books <hi>Lond.</hi>
+1606</item>
+               <item>67 15 Modern <hi>Sermons, Dr.</hi> Wakes at the Q. Funeral,
+<hi>Mr.</hi> Fleetw. of Clipping, &amp;c.</item>
+               <item>68 <hi>Mr.</hi> Joſeph Medes<hi>'s</hi> Works, in 3 Vol.
+<hi>Lond.</hi> 1649</item>
+               <item>69 Roger<hi>'s</hi> Expoſition of the Articles of the Church of England <hi>Lond.</hi> 1664</item>
+               <item>70 <hi>Dr.</hi> Boys his Poſtills, both Parts compleat
+<hi>Lond.</hi> 1610</item>
+               <item>71 <hi>Mr.</hi> Jones mixture of Scholaſtical and Poetical
+<hi>Divinity,</hi> both Parts</item>
+               <item>72 <hi>Dr.</hi> Hammond's Practical Catechiſme, with 3 other Tracks</item>
+               <item>73 Sir Roger Twiſden<hi>'s</hi> Hiſtorical Vindication of the Church of England</item>
+               <item>74 The Biſhop of Wincheſter<hi>'s</hi> Vindication of himſelf againſt Mr. Baxter</item>
+               <item>75 12 Modern Sermons, by Mr. Hinchman, Meggot, Gregory James</item>
+               <item>76 The H. Bible with Annot. by the Engliſh College of Doway, 3 Vol. <hi>Doway</hi> 1609</item>
+               <item>77 — tranſlated into the Low Dutch Tongue
+<hi>Leyden</hi> 1590</item>
+               <item>78 F. Simon's Critical Enquiries into the various Editions of the Bible <hi>Lond.</hi> 1684.</item>
+               <item>79 Taylor's (Dr. Tho.) Moſes and Aaron, or the O. Teſta. Types explain'd 1653</item>
+               <item>80 Lightf. (Dr. Joh.) Obſerv. upon <hi>Gen. &amp;c.</hi> with his Harm. of the O. and N. Teſt. 1642</item>
+               <item>81 Andr. (Bp. Lanc.) View of the Government both of the O. &amp; N. Teſt. <hi>Ox,</hi> 1641</item>
+               <item>82 Coſins (Bp. Joh.) Scholaſtical Hiſt. of the Canon of the H. Scripture <hi>Lond.</hi> 1683</item>
+               <item>83 Sclater's (Will.) Expo. upon the three firſt Chapt. of the Epiſt. to the Rom. 1629</item>
+               <item>84 — upon the firſt and ſecond Epiſtles to the Theſſalonians 1638</item>
+               <item>85 — Commentary with Notes upon the Prophecy of Malachy
+1650</item>
+               <item>86 Manton's (Dr. Tho.) practi. Commentary or Expo. upon the Epiſt. of James 1657</item>
+               <item>87 Brightman'<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> (Tho.) Expo. upon the Apocalpſe or Revelation of St. John 1644</item>
+               <item>88 Weem<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>'s (Joh) Chriſtian synog. contain. the divers Readings of H. Script. 1623</item>
+               <item>89 Nico<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>on's (Bp. Will) Expoſit. of the Catechiſm of the Ch. of England 1671</item>
+               <pb n="24" facs="tcp:44735:26"/>
+               <item>90 Dod (Joh.) and R. Cleaver's Expo. upon the Commandments (wants the Title)</item>
+               <item>91 Gouge's (Will.) Guide to go to God, or an Explanation of the L. Prayer 1636</item>
+               <item>92 Baker's (Sr. Rich.) Meditations and Diſquiſitions upon the Lord's Prayer 1640.</item>
+               <item>93 Carter's (Will.) Covenant of God with Abraham open'd,
+<hi>&amp;c.</hi> 1654</item>
+               <item>94 Norton's (Joh.) Orthodox Evangeliſt, or Explicat. of Evangelical Truths 1657</item>
+               <item>95 Gurnall's (Will.) Chriſt. in Compl. Armour, with a Magazin open'd, <hi>&amp;c.</hi> 1658</item>
+               <item>96 Baxter's (Rich.) Reaſons of the Chriſtian Religion, in two Parts 1667</item>
+               <item>97 Ham. (Dr. Hen.) Pract. Catec. with the Power of the Keys, &amp; other Tra. <hi>Ox.</hi> 1646</item>
+               <item>98 Culverwelli (N.) Diſc. of the Light of Nat. with ſeveral other Tra. <hi>Lond.</hi> 1661</item>
+               <item>99 Smith<hi>'s</hi> (Joh.) Select Diſc. viz. of Separa. Ath. Immor. of the Soul, <hi>&amp;c. Camb.</hi> 1673</item>
+               <item>100 Baxter<hi>'s</hi> (Rich.) Saints Everlaſting Reſt (the ninth Edition) <hi>Lond.</hi> 1662</item>
+               <item>101 Gale<hi>'s</hi> (Theoph.) Court of the Genti. or Diſc. of Human Lit. <hi>&amp;c.</hi> 2 Vol. <hi>Ox.</hi> 1661</item>
+               <item>102 The Morning Exerciſe Metho. or Serm. preach'd at St. G. in the Fields <hi>Lond.</hi> 1660</item>
+               <item>103 Taylor<hi>'s</hi> (Tho.) Progreſs of Saints to full Holi. deſcr. in Apoſt. Aphor. <hi>Ibid.</hi> 1631</item>
+               <item>104 Vine<hi>'s</hi> (Rich.) Treatiſe of the Sacrament of the L. Supper in 20 Sermons 1660</item>
+               <item>105 Bolton<hi>'s</hi> (Rob.) Diſc. about the State of true Happi. in ſeveral Sermons 1638</item>
+               <item>106 Sclater (Dr. Will.) Sermons experimental on Pſalm 116 and 117 1638</item>
+               <item>107 Heylyn<hi>'s</hi> (Dr. Pet.) Hiſtory of the Sabbath in two Books 1636</item>
+               <item>108 Conſtit. and Cannons Eccleſ. agreed upon in a Synod held A. D. 1603 1604</item>
+               <item>109 Overall<hi>'s</hi> (Bp. Joh.) Convocation-Book, concern. Ch.-Government, <hi>&amp;c.</hi> 1690</item>
+               <item>110 Dodwell<hi>'s</hi> (Hen.) Separation of Ch. from Epiſc. Governm. prov'd Schiſm. 1679</item>
+               <item>111 A brief Account of Ancient Church-Government (the ſecond Edition) 1685</item>
+               <item>112 Bilſon<hi>'s</hi> (Tho.) Differ. between Chriſt. Subjection and Unchriſt. Rebell. <hi>Ox.</hi> 1585</item>
+               <item>113 Stillingfl. (Bp. Edw.) Iren. or Weapon-ſalve for the Ch. Wounds <hi>Lond.</hi> 1662</item>
+               <item>114 A Vindicat. of the Presbyter. Govern. and Miniſt. by the Aſſemb. <hi>&amp;c.</hi> 1649 1650</item>
+               <item>115 Prynne<hi>'s</hi> (Will.) Un-biſhop. of Tim. and Tit. and of the Ch. of Epheſus 1660</item>
+               <item>116 Edward<hi>'s</hi> (Tho.) Antaplogia, the Prelates Pride, and ſome other Tracts 1644</item>
+               <item>117 Comber<hi>'s</hi> (Dr. Tho.) Roman Forg. in the Coun. during the firſt 4 Cent. 1689</item>
+               <item>118 Uſher<hi>'s</hi> (Arch-bp. James) Anſwer to a Jeſuits Challenge (the 4th Edit. 1686</item>
+               <item>119 Gunning<hi>'s</hi> (Bp. Pet.) Paſch. or Lent-Faſt, prov'd Apoſtol. and perpet. <hi>Lond.</hi> 1662</item>
+               <item>120 Sherlock<hi>'s</hi> (Dr. Will.) Vindication of the Doctrine of the Holy Trinity 1690</item>
+               <item>121 Pockinſton<hi>'s</hi> (Joh.) Altare Chriſt. or the Dead Vicar<hi>'s</hi> Plea, <hi>&amp;c.</hi> 1637</item>
+               <item>122 Lives of the Prophets, Patriachs and Apoſtles
+1695</item>
+               <item>123 Goodmans Parable of the Prodigal Son</item>
+               <item>124 Senault (Joh. Franc.) of the Corruption of Nature by Sin
+<hi>Lond.</hi> 1650</item>
+               <item>125 Biſhop of Wincheſter's Vindic. of himſelf againſt Mr. Baxter's Reflect. 1683</item>
+               <item>126 Potter's (Franc.) Interpretation of the Number 666
+<hi>Oxon</hi> 1642</item>
+               <item>127 Baxter's (R.) Cathol. Commun. defended againſt both Extremes <hi>Lond.</hi> 1684</item>
+               <item>128 Gibbes<hi>'s</hi> (Dr. Charles) Sermons upon ſeveral Subjects and Occaſions 1677</item>
+               <item>129 Birckbeck's (Sim.) Proteſtants Evidence taken out of good Records 1635</item>
+               <item>130 Caryl's (Joſ.) Expoſition upon the 22, 23, 24, 25, &amp; 26. Chap. of <hi>Job</hi> 1659</item>
+               <item>131 A Treatiſe of Penit. Confeſſion and Abſolution, the Pow. of the Keys 1657</item>
+               <item>132 A Papiſt Miſ-repreſented and Repreſented; or a twof. Char. of Popery 1685</item>
+               <item>133 Nicholſon<hi>'s</hi> (Bp. Will.) Expoſition of the Catechiſm of the Ch. of Eng. 1671</item>
+               <item>134 Brereley<hi>'s</hi> (Joh.) Liturgy of the Maſs, t<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ting of 3. prin<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Points <hi>Colen.</hi> 1620</item>
+               <item>135 Smith<hi>'s</hi> (Henr.) Sermons publiſh'd by a more perfect Copy <hi>Lond.</hi>
+               </item>
+               <item>136 Creſſener<hi>'s</hi> (Dr. Drue) Demonſtat. of the Pro<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. Applic. of the Apoca.
+1690</item>
+               <item>137 Symſon<hi>'s</hi> (Patr.) Hiſtory of the Church, divided i<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>o four Books 1624</item>
+               <pb facs="tcp:44735:26"/>
+               <pb facs="tcp:44735:27"/>
+               <pb n="25" facs="tcp:44735:27"/>
+               <item>138 Beard<hi>'s</hi> (Tho.) Theatre of Gods Judgments revis'd and augmented 1631</item>
+               <item>139 Boys<hi>'s</hi> (Dr. Joh.) Remains, containing ſeveral Sermons, &amp;c. 1631</item>
+               <item>140 Heylin<hi>'s</hi> (Dr. Pet.) Hiſtory of the Sabbath (the 2d Edition Revis'd) 1636</item>
+               <item>141 An Expoſit: of the 7. Penit. Pſalms — Printed by <hi>Wynkyn de Worde</hi> 1508</item>
+               <item>142 Sutcliffe's (Matth.) Anſwer to F. Parſon's Treat. of
+3. Conv. of Engl. 1606</item>
+               <item>143 Dod (Joh.) and Rob. Clever's Expoſition of the Ten Commandments 1622</item>
+               <item>144 Confeſſions, &amp;c. of Proteſt. Divines in Vindication of Epiſcopacy <hi>Oxon.</hi> 1644</item>
+               <item>145 The Holy Table, Name and Thing, in Anſwer to Dr. Coal
+<hi>Lond.</hi> 1637</item>
+               <item>146 Beaumont's (J.) Obſerv. upon Dr. H. More's Myſtery of Godlineſs <hi>Cant.</hi> 1665</item>
+               <item>147 Mornay's (Phil. of) Treat. of the Church, Tr. from
+<hi>French</hi> Copy <hi>Lond.</hi> 1606</item>
+               <item>148 Carleton's (Geo.) Treatiſe of Juriſdiction Regal, Epiſcopal &amp; Papal 1610</item>
+               <item>149 Mountague's (Rich.) Appeal to <hi>Caeſar</hi> from two unjuſt Informers 1625</item>
+               <item>150 The Grand Impoſture of the Church of <hi>Rome,</hi> by the L.B. of Coventry, &amp;c.</item>
+               <item>151 Heylin's (Dr. Pet.) Anſw. to the Author of the Holy Table, Name, &amp;c 1637</item>
+               <item>152 Prideaux's (Dr. Joh.) Sermons preach'd upon ſeveral Texts, &amp;c. <hi>Oxon</hi> 1636</item>
+               <item>153 Greenhill's Expoſit. of the Book of Ezekiel with Obſerv. 3 Vol. <hi>Lond.</hi> 1649</item>
+               <item>154 Rutherford<hi>'s</hi> Right of Presbyteries, or Plea for Church of <hi>Scotland</hi> 1644</item>
+            </list>
+         </div>
+         <div type="section">
+            <head>Engliſh Divinity in <hi>Octavo.</hi>
+            </head>
+            <list>
+               <item>1 THe Holy Bible, with the Common-Prayer and Pſalms
+<hi>Lond.</hi> 1666</item>
+               <item>2 Wickin<hi>'s</hi> compleat and perfect Concordance
+<hi>Oxford</hi> 1655</item>
+               <item>3 Dr. Sherlock<hi>'s</hi> Practical Diſcourſe concerning Death, the ſecond Edition</item>
+               <item>4 Mr. How of the Reconcileableneſs of God's Preſcience, with the Appendix</item>
+               <item>5 Hanmer's View of Antiquity <hi>Lond.</hi> 1677</item>
+               <item>6 Dr. Th. Manton of Chriſt's Temptation and Transfiguration
+1685</item>
+               <item>7 — His Diſcourſes to promote Peace and Holineſs
+<hi>Lond.</hi> 1685</item>
+               <item>8 — His Advice to Mourners <hi>Lond.</hi> 1694</item>
+               <item>9 A.B. Tillotſon's Rule of Faith, with the Appendix
+<hi>Lond.</hi> 1666</item>
+               <item>10 Biſhop Stillingfleet of the Idolatry of the Church of Rome <hi>Lond.</hi> 1671</item>
+               <item>11 — His Defence of his Diſcourſe of Idolatry
+<hi>Lond.</hi> 1676</item>
+               <item>12 Dr. Brevint<hi>'s</hi> Saul and Samuel at Endor
+<hi>Oxford</hi> 1674</item>
+               <item>13 Dr. Abbadie<hi>'s</hi> Vindication of the Truth of Chriſtian Religion 1691</item>
+               <item>14 Mr. Tim. Rogers Practical Diſcourſes of Sickneſs and Recovery</item>
+               <item>15 Feilds Bible Gilt and Filletted <hi>Cambr.</hi>
+1657</item>
+               <item>16 Mr. Samuel Clark's Knowledg and Practice 1659</item>
+               <item>17 Mr. Alſop<hi>'s</hi> Antiſozzo againſt Dr. Sherlock
+<hi>Lond.</hi> 1675</item>
+               <item>18 Mr. David Clarkſon<hi>'s</hi> Primitive Epiſcopacy
+<hi>Lond.</hi> 1688</item>
+               <item>19 Dr. Spark<hi>'s</hi> on Primitive Devotion in Feaſts and Faſts 1660</item>
+               <item>20 Mr. G. Lawſon<hi>'s</hi> Examination of the Political part of Hobbs<hi>'s</hi> Leviathan</item>
+               <item>21 Dr. Cave concerning the Government of the Ancient Church
+1683</item>
+               <item>22 Biſhop Jewel<hi>'s</hi> Apology of the Church of England, with his Life 1685</item>
+               <item>23 Biſhop Jer. Taylor of the Real Preſence of Chriſt in the Sacrament</item>
+               <item>24 A. B. Teniſon<hi>'s</hi> Examination of Mr. Hobbs his Creed</item>
+               <item>25 Dr. Goodman<hi>'s</hi> Compaſſionate Enquiry
+<hi>Lond.</hi> 1675</item>
+               <item>26 Mr. Thorndike of the Forbearance of Penalties</item>
+               <item>27 The conference between a Romiſh Prieſt and a Fanatick Chaplain</item>
+               <pb n="26" facs="tcp:44735:28"/>
+               <item>28 Mr. Polhill<hi>'s</hi> Anſwer to Dr. Sherlock
+<hi>Lond.</hi> 1685</item>
+               <item>29 Dr. Whitby againſt Hoſt-Worſhip, with the Appendix.</item>
+               <item>30 Mr. Row of Saints Temptations <hi>Lond.</hi> 1675</item>
+               <item>31 Mr. Reyner<hi>'s</hi> Precepts</item>
+               <item>32 — his Government of the Tongue</item>
+               <item>33 Mr. Fenners Divine Meſſage, &amp;c.</item>
+               <item>34 Mr. Steel<hi>'s</hi> Antidote againſt Diſtract.</item>
+               <item>35 Dodwell<hi>'s</hi> 2 Letters of Advice.</item>
+               <item>36 Mr. Alſop<hi>'s Melius Inquirendum.</hi>
+               </item>
+               <item>37 Mr. Pendlebury's 2 late Treatiſes.</item>
+               <item>38 Biſhop Hall<hi>'s</hi> Chriſtian Moderation.</item>
+               <item>39 Mr. Doelittle<hi>'s</hi> Love to Chriſt.</item>
+               <item>40 The Judgment of A.B. Uſher.</item>
+               <item>41 J. Ferguſon on Phil. and Coloſſians.</item>
+               <item>42 Dr. Jo. Owen of Apoſtacy.</item>
+               <item>43 — of Mortification.</item>
+               <item>44 — his Anſwer to <hi>Fiat Lux.</hi>
+               </item>
+               <item>45 — his Vindication of it.</item>
+               <item>45 — of Schiſm.</item>
+               <item>47 — his Vindication of it.</item>
+               <item>48 Wollebius, with Roſſe<hi>'s</hi> Notes.</item>
+               <item>49 Faldo<hi>'s</hi> Quakeriſm no Chriſtianity.</item>
+               <item>50 Mr. King of the Prim. Churc. 2 Vol.</item>
+               <item>51 Swinnock of the Incompar. of God.</item>
+               <item>52 Pool<hi>'s</hi> Nullity of the Romiſh Faith.</item>
+               <item>53 Dr. Bate<hi>'s</hi> Fun. Serm. for Mr. Baxter.</item>
+               <item>54 Parſon<hi>'s</hi> Chriſtian Directory.</item>
+               <item>55 Shepherd<hi>'s</hi> Sincere Convert.</item>
+               <item>56 Wilſon<hi>'s</hi> vanity of Mans preſe. ſtate.</item>
+               <item>57 Mr. Marlye<hi>'s</hi> Letters to a ſick Friend</item>
+               <item>58 Chriſtianity no Enthuſiaſm.</item>
+               <item>59 Dr. Bolton<hi>'s</hi> Toſſed Ship.</item>
+               <item>60 Mr. Barker<hi>'s</hi> Natural Theology.</item>
+               <item>61 D. More<hi>'s</hi> Divine Dialogues.</item>
+               <item>62 Allen<hi>'s</hi> Godly Man's Portion.</item>
+               <item>63 The Divine Authority of Holy Scrip.</item>
+               <item>64 Mr. Nat. Vincent<hi>'s</hi> Preſent to thoſe that have been Sick.</item>
+               <item>65 The whole Duty of a Woman.</item>
+               <item>66 Six Tracts of Mr. R.</item>
+               <item>67 The Intereſt of words in Prayer.</item>
+               <item>68 Juſtification upon a Satisfaction.</item>
+               <item>69 Aſhwod<hi>'s</hi> loſt Treaſure.</item>
+               <item>70 Goodwin<hi>'s</hi> Family Religion.</item>
+               <item>71 Wadſworth<hi>'s</hi> Remains.</item>
+               <item>72 Wills of Infant-Baptiſm.</item>
+               <item>73 Biſhop Hopkins almoſt Chriſtian.</item>
+               <item>74 The Countries Concurrence.</item>
+               <pb facs="tcp:44735:28"/>
+               <pb facs="tcp:44735:29"/>
+               <pb n="27" facs="tcp:44735:29"/>
+               <item>75 A Dialogue about the Lord's Supper</item>
+               <item>76 An Exhortation to Holy Living.</item>
+               <item>77 An Antidote againſt Luſt.</item>
+               <item>78 A Prophetical Key.</item>
+               <item>79 Clarkſon of Epiſcopacy</item>
+               <item>80 Dr. Jo. Owen's day of Reſt.</item>
+               <item>81 Alſop's <hi>Melius Inquirendum.</hi>
+               </item>
+               <item>82 Mr. R. Baxter of ſound Converſion.</item>
+               <item>83 — 32 Directions for ſetled peace.</item>
+               <item>84 — Divine appointment of the Lords-Day.</item>
+               <item>85 — The Certainty of Chriſtianity without Popery.</item>
+               <item>86 Mr. R. Baxter<hi>'s</hi> world of Spirits.</item>
+               <item>87 — his 3 Treatiſ. &amp; true Chriſtianity</item>
+               <item>88 — his Aphoriſmes of Juſtification.</item>
+               <item>89 — the N.C. Plea for Peace.</item>
+               <item>90 — his Cure of Church-Diviſions.</item>
+               <item>91 — Confirmat. the way to Reformat.</item>
+               <item>92 — Univerſal Concord.</item>
+               <item>93 Mr. Jo. Corton's ſelf-imploy. in ſecret.</item>
+               <item>94 Mr. Jer. Burrough<hi>'s</hi> Saints Inher. &amp;c.</item>
+               <item>95 Mr. King of the Diſcipline, Unity and Worſhip of the Pr. Chur. in 2 Vol.</item>
+               <item>96 Dr. Bate<hi>'s</hi> on Death and Etern. Judg.</item>
+               <item>97 Biſhop Patrick's <hi>Menſa Myſtica.</hi>
+               </item>
+               <item>98 The Holy Bible and N. Teſt. with Com.-Prayer Book and Pſalms <hi>Lond.</hi> 1623</item>
+               <item>99 Stokes<hi>'s</hi> (Da.) Paraphraſtical Explic. of the Twelve Minor Prophets 1659</item>
+               <item>100 Lowth<hi>'s</hi> (Will.) Vindication of the Divine Authority of H. Scrip. <hi>Oxf.</hi> 1692</item>
+               <item>101 Ward<hi>'s</hi> (Biſhop Seth) Sermon againſt the Anti-Scripturiſts <hi>Lond.</hi> 1670</item>
+               <item>102 Stillingfleet<hi>'s</hi> (B. Edw.) Letter to a Deiſt in Vind. of the H. Scrip. <hi>Ibid.</hi> 1677</item>
+               <item>103 Aſhwell<hi>'s</hi> (Geo.) Diſcourſe aſſerted the Auth. &amp;c. of the Ap. Cre. <hi>Oxon</hi> 1653</item>
+               <item>104 More<hi>'s</hi> (Dr. Hen.) Ant. againſt Atheiſm, with Appen. (2d Edit.) <hi>Loon.</hi> 1655</item>
+               <item>105 A Sober Enquiry concerning the poſſibility of a Trin. in the Godhead. 1694</item>
+               <item>106 Edwards<hi>'s</hi> (Joh.) Enquiry into ſeveral Texts of Scripture <hi>Camb.</hi> 1692</item>
+               <item>107 Burton<hi>'s</hi> (Dr. Hezek.) ſeveral Diſcourſes,
+<hi>viz.</hi> of Purity, Charity, &amp;c. 1684</item>
+               <item>108 The Book of Bertram or Ratramnus of the Body, Blood of our Lord 1686</item>
+               <item>109 A Diſcourſe of the unreaſonableneſs of repining at afflicting Providen. 1695</item>
+               <item>110 Smith<hi>'s</hi> (Rich.) Letter to Dr. Hammond about Chriſt's deſcent, &amp;c. 1684</item>
+               <item>111 Hale<hi>'s</hi> (Sir Matth.) Contemplations Moral and Divine, 2 Vol. 1677</item>
+               <item>112 Bryan<hi>'s</hi> (Dr. Joh.) dwelling with God the intereſt and duty of Believ. 1670</item>
+               <item>113 Stillingfleet<hi>'s</hi> (Biſh. Edw.) Letter to a Deiſt; R. Boyle<hi>'s</hi> Diſcourſe, &amp;c. 1677</item>
+               <item>114 Goodman<hi>'s</hi> (Dr. Joh.) Winter-Evening Conference in 2 Parts (5 Edit.) 1692</item>
+               <item>115 Wilkin<hi>'s</hi> (Biſh. Joh.) Diſcourſe of the Gifts of Prayer and Preaching 1655</item>
+               <item>116 — Sermons with a Diſcourſe of the Beauty of Providence 1680</item>
+               <item>117 Crofton<hi>'s</hi> (Zach.) Saints care for Church-communion in ſeveral Serm. 1671</item>
+               <item>118 Stillingfleet<hi>'s</hi> (Joh.) Shecinah, or a Demonſt. of the Divine Preſence, &amp;c. 1663</item>
+               <item>119 Baxter<hi>'s</hi> (Rich.) Gildas Salvianus, the Reformed Paſtor 1657</item>
+               <pb n="28" facs="tcp:44735:30"/>
+               <item>120 The Hiſtory of Life, Death, &amp;c. of our Bleſſed Saviour Jeſus Chriſt, &amp;c. 1694</item>
+               <item>121 Cave (Dr. Will.) Primitive Chriſtianity, or Religion of ancient Chriſt. 1682</item>
+               <item>122 The Hiſtory of Religion, Writ by a perſon of Quality
+1694</item>
+               <item>123 Roſs<hi>'s</hi> (Alex.) View of all the Religions in the World 1683</item>
+               <item>124 D'Emillianne<hi>'s</hi> (Gabr.) ſhort Hiſtory of the Monaſtical Orders 1693</item>
+               <item>125 Parker<hi>'s</hi> (Biſh. Sam.) Account of the Government of the Ch. Church 1683</item>
+               <item>126 Cave<hi>'s</hi> (Dr. Will.) Diſſertation concerning the Govern. of the anc. Ch. 1683</item>
+               <item>127 Biſhop of St. Aſaph<hi>'s</hi> Account of Church-Government in England 1684</item>
+               <item>128 The Church of England the beſt Guide, with Reflections on Lent-Faſt 1686</item>
+               <item>129 Thorndike<hi>'s</hi> (Herb.) Diſcourſe of the Right of the Church, &amp;c. 1649</item>
+               <item>130 Parker<hi>'s</hi> (Biſh. Sam.) Diſcourſe of Eccleſiaſtical Polity and Toleration 1671</item>
+               <item>131 Tompkins<hi>'s</hi> (T.) Modern Pleas for Comprehenſon, Toleration, &amp;c. 1675</item>
+               <item>132 Rycaut<hi>'s</hi> (Sir Paul) preſent State of the Greek and Armenian Churches 1679</item>
+               <item>133 Baxter<hi>'s</hi> (Rich.) Cure of Church-Diviſions
+1670</item>
+               <item>134 Caſaubon<hi>'s</hi> (Meric.) Treatiſe of Enthuſiaſm, as it is an effect of Nature 1656</item>
+               <item>135 Serjeant<hi>'s</hi> (Joh.) Sure-footing in Chriſt. or Diſc. on the Rule of Faith 1665</item>
+               <item>136 Tillotſon<hi>'s</hi> (Biſh. Joh.) Rule of Faith in Anſwer to J. S. Sure footing 1666</item>
+               <item>137 Reaſon againſt Raillery, or an Anſwer to Dr. Stillingfleet<hi>'s</hi> Preface, &amp;c. 1672</item>
+               <item>138 Saywell<hi>'s</hi> (Dr. Will.) Evangelical and and Catholick Unity, &amp;c. 1682</item>
+               <item>139 Penn<hi>'s</hi> (Will.) Rejoynder to Joh. Faldo<hi>'s</hi> Quakeriſm no Chriſtianity 1673</item>
+               <item>140 Hobbes<hi>'s</hi> Creed examin'd in a Confer. betw. him and a Student in Div. 1670</item>
+               <item>141 Harvey<hi>'s</hi> (Chriſt.) Self-contradict. cenſ. or Caveat againſt Inconſtancy 1662</item>
+               <item>142 Paedobaptiſmus Vindicatus, or Infant-Baptiſm ſtated by J.R. <hi>Lond.</hi> 1693</item>
+               <item>143 Metford<hi>'s</hi> (James) General Diſcourſe of Simony 1682</item>
+               <item>144 Lucas<hi>'s</hi> (Dr. Rich.) Duty of Servants
+<hi>Lond.</hi> 1695</item>
+               <item>145 Borſcough of Church-Government <hi>Ibid.</hi>
+1692</item>
+               <item>146 Ray<hi>'s</hi> (Joh.) Wiſdom of God in the Creation (the ſecond Edition) 1692</item>
+               <item>147 Stillingfleet's (Biſh. Edw.) Letter to a Deiſt
+1677</item>
+               <item>148 Patrick<hi>'s</hi> (Biſh. Sym.) Chriſtian Sacrifice (large Print) 1685</item>
+               <item>149 Payne<hi>'s</hi> (Dr.) Practical Diſcourſe of Repentance 1695</item>
+               <item>150 Cauſes of the Decay of Chriſtian Piety</item>
+               <item>151 Biſhop Wilkin<hi>'s</hi> Natural Religion</item>
+               <item>152 Dr. Calamy's Sermons</item>
+               <item>153 Biſhop Wilkins of Prayer and Preaching</item>
+               <item>154 Dr. Stradlings Sermons</item>
+            </list>
+         </div>
+         <div type="section">
+            <head>Engliſh Miſcellanies in <hi>Folio.</hi>
+            </head>
+            <list>
+               <item>1 SIr Rich. Baker<hi>'s</hi> Chronicle of the Kings of England 1674</item>
+               <item>2 De Serres Hiſtory of France <hi>Lond.</hi> 1611</item>
+               <item>3 Dr. Heylin<hi>'s</hi> Coſmography <hi>Lond.</hi>
+1677</item>
+               <item>4 The Hiſtory of the Council of Trent <hi>Lond.</hi>
+1640</item>
+               <item>5 Dr. Burnet<hi>'s</hi> Hiſtory of the Reformation 2 Vol. Filletted</item>
+               <item>6 Pedio Mexias, Treaſury of Ancient and Modern Times, 2 Vol. 1613</item>
+               <item>7 Grimſton<hi>'s</hi> General Hiſtory of the Netherlands, with the Continuation 1627</item>
+               <item>8 Ralph Hollingſhed<hi>'s</hi> Chronicles in 2 Vol. of the Kings, &amp;c.</item>
+               <pb facs="tcp:44735:30"/>
+               <pb facs="tcp:44735:31"/>
+               <pb n="29" facs="tcp:44735:31"/>
+               <item>9 Ruſhworth<hi>'s</hi> Collections, Vol. 1. <hi>Lond.</hi>
+1659</item>
+               <item>10 Sir Jo. Chardin<hi>'s</hi> Travels, with the Cuts, &amp;c.
+1691</item>
+               <item>11 Joſephus his Works <hi>Lond.</hi> 1676</item>
+               <item>12 Cabala, or Myſteries of State and Government
+<hi>Lond.</hi> 1663</item>
+               <item>13 Mr. Purchas his Pilgrimage <hi>Lond.</hi> 1614</item>
+               <item>14 Mercators Atlas, with the Maps <hi>Lond.</hi> 1635</item>
+               <item>15 Sprigg<hi>'s</hi> Anglia Rediviva <hi>Lond.</hi>
+1647</item>
+               <item>16 Jo. Shefferus his Hiſtory of Lapland <hi>Oxon.</hi>
+1674</item>
+               <item>17 Grimſton<hi>'s</hi> Hiſtory of the States, Empires and Principal. of the World 1615</item>
+               <item>18 The Lord Bacon<hi>'s</hi> Natural Hiſtory, with his new Atlantis <hi>Lond.</hi> 1630</item>
+               <item>19 Of the means of well Governing a Kingdom <hi>Lond.</hi>
+1608</item>
+               <item>20 Davila<hi>'s</hi> Hiſtory of the Civil Wars of France
+<hi>Lond.</hi> 1678</item>
+               <item>21 P. Matthieu<hi>'s</hi> Hiſtory of Lewis the XI. of France <hi>Lond.</hi> 1614</item>
+               <item>22 Howel<hi>'s</hi> Survey of the Signory of Venice
+<hi>Lond.</hi> 1691</item>
+               <item>23 Sir P. Ricaut<hi>'s</hi> Royal Commentaries of Peru
+<hi>Lond.</hi> 1688</item>
+               <item>24 Godwin's Annales of England <hi>Lond.</hi> 1630</item>
+               <item>25 Dr. Lock<hi>'s</hi> Eſſay concerning Humane underſtanding 1695</item>
+               <item>26 Foulis's Hiſtory of the Plots of our pretended Saints
+1674</item>
+               <item>27 The firſt part of the Hiſtory of England
+<hi>Lond.</hi> 1677</item>
+               <item>28 Tacitus his Annales and Hiſtory, with Savil<hi>'s</hi> Notes, &amp;c. 1621</item>
+               <item>29 Dalton<hi>'s</hi> Country-Juſtice <hi>Lond.</hi>
+1666</item>
+               <item>30 The Works of that famous Chirurgeon Ambroſe Parey
+1678</item>
+               <item>31 Blome<hi>'s</hi> Britannia, Large Paper Gilt, Back and Maps Coloured</item>
+               <item>32 Minſheu<hi>'s</hi> Guide to the Tongues in XI. Languages.</item>
+               <item>33 Sanſon<hi>'s</hi> Coſmography and Geography, Gilt and Maps coloured</item>
+               <item>34 King Charles Large Declaration of the Tumults of Scotland.</item>
+               <item>35 Gayton<hi>'s</hi> pleaſant Notes on Don Quixott
+<hi>Lond.</hi> 1654</item>
+               <item>36 Wilſon<hi>'s</hi> Hiſtory of Great Britain, Gilt
+<hi>Lond.</hi> 1653</item>
+               <item>37 Hume<hi>'s</hi> General Hiſtory of Scotland
+<hi>Edinburg.</hi>
+               </item>
+               <item>38 The Hiſtory of Polybius, wants only the Title-page</item>
+               <item>39 A Collection of Philoſophical Conferences <hi>Lond.</hi>
+1665</item>
+               <item>40 The Hiſtory of the Adminiſtration of Cardinal Richelieu.</item>
+               <item>41 Aitzemas Notable Revolutions in the Netherlands
+1653</item>
+               <item>42 Sir Th. Herbert<hi>'s</hi> Travels <hi>Lond.</hi>
+1638</item>
+               <item>43 Sir George Crokes Reports <hi>Lond.</hi> 1657</item>
+               <item>44 Philips his General Dictionary <hi>Lond.</hi> 1661</item>
+               <item>45 An Hiſtorical Collection of the Tragical Maſſacres of France</item>
+               <item>46 The Triumphs of Naſſau <hi>Lond.</hi> 1612</item>
+               <item>47 Petries Hiſtory of the Catholick Church <hi>A</hi>
+1662</item>
+               <item>48 Dr. <hi>Carletons</hi> Fabrick of Science, Natural,
+<hi>&amp;c.</hi> 1654</item>
+               <item>49 Mezeray's General Chronological Hiſtory of France
+1683</item>
+               <item>50 Bromhall<hi>'s</hi> Treatiſe of Specters <hi>Lond.</hi>
+1658</item>
+               <item>51 The Hiſtory of Philip de Comines, with the Pedegree
+1596</item>
+               <item>52 Judge Hatton<hi>'s</hi> Reports <hi>Lond.</hi> 1656</item>
+               <item>53 Dyers Reports <hi>Lond.</hi> 1592</item>
+               <item>54 Sir Walter Raleigh's Hiſtory of the World 1592</item>
+               <item>55 The Life and Death of Hector <hi>Lond.</hi> 1614</item>
+               <item>56 Dr. Heylin<hi>'s</hi> Hiſt. of the Reformation of the Church of England 1661</item>
+               <pb n="30" facs="tcp:44735:32"/>
+               <item>57 Speed<hi>'s</hi> Hiſtory of Great Brittain
+<hi>Lond.</hi> 1648</item>
+               <item>58 The Hiſtory of the Execrable Iriſh Rebellion
+1680</item>
+               <item>59 The Comedies and Tragedies of Beaumont and Fletcher
+<hi>Lond.</hi> 1679</item>
+               <item>60 Mon. Thevenaut's Travels into the Levant <hi>Lond.</hi>
+1647</item>
+               <item>61 The Counteſs of Pembrooks Arcadia <hi>Lond.</hi>
+1674</item>
+               <item>62 Dr. Heylin's Life and Death of Arch-Biſhop <hi>Laud Lond.</hi> 1671</item>
+               <item>63 Bacon<hi>'s</hi> (Franc. Ld.) Natural Hiſtory publiſh'd by Dr. Will. Rawley <hi>Lond.</hi> 1631</item>
+               <item>64 Batman (Steph.) upon Bartholin's Book called De Proprietatibus Rerum 1582</item>
+               <item>65 Digby<hi>'s</hi> (St. Ken.) 2 Treat. viz. of Bodies and of the Immor. of the Soul <hi>Pa.</hi> 1644</item>
+               <item>66 Collins<hi>'s</hi> (Dr. Sam.) Syſt. of Anat. illuſt. with many curi. Sch. fig. <hi>&amp;c.</hi> 2 Vol. <hi>L.</hi> 1685</item>
+               <item>67 Grew<hi>'s</hi> (Dr. Neh.) Anat. of Plants, with ſeveral other Lect. copper Cuts, <hi>&amp;c.</hi> 1682</item>
+               <item>68 Selden<hi>'s</hi> (Joh.) Tracts. viz. Engl. Janus, Engl. Epinomis Eccleſ. Juri. <hi>&amp;c.</hi> 1683</item>
+               <item>69 Melvill<hi>'s</hi> (Sr. James) Memories of State-Affairs in England and Scotland 1683</item>
+               <item>70 Howard<hi>'s</hi> (Hen. Ld.) Defenſative againſt the Poyſ. of ſuppoſed Prophecies 1620</item>
+               <item>71 Vere<hi>'s</hi> (Sr. Franc.) Commen. publ. by Dr. Will. Dilling. with Cuts <hi>Cam.</hi> 1657</item>
+               <item>72 Camden<hi>'s</hi> (Will.) Hiſt. of Q. Elizabeth compos'd by way of Annals <hi>Lond.</hi> 1630</item>
+               <item>73 Baker<hi>'s</hi> (Sr. Rich.) Chronicle of the Kings of Engl. (the eighth Edition 1684</item>
+               <item>74 Knolle<hi>'s</hi> (Rich.) Gen. Hiſt. of the Turks with Sr. Paul Rycant<hi>'s</hi> Cont. 2 Vol. 1685</item>
+               <item>75 Ogilby<hi>'s</hi> (Joh.) Emb. of the Dutch Eaſt-India Com. to China with Sculpt. 1669</item>
+               <item>76 Herbert<hi>'s</hi> (Sr. Tho.) Travels into Africa, Aſia, India, <hi>&amp;c.</hi> with Copper Cuts 1677</item>
+               <item>77 Sandys (Geo.) Trav. into Turk. Gree. Aegypt,
+<hi>&amp;c.</hi> illuſt. with Maps Cuts, <hi>&amp;c.</hi> 1658</item>
+               <item>78 The Hiſtory of the Caribbee Iſlands adorn'd with ſeveral Sculptures, <hi>&amp;c.</hi> 1666</item>
+               <item>79 Scheffer<hi>'s</hi> (Joh.) Hiſt. of Lapland explain'd with Schemes and Cuts <hi>Ox.</hi> 1674</item>
+               <item>80 Leybourn<hi>'s</hi> Recreations Numerical Geomet, Hiſtorical, <hi>&amp;c.</hi> 1695</item>
+               <item>81 Philoſtratus his Life of Apollonous Tyanaeus, by Blount
+1680</item>
+               <item>82 King Charles, his Works, Life, Tryal and Martyrdome</item>
+               <item>83 Ld. Angleſeys Polilical Remarks on Chriſtendome
+1688</item>
+               <item>84 Evelyn<hi>'s</hi> Parallel of Architecture, Antient and Modern</item>
+               <item>85 Lock<hi>'s</hi> Eſſay of Humane Underſtanding</item>
+               <item>86 New Body of Geography with Maps of every Country in Europe</item>
+               <item>87 Reports in the Court of Common Pleas, by S. Carter</item>
+               <item>88 Proceedings in the Kings Bench againſt the Charter of London 1690</item>
+               <item>89 Dawſon's Original of Laws, and their obliging Power
+1696</item>
+               <item>90 Dutch Bible</item>
+               <item>91 Aſhmoles Order or the Garter w<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ah Figures Gilt Back</item>
+               <item>92 Sir Richard Baker's Chronicle laſt Edition</item>
+               <item>93 Prince Arthur an Heroick Poem, by Dr. Blackmore</item>
+               <item>94 Almahide or the Captive Queen a Romance</item>
+               <item>95 Diemerbroeck's Anatomy Engliſhed by Mr. Salmon (with Figuers)</item>
+               <item>96 Camden's Reign of Queen Elizabeth laſt Edition</item>
+               <item>97 The Tryal of King Charles, by Dr. Nalſon</item>
+               <item>98 Dr. Willi's of the Soul of Brutes</item>
+               <item>99 Holyokes Large Dictionary Lat. and Engliſh</item>
+               <item>100 Joſephus his Works laſt Edition</item>
+               <item>101 Nalſons Works in 3 Vol. Gilt Back</item>
+               <item>102 Burnet<hi>'s</hi> Hiſtory of the Reformation in 2 Vol.</item>
+               <item>103 Milton<hi>'s</hi> Paradice loſt and Regained (with Fig.)</item>
+               <item>104 Chaucers Works laſt Edition</item>
+               <pb facs="tcp:44735:32"/>
+               <pb facs="tcp:44735:33"/>
+               <pb n="31" facs="tcp:44735:33"/>
+               <item>105 Feltham<hi>'s</hi> Reſolves laſt Edition</item>
+               <item>106 Burton<hi>'s</hi> Anatomy of Melancholy beſt Edition</item>
+               <item>107 Aeſop<hi>'s</hi> Fables Engliſhed, by Sr. Roger Leſtrange</item>
+               <item>108 Fowlis<hi>'s</hi> Hiſtory of the pretended Saints</item>
+               <item>109 Life of Lewis 13th.</item>
+               <item>110 Ogilby<hi>'s</hi> (Joh) Itinerar. Angliae, or Book of Roads delinea. in Sculpt. <hi>Lond.</hi> 1675</item>
+               <item>111 Howell<hi>'s</hi> (Dr. Will.) Inſtit. of the Gen. Hiſt. of the World, 2 Vol. <hi>Ibid.</hi> 1660</item>
+               <item>112 Dugdales (Sr Will.) Orig. Jurid. or Hiſt. Memor. of Engl. Laws, &amp;c. 1666</item>
+               <item>113 Chardin<hi>'s</hi> (Sr. Joh.) Travels into Perſia and the Eaſt Indies with Sculpt. 1686</item>
+               <item>114 The Hiſt. of the Tron. and Try. of Dr. Will. Lawd Ld. Arch-Bp. of Caterb. 1695</item>
+               <item>115 Sleidan<hi>'s</hi> (Joh.) General Hiſt. of the Reformat. begun by M. Luther, &amp;c. 1689</item>
+               <item>116 The Hiſt. of the Civil Wars of England, under K. Henry VI. in MS.</item>
+               <item>117 Digges<hi>'s</hi> (Sr. Dudl) Compl. Ambaſſ. or Treat. of Q. Eliz. intended Mari. &amp;c. 1655</item>
+               <item>118 Heytyn<hi>'s</hi> (Dr. Pet.) Hiſt. of the Life and Death of Arch-Biſhop Lawd 1671</item>
+               <item>119 Johnſon<hi>'s</hi> (Benj.) Select Plays, viz. Barthol. Fair, the Staple of News, &amp;c. 1631</item>
+               <item>120 L'Eſtrange<hi>'s</hi> (Sr. Ham.) Hiſt. of the Reign of K. Charles I. with Obſervat. 1656</item>
+               <item>121 Carew<hi>'s</hi> (Geo.) Caſe betw. the Aſſigns of W. Courten, &amp; the Dut. E. Ind. Co. 1662</item>
+               <item>122 Turner's (Sr. James) Pallas Armata, or Military Eſſays, &amp;c. 1683</item>
+               <item>123 Monro's (Rob.) Expedit. with an Abridgm. of Exerciſe and Obſervat. 1637</item>
+               <item>124 Labyrinthus Contuarienſis, or Dr. Lawd's by T. C.
+<hi>Paris</hi> 1658</item>
+               <item>125 Willan's (Leon.) Exact Politician, or Compleat States-man
+<hi>Lond.</hi> 1670</item>
+               <item>126 Florio's (Joh.) Copious Jtalian and Engliſh Dictionary
+<hi>Ibid.</hi> 1598</item>
+               <item>127 Serres's (Joh. de) General Hiſt. of France, Engliſh'd by Edw. Grimeſton 1607</item>
+               <item>128 Rycaut's (Sr, Paul) Preſent State of the Ottoman Empire with Sculpt. 1670</item>
+               <item>129 Primaudaye's (Pet. de la) French Academy diſcover'd in four Books 1618</item>
+               <item>130 Boccalin's (Traj.) Advertiſements from Parnaſſus</item>
+               <item>131 Willughby's (Franc.) Hiſt. of Birds with their Fig. on Copper Plates <hi>Lond.</hi> 1678</item>
+               <item>132 Wallis (Dr. Joh.) Treat. of Algebra Hiſtor. and Practical, with Cuts <hi>Ibid.</hi> 1685</item>
+               <item>133 Brown's (Sr. Tho.) Works Compleat, viz. Religio Medici, &amp;c. 1686</item>
+               <item>134 Ingelo's (Dr. Nath.) Bentivolio and Urania, in ſix Books 1673</item>
+               <item>135 The Art of Japanning illuſtrated with curious Cuts</item>
+               <item>136 Brown's Merchants Accounts 1680</item>
+               <item>137 Ludolph's (Job.) Hiſtory of Aethiopia with variety of Sculptures, &amp;c. 1684</item>
+               <item>138 Sentiments of the famous Painters with Figures
+1688</item>
+               <item>139 Ray<hi>'s</hi> (Joh.) Hiſtory of Birds illuſtrated with many Copper Cuts 1678</item>
+            </list>
+         </div>
+         <div type="section">
+            <head>Engliſh Miſcellanies in <hi>Quarto.</hi>
+            </head>
+            <list>
+               <item>1 MR. Rob. Boyles Phyſiological Eſſays, and other Tracts <hi>Lond.</hi> 1668</item>
+               <item>2 Ld. Bacon<hi>'s</hi> Relation of the Sweating Sickn. examin'd, by Dr. <hi>Stubs</hi>
+               </item>
+               <item>3 Camden<hi>'s</hi> Remains, and Godwin<hi>'s</hi> Roman Antiquities</item>
+               <item>4 Cook<hi>'s</hi> Marrow of Chirurgery <hi>Lond.</hi>
+1685</item>
+               <item>5 The Trial of Wits, and Charron of Wiſdom</item>
+               <item>6 A moſt exact and Accurate Map of the Whole World
+<hi>Lond.</hi> 1676</item>
+               <item>7 A Miſcell. of 10 choice Tracts, begins with Lieceſter<hi>'s</hi> Common-wealth</item>
+               <item>8 Caſaubon<hi>'s</hi> Treatiſe of Uſe and Cuſtome
+<hi>Lond.</hi> 1688</item>
+               <pb n="32" facs="tcp:44735:34"/>
+               <item>9 Six choice Modern Pamphlets, begins with Endeavours of
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ovinian</item>
+               <item>10 A perfect Guide for a Studious young Lawyer <hi>Lond.</hi>
+1654</item>
+               <item>11 A Treatiſe of Specters, or Strange Sights, Apparitions, &amp;c. 1605</item>
+               <item>12 The Articles and Canons Eccleſiaſtical of the Church of England 1674</item>
+               <item>13 9 choice Tracts, begins with Sir Thomas Smith<hi>'s</hi> Common-wealth of Engl.</item>
+               <item>14 Culverwell<hi>'s</hi> Elegant Learned Diſcourſes of the Light of Nature</item>
+               <item>15 Daniel<hi>'s</hi> Firſt Part of the Hiſtory of England, with Heliod. his Aethiop. Hiſt.</item>
+               <item>16 Hughes his Commentaries on Original Writs <hi>Lond.</hi>
+1655</item>
+               <item>17 Eleven choice Tracts, begins with Dr. Walker's Account, &amp;c.</item>
+               <item>18 Mr. William Camden<hi>'s</hi> Remaines concerning Britain
+1623</item>
+               <item>19 Six Modern Tracts begins with Mr. Marvel of the growth of Popery</item>
+               <item>20 Sir Kenelm Digby<hi>'s</hi> 2 Treatiſes of the Nature of Bodies, &amp;c. 1665</item>
+               <item>21 Select Tracts begins with Sir Edward Deering<hi>'s</hi> Speeches</item>
+               <item>22 Cawdries Treaſury, or Store-houſe of Similies
+<hi>Lond.</hi> 1600</item>
+               <item>23 Sands<hi>'s Europae Speculum,</hi> and Cornelius Agrippa of Science</item>
+               <item>24 The Admirable Hiſtory of a Magician 1613</item>
+               <item>25 Johnſon<hi>'s</hi> Relations, with Heylin<hi>'s</hi> view of France</item>
+               <item>26 Powel<hi>'s</hi> Treatiſe of Simples <hi>Lond.</hi>
+1652</item>
+               <item>27 Ten choice Law-Tracts, begins with Sir Francis Bacon's Caſes</item>
+               <item>28 Dr. Baylyes Directions for Health <hi>Lond.</hi>
+1668</item>
+               <item>29 Charron of Wiſdom <hi>Lond.</hi> 1670</item>
+               <item>30 Claude, his Hiſtorical Defence of the Reformation
+1683</item>
+               <item>31 Dr. Wilſon<hi>'s</hi> chearful Ayres <hi>Oxf.</hi>
+1661</item>
+               <item>32 Mr. Tho. Hooker's Hiſtory of New England <hi>Lond.</hi>
+1654</item>
+               <item>33 Lord's Religion of the Perſians <hi>Lond.</hi>
+1630</item>
+               <item>34 The Hiſtory of Independency, in Three Parts
+<hi>Lond.</hi> 1648</item>
+               <item>35 Sadler's Rights of the Kingdom, or Cuſtom of our Anceſtors</item>
+               <item>36 Mr. Tho. Hobbs Elements of Philoſophy <hi>Lond.</hi>
+1656</item>
+               <item>37 Clowes Obſervations for curing of Gunſhot Wounds
+<hi>Lond.</hi> 1637</item>
+               <item>38 Campanella's Diſcourſe of the Spaniſh Monarchy
+<hi>Lond.</hi> 1654</item>
+               <item>39 Jo. Milton's Hiſtory of England <hi>Lond.</hi>
+1671</item>
+               <item>40 Barclay's Argenis, with the Cuts <hi>Lond.</hi>
+1629</item>
+               <item>41 Ady, his Candle in the Dark <hi>Lond.</hi> 1655</item>
+               <item>42 Feltham's Reſolves <hi>Lond.</hi> 1624</item>
+               <item>43 Prideaux his Introduction to Hiſtory <hi>Lond.</hi>
+1650</item>
+               <item>44 Mr. G. Clark's Marrow of Eccleſiaſtical Hiſtory
+<hi>Lond.</hi> 1650</item>
+               <item>45 — His Collection of Times <hi>Lond.</hi> 1662</item>
+               <item>46 9 Tracts begins with the Account of the proceedings at the Savoy</item>
+               <item>47 The Queens Injunctions. The Synod of Dort, &amp;c.</item>
+               <item>48 A Miſcell. of choice Modern Tracts, begins with my L. Chief Juſt. Hales</item>
+               <item>49 Mr. Bluvill's Exerciſes in 8 Treatiſes <hi>Lond.</hi>
+1682</item>
+               <item>50 A Miſcell. of 7 Modern Tracts, begins with the Apoſtacy of Antichriſt</item>
+               <item>51 Culverwell's Elegant and Learned Diſcourſe of the Light of Nature</item>
+               <item>52 Gilleſpies Aaron's Rod Bloſſoming <hi>Lond.</hi>
+1646</item>
+               <item>53 Matthew Horvick's Life, and Deplorable Death of Hen.
+4th.</item>
+               <item>54 Roger's on the Articles of the Church of England, and Mr.
+<hi>Medes</hi> Apoſtacy.</item>
+               <item>55 Mr. Chriſtopher Cartwright's <hi>Certamen Religioſum</hi> 1652</item>
+               <item>56 Mr. Hilderſham of Faſting and Prayer, and Mr. R. Bolton's Way</item>
+               <pb facs="tcp:44735:34"/>
+               <pb facs="tcp:44735:35"/>
+               <pb n="33" facs="tcp:44735:35"/>
+               <item>57 Dr. Du-Moulin's Vindication of the Proteſtant Religion</item>
+               <item>58 Dr. Reynold's of the Paſſions and Faculties of the Soul of Man</item>
+               <item>59 7 Tracts, begins with the Abridgment</item>
+               <item>60 Clarkſon's Practical Divinity of the Papiſts, &amp;c.</item>
+               <item>61 A Miſcell. of 8 choice Tracts, begins with Lyſles Saxon Treatiſe</item>
+               <item>62 Dr. Hammond's Practical Chatechiſm, with other of his Tracts</item>
+               <item>63 9 Treatiſes, wherein is Sir Tho. Smith's Common-wealth of England</item>
+               <item>64 Modern Sermons and Diſcourſes, by Dr. Alleſtree, South, Dr. Williams</item>
+               <item>65 Brerewood<hi>'s</hi> (Edw.) Enquires about the diverſity of Languages, &amp;c. <hi>Lo.</hi> 1635</item>
+               <item>66 Gouldman<hi>'s</hi> (Fran.) Dictionary Enlarg'd by Dr. Scattergood, 4. Ed. <hi>Cam.</hi> 1678</item>
+               <item>67 Hexham<hi>'s</hi> (Hen.) Copious Nether-Dutch Dictionary and Grammar <hi>Rot.</hi> 1660</item>
+               <item>68 Godwyn<hi>'s</hi> (Tho.) Jewiſh and Rom. Antiquities, with F. R<hi>'s</hi> At. Ant. <hi>Lo.</hi> 1685</item>
+               <item>69 Verſtegan<hi>'s</hi> (Rich.) Antiquities of the Engliſh Nation, with Cuts 1605</item>
+               <item>70 Donne<hi>'s</hi> (Dr. Joh.) Poems, with Elegies on the Author<hi>'s</hi> Death 1633</item>
+               <item>71 Heylyn<hi>'s</hi> (Dr. Pet.) Microcoſmus, or little deſcrip. of the Gr. World <hi>Ox.</hi> 1636</item>
+               <item>72 Uſher<hi>'s</hi> (A.<hi>B.</hi> James) Geogr. Deſcrip. of Aſia, with a Tract of Epiſcopacy 1643</item>
+               <item>73 Wright<hi>'s</hi> (Tho.) Paſſions of the Mind in General, in ſix Books <hi>Lond.</hi> 1630</item>
+               <item>74 Brown<hi>'s</hi> (Sir Tho.) Enquiries into many Vulgar and common Errors 1658</item>
+               <item>75 Godwyn<hi>'s</hi> (Tho.) Engliſh Expoſition of the Roman Antiquities <hi>Oxon</hi> 1623</item>
+               <item>76 Rights of the Kingdom, or Anc. Cuſt. concerning Kings, Parliaments, &amp;c. 1682</item>
+               <item>77 Annus Mirabilis, or the Year of Prodigies and Wonders
+1661</item>
+               <item>78 Tap<hi>'s</hi> (Joh.) Scamans Kalendar corrected and enlarg'd by Hen. Bond 1654</item>
+               <item>79 Lives of the Apoſtles, Patriarchs, &amp;c. 1695</item>
+               <item>80 Sir Jonas More<hi>'s</hi> Syſteme of the Mathematicks, in 2 Vol.</item>
+               <item>81 De Grey<hi>'s</hi> Compleat Horſe-man</item>
+               <item>82 Salmon<hi>'s</hi> (<hi>Dr.</hi> Will.) Jatrica, or Medicinal Hiſt. of Famous Cures <hi>Lond.</hi> 1694</item>
+               <item>83 Charlton<hi>'s</hi> (Dr. Walt.) Enquiries into Human Nature 1680</item>
+               <item>84 Boyle<hi>'s</hi> (Rob.) Experiments and Obſervations touching Cold 1683</item>
+               <item>85 Brown<hi>'s</hi> (Dr. Edw.) Travels into <hi>Hungaria, Servia, Bulgaria,</hi> &amp;c. with Fig. 1673</item>
+               <item>86 Policy Unveil'd; or Maxims and Reaſons of State
+1637</item>
+               <item>87 Bacon<hi>'s</hi> (Franc. Lord) Remains, <hi>viz.</hi> Eſſays, Letters, Tracts, &amp;c. 1648</item>
+               <item>88 Heylyn<hi>'s</hi> (Dr. Pet.) Microcoſmus, or Geogr. deſcrip. of the World <hi>Oxon</hi> 1631</item>
+               <item>89 An Admonit. to the People of England againſt Martin the Libell. <hi>Lond.</hi> 1589</item>
+               <item>90 Nicols<hi>'s</hi> (Tho.) Lapidary, or Hiſtory of Precious Stones <hi>Cambr.</hi> 1652</item>
+               <item>91 Martin<hi>'s</hi> (Dr. Tho.) Treatiſe againſt the Marriage of Prieſts <hi>Lond.</hi> 1654</item>
+               <item>92 Burrough<hi>'s</hi> (Phil.) Method of Phyſick (the Eighth Edition) 1639</item>
+               <item>93 Du Vergers (S.) Admirable Events and Moral Relations
+1639</item>
+               <item>94 Van Helmont's (J. Bapt.) Ternary of Paradoxes tranſl. by Dr. Charlton 1650</item>
+               <item>95 Donne<hi>'s</hi> (Dr. Joh.) Pſeudomartyr, or diſcovery of falſe Martyrdom, &amp;c. 1610</item>
+               <item>96 Hayward<hi>'s</hi> (Sir Joh.) Life and Reign of King Edward VI. 1630</item>
+               <item>97 Boyle<hi>'s</hi> (Rob.) Experiments of the Air, Compleat with Cuts <hi>Lond.</hi> 1682</item>
+               <item>98 — Hiſtory of Cold 1683</item>
+               <item>99 The Whole Art of the Stage 1684</item>
+               <item>100 A Collection of Caſes and other Diſcourſes for the recovery of Diſſent. 1685</item>
+               <item>101 — writ by able Divines againſt the Papiſts, 2 Vol. 1685</item>
+               <item>102 An Account of the Proceedings of the Commiſſ. for review of B. C. P. 1661</item>
+               <item>103 Edward<hi>'s</hi> (Tho.) <hi>An apologia, Mercurius Pacificus,</hi> Dir. for Ch.-Gov. &amp;c. 1644</item>
+               <item>104 A Vindicat. of the Presbyt. Gov. Animadverſ. upon
+<hi>Smectymnus,</hi> &amp;c. 1650</item>
+               <pb n="34" facs="tcp:44735:36"/>
+               <item>105 A Volume of Speeches made in the Long Parliament held
+<hi>A.D.</hi> 1640. 1641</item>
+               <item>106 Abrenethy<hi>'s</hi> (Joh.) Phyſick for the Soul, and T.Wr. Paſſions of the Mind.</item>
+               <item>107 Swift<hi>'s</hi> (Dan.) T. Coleman<hi>'s,</hi> &amp;c. Sermons upon taking the Covenant, &amp;c.</item>
+               <item>108 Marſhall<hi>'s</hi> (Steph.) Sermon before the Houſe of Commons, &amp;c. 1642</item>
+               <item>109 A Collection of Sermons preach'd by ſeveral Divines, &amp;c. 2 Vol. 1670</item>
+               <item>110 Ward<hi>'s</hi> (Nath.) Sermon. J. Biddle<hi>'s</hi> 12 Arguments, Imp. Beggar, &amp;c. 1647</item>
+               <item>111 Barlow<hi>'s</hi> (Will.) Confer. held before K.
+<hi>C.</hi> I. <hi>J. Howard</hi> of Supremacy, &amp;c.</item>
+               <item>112 The Statutes of <hi>Geneva,</hi> Tryal of the new Church way in <hi>New England,</hi> &amp;c,</item>
+            </list>
+         </div>
+         <div type="section">
+            <head>Engliſh Miſcellanies in <hi>Octavo.</hi>
+            </head>
+            <list>
+               <item>1 SEneca<hi>'s</hi> Morals by Sir <hi>R. L'Eſtrange,</hi> Gilt <hi>Lond.</hi> 1688</item>
+               <item>2 <hi>Joſephus</hi> his Hiſtory of the later Times of the
+<hi>Jews</hi> 1669</item>
+               <item>3 <hi>Th. Hobbs</hi> Natural Philoſophy <hi>Lond.</hi>
+1678</item>
+               <item>4 <hi>Baker</hi>'s Deſcription and Uſes of the Planiſphere <hi>Lond.</hi> 1686</item>
+               <item>5 <hi>Culpepper</hi>'s Laſt Legacy <hi>Lond.</hi>
+1671</item>
+               <item>6 Mr. <hi>R. Boyle</hi>'s Origine of Forms and Qualities
+<hi>Oxf.</hi> 1666</item>
+               <item>7 Modern Curioſities of Art and Nature <hi>Lond.</hi>
+1667</item>
+               <item>8 <hi>Leigh</hi>'s Choice Obſervations on the
+<hi>Roman</hi> and <hi>Greek</hi> Emperours</item>
+               <item>9 <hi>Culpepper</hi>'s Treatiſe of <hi>Aurum Potabile Lond.</hi> 1655</item>
+               <item>10 <hi>Charras</hi> his new Experiments upon Vipers
+<hi>Lond.</hi> 1670</item>
+               <item>11 Memoirs of the Family of the <hi>Stuarts Lond.</hi>
+1683</item>
+               <item>12 Mr. <hi>Hunt</hi>'s Poſtſcript, with two other Diſcourſes <hi>Lond.</hi> 1682</item>
+               <item>13 <hi>Ferrand</hi> of Melancholy, &amp;c. <hi>Oxford</hi>
+1640</item>
+               <item>14 <hi>Chilmeades</hi> Learned Treatiſe of the Globes
+<hi>Lond.</hi> 1639</item>
+               <item>15 A Remembrancer of ten Excellent Men <hi>Lond.</hi>
+1674</item>
+               <item>16 The Life and Death of <hi>William Bedloe Lond.</hi>
+1681</item>
+               <item>17 <hi>Evelin</hi>'s Tranſlation of Lucretius
+<hi>Lond.</hi> 1656</item>
+               <item>18 A Diſcourſe of Friendſhip <hi>Lond.</hi> 1686</item>
+               <item>19 <hi>Playford</hi>'s Introduction to Muſick
+<hi>Lond.</hi> 1666</item>
+               <item>20 The Politicians Catechiſm 1658</item>
+               <item>21 Sir <hi>Kenelm Digby</hi>'s Obſervations on <hi>Religio Medici,</hi> &amp;c.</item>
+               <item>22 The Clerk's Manual, or a Collection of Declarations, &amp;c. 1682</item>
+               <item>23 A Compendious and Accurate Treatiſe of Recoveries and Fines 1678</item>
+               <item>24 <hi>Plowden</hi>'s Queries, or a Moot Book <hi>Lond.</hi>
+1662</item>
+               <item>25 <hi>Defenſio Legis,</hi> or the whole State of
+<hi>England</hi> defended <hi>Lond.</hi> 1674</item>
+               <item>26 <hi>Leigh's</hi> Philological Commentary of the Law
+<hi>Lond.</hi> 1658</item>
+               <item>27 The Works of Judge <hi>Jenkins Lond.</hi> 1681</item>
+               <item>28 An Exact Abridgement of <hi>Plowden</hi>'s Commentaries
+1659</item>
+               <item>29 Art aſleep Husband? a Boulſter-Lecture <hi>Lond.</hi>
+1640</item>
+               <item>30 The Character of the Paſſions <hi>Lond.</hi>
+1658</item>
+               <item>31 <hi>Trapham's</hi> State of <hi>Jamaica.</hi>
+               </item>
+               <item>32 The Portraiture of his Sacr. Majeſty.</item>
+               <item>33 The Fees of Several Courts.</item>
+               <item>34 <hi>Brydall</hi>'s View of <hi>London.</hi>
+               </item>
+               <item>35 Sir <hi>Thomas More</hi>'s Utopia.</item>
+               <pb facs="tcp:44735:36"/>
+               <pb facs="tcp:44735:37"/>
+               <pb n="35" facs="tcp:44735:37"/>
+               <item>36 <hi>Herle</hi>'s Wiſdom's <hi>Tripos.</hi>
+               </item>
+               <item>37 <hi>Shelton's</hi> Art of Short Writing.</item>
+               <item>38 <hi>Rabbi Moſe's</hi> Philoſophical Treatiſe.</item>
+               <item>39 Dr. <hi>Mayern's</hi> Medicinal Counſels.</item>
+               <item>40 <hi>Boyle's</hi> Medicinal Experiments.</item>
+               <item>41 A Treatiſe of Dreams and Viſions.</item>
+               <item>42 <hi>Wither's Britains</hi> Remembrancer.</item>
+               <item>43 Sir <hi>K. Digby's</hi> diſcourſe at
+<hi>Montpellier.</hi>
+               </item>
+               <item>44 <hi>S. Clark's</hi> deſcription of the World.</item>
+               <item>45 An Hiſt. Account of the Pr. of <hi>Orange</hi>
+               </item>
+               <item>46 <hi>Harvey's</hi> Art of curing Diſeaſes.</item>
+               <item>47 Obſervations upon Hiſtory.</item>
+               <item>48 The <hi>Engliſh</hi> and <hi>French</hi> Cook.</item>
+               <item>49 <hi>Quaerela Geometrica.</hi>
+               </item>
+               <item>50 A Diſcovery of Impoſtors &amp; Witches</item>
+               <item>51 Inſtructions for Foreign Travels.</item>
+               <item>52 A View of the <hi>Engliſh</hi> Acquiſitions.</item>
+               <item>53 A Pattern of Univerſal Knowledge.</item>
+               <item>54 Wits Theater of the little World.</item>
+               <item>55 The Life and Death of Sir <hi>Ed. Godfry.</hi>
+               </item>
+               <item>56 <hi>Osborn</hi> of the Government of the
+<hi>Turk</hi>
+               </item>
+               <item>57 <hi>Howel's</hi> Directions for Travels.</item>
+               <item>58 <hi>Ker</hi>'s <hi>Engliſh</hi> Liberties.</item>
+               <item>59 The Hiſt. of the Revolutions at <hi>Naples</hi>
+               </item>
+               <item>60 Arbitrary Gov. diſplayed to the life.</item>
+               <item>61 <hi>Leo Modena's</hi> Hiſtory of the
+<hi>Jews</hi>
+               </item>
+               <item>62 <hi>
+                     <g ref="char:V">Ʋ</g>lvian's</hi> Eſſays.</item>
+               <item>63 <hi>Rawleigh Redivivus.</hi>
+               </item>
+               <item>64 The Devils Cloyſter.</item>
+               <item>65 <hi>Cuſanus</hi> his Idiots.</item>
+               <item>66 Bi. <hi>Abbot's</hi> deſcription of the World.</item>
+               <item>67 Dr. <hi>Burnet</hi> of the death of Perſecutors</item>
+               <item>68 The power of Chriſtian Magiſtrates.</item>
+               <item>69 <hi>Norris</hi> of Divine Light.</item>
+               <item>70 A Miſcellany of four Treatiſes.</item>
+               <item>71 <hi>Religio Clerici.</hi>
+               </item>
+               <item>72 Mr. <hi>Gott's</hi> Eſſayes.</item>
+               <item>73 The Counteſs of <hi>Kent's</hi> Manual.</item>
+               <item>74 Three Tracts of Sir <hi>Walter Sybige.</hi>
+               </item>
+               <item>75 Dr. <hi>Earl's</hi> Characters.</item>
+               <item>76 <hi>Hobbs</hi> of Humane Nature.</item>
+               <item>77 Sir <hi>Jo. Burrough's</hi> of the Soveraignty of the
+<hi>Britiſh</hi> Seas.</item>
+               <item>78 Mr. <hi>Baxter's</hi> World of Spirits.</item>
+               <item>79 Elements of Geometry.</item>
+               <item>80 King <hi>James</hi> Inſtructions to a Prince,
+<hi>&amp;c.</hi> and <hi>Bryans</hi> Piſſe-Prophet.</item>
+               <item>81 The Court and Character of King <hi>James.</hi>
+               </item>
+               <item>82 <hi>Velleius Paterculus,</hi> his <hi>Roman</hi> Hiſtory.</item>
+               <item>83 The Life of Dr. <hi>Thomas Fuller.</hi>
+               </item>
+               <pb n="36" facs="tcp:44735:38"/>
+               <item>84 Mr. <hi>Jo. Bales</hi> Acts of the <hi>Engliſh</hi> Vowing.</item>
+               <item>85 <hi>Marvel's</hi> Rehearſal Tranſpros'd, 2 Vol.</item>
+               <item>86 The General Hiſtory of Women.</item>
+               <item>87 A Relation of Three Embaſſies.</item>
+               <item>88 <hi>Plutarh</hi>'s Morals, 5 Vol. Gilt and Lettered.</item>
+               <item>89 Bernier's (F.) Hiſtory of the Revolution of the Great Mogul's Emp. <hi>Lond.</hi> 1671</item>
+               <item>90 The Hiſt. of the Conq. of China by the Tart. with the Cuſt. of both Nations 1676</item>
+               <item>91 D'Aranda<hi>'s</hi> (Eman.) Hiſt. of Algiers, and its Survey, Engliſh. by J. Davis 1665</item>
+               <item>92 Julian the Apoſtat, being a ſhort Account of his Life
+1682</item>
+               <item>93 The Ceremonies of the Vacant See, or a Relat. of Proceed. in the Concl. &amp;c. 1671</item>
+               <item>94 A Collect. of the laſt Speeches, Letters, Prayers, &amp;c. of the Regicides 1661</item>
+               <item>95 Bede<hi>'s</hi> (Joh.) Right and Prerogative of Kings againſt Card. Bellarm. 1612</item>
+               <item>96 K. James I. Baſilicon Doron; or Inſtructions to his Son Prince Henry 1603</item>
+               <item>97 Hunt<hi>'s</hi> (Tho.) Argum. for the Biſhops Rights of Judg. in Capi. Caſes, &amp;c. 1682</item>
+               <item>98 Hughes<hi>'s</hi> (Will.) Parſon's Law, or a View of Advowſons, &amp;c. 1663</item>
+               <item>99 Lambard's (Will.) Eirenarcha; or Office of the Juſtices of the Peace 1607</item>
+               <item>100 Selden (Joh.) of the Judicature in Parliaments</item>
+               <item>101 Blount's (Tho.) Gloſſographia, or Dictionary of hard Words 1661</item>
+               <item>102 Miege<hi>'s</hi> (Guy) New French Grammar, with Dialogues, and a Vocabulary 1678</item>
+               <item>103 Walker<hi>'s</hi> (Will.) Treatiſe of Engliſh Particles (the Sixth Edition) 1676</item>
+               <item>104 Robinſon's (H.) Latin Praſes, for the Uſe of Wincheſter-School 1676</item>
+               <item>105 Lipſius<hi>'s</hi> (Juſt.) Diſcourſe of Conſtancy, Tranſlated by Nath. Wanley 1670</item>
+               <item>106 Brown<hi>'s</hi> (Sir Tho.) Reli. Medi. with Annot. &amp;c. Sir Ken. Digby's Obſervat. 1669</item>
+               <item>107 Spencer's (Joh.) Diſcourſe concerning Prodigies and Vulgar Prophecies 1665</item>
+               <item>108 Ray's (Joh.) Diſcourſes about the Diſſolution and Changes of the World 1692</item>
+               <item>109 Bohun's (Edm.) Geograph. Diction. with the Longit. and Latit. of Places 1688</item>
+               <item>110 Spelman's (Sir Hen.) Villare Angli. or View of Cities, Towns, &amp;c. of Eng. 1678</item>
+               <item>111 France Painted to the Life, by a Learned and Impartial hand (2d Edit. 1657</item>
+               <item>112 Nalſon's (Dr. Jo.) Countermine, or a Diſc. of the Princi. of the Diſſent, &amp;c. 1678</item>
+               <item>113 Sleidan's Hiſtory of the 4 Chief Monarchs in the World</item>
+               <item>114 Heylin's Help to Hiſtory</item>
+               <item>115 Milton's Defence of the People of England againſt Salmaſius</item>
+               <item>116 — Hiſtory of England</item>
+               <item>117 Foxes and Firebrands</item>
+               <item>118 Letter of Monſieur de Balzac</item>
+               <item>119 Abridgment of the Statutes of William and Mary</item>
+               <item>120 Echard's Roman Hiſtory</item>
+               <item>121 Hiſtory of the late Conſpiracy 1696.</item>
+               <item>122 Satyrs againſt the Jeſuits, by Oldham</item>
+               <item>123 Secretary in Faſhion</item>
+               <item>124 Tate's Collection of Poems</item>
+               <item>125 Wingate's Arithmetick</item>
+               <item>126 Ray's Wiſdom of God</item>
+               <item>127 Drummond's Hiſtory of Scotland</item>
+               <item>128 Memoires of the Earl of Angleſey</item>
+               <item>129 State of England, laſt Edit.</item>
+               <item>130 Ridley's View of the Civil Law</item>
+               <item>131 Feſteau's French Grammar</item>
+               <pb facs="tcp:44735:38"/>
+               <pb facs="tcp:44735:39"/>
+               <pb n="37" facs="tcp:44735:39"/>
+               <item>132 Cartwright's Poems and Plays</item>
+               <item>133 Sellar's Tabular Dyalling</item>
+               <item>134 Bayne's (Paul.) Chriſt. Letters repleniſh'd, with Conſol. Exhort. &amp;c. <hi>Lon.</hi> 1637</item>
+               <item>135 Smith's (Sam.) Great Aſſize or Day of Jubilee, in ſeveral Serm. &amp;c. 1627</item>
+               <item>136 Mancheſter al Mondo, or a Contemplat. of Death and Immortality 1661</item>
+               <item>137 Baſſet's (Will.) Anſwer to the Brief Hiſt. of the Unitarians 1693</item>
+               <item>138 <hi>EIKON BASILIKH,</hi> or the Portraiture of K. Charles I. in His Suffer. 1648</item>
+               <item>139 Maimbourg's (Lewes) Peaceable Method for the Re-uniting of Proteſt. 1671</item>
+               <item>140 Homilies of the Church</item>
+               <item>141 Hobb's Homer's Iliad's and Odyſſes</item>
+               <item>142 Walker of Education of Youth</item>
+               <item>143 Preſent State of Holland</item>
+               <item>144 Sir Walter Rawleigh's Remains</item>
+               <item>145 The Book of Rates at the Cuſtom-H. Acts for Tonnage &amp; Pound. &amp;c. <hi>Lond.</hi> 1671</item>
+               <item>146 Cook<hi>'s</hi> (Edw.) Magna Charta Engliſh with Comments upon it <hi>Lond.</hi> 1680</item>
+               <item>147 Osborn's (Franc.) Political Reflections upon the Govern. of the Turks, &amp;c. 1656</item>
+               <item>148 — Advice to a Son, or Directions for his Conduct, &amp;c.<hi>Oxon.</hi> 1656</item>
+               <item>149 Chamberlain's (Dr. Edw.) preſent State of England, in 2 Vol. <hi>Lond.</hi> 1670</item>
+               <item>150 Cluverius's (Phil.) Introduct. to Geography both Ancient and Mod. <hi>Oxon.</hi> 1657</item>
+               <item>151 The Monks Hood pull'd of, or the Capucin Fryer diſcrib'd, in 2 Pa. <hi>Lond.</hi> 1671</item>
+               <item>152 A Treatiſe of Education eſpecially of young Gentlemen
+<hi>Oxon.</hi> 1673</item>
+               <item>153 Blunt's (Sr. Hen.) Voyage into the Levant with particular Obſervat. <hi>Lond.</hi> 1669</item>
+               <item>154 Royle's (Rob.) Medicinal Experim. or a Collection of Remedies 1692</item>
+               <item>155 Shelton's (Tho.) Tachygraphy, or ſpeedy Method of their Writing 1659</item>
+               <item>156 Haver's (Dr. Clop.) new Obſervat. of the Bones with ſeveral Cuts <hi>Lond.</hi> 1691</item>
+               <item>157 Ray's (Joh.) Collection of curious Travels, by Rauwolf and others 1693</item>
+               <item>158 — three Diſcourſes of the Chaos, deluge and Diſſolu. of the World 1693</item>
+               <item>159 Boyle's (Rob.) New Experiments touching Flame and Air
+1672</item>
+               <item>160 Marc. Antoninus<hi>'s</hi> Meditations with his Life and Remarks 1692</item>
+               <item>161 Feſteau's (Paul) New Engliſh Grammar for the uſe of Foreigners 1685</item>
+               <item>162 Dugdale's Sr. Will.) Ancient Uſage in bearing Armes
+1682</item>
+               <item>163 Boyle's (Rob.) Obſervations about the Saltneſs of the Sea. 1674</item>
+               <item>164 — Effects of languid and unbreeded Local Motion
+1691</item>
+               <item>165 — Reconcileableneſs of Specificks to the Corpuſcular Philoſophy 1685</item>
+               <item>166 Hawkſhaw's (Benj.) Poems on ſeveral Occaſions
+1693</item>
+               <item>167 Medulla Hiſtoricae Anglicanae, or Hiſt. of the Kings of England, &amp;c. 1694</item>
+               <item>168 Chamberlayn's (Dr. Edw.) Preſent State of England (the laſt Edition) 1694</item>
+               <item>169 Ray (Joh.) of the Diſſolution of the World in three Diſcourſes 1693</item>
+               <item>170 — Miſcellaneous Diſcourſes on ſeveral Subjects 1692</item>
+               <item>171 Ridley's View of the Civil Law 1676</item>
+            </list>
+         </div>
+         <trailer>FINIS.</trailer>
+      </body>
+   </text>
+</TEI>
